@@ -1,0 +1,23 @@
+uuid: 472be445-9593-478c-9442-669a5ab06adb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_exhib_website
+    - node.type.exhibition
+  module:
+    - link
+id: node.exhibition.field_exhib_website
+field_name: field_exhib_website
+entity_type: node
+bundle: exhibition
+label: Website
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: null
+  link_type: 17
+field_type: link

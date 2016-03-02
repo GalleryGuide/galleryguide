@@ -1,0 +1,23 @@
+uuid: 547bc672-9d00-4322-8800-f712fb854b5f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_admission_std
+    - node.type.gallery
+id: node.gallery.field_admission_std
+field_name: field_admission_std
+entity_type: node
+bundle: gallery
+label: 'Standard admission fee'
+description: 'The standard adult admission fee.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: '£ '
+  suffix: ''
+field_type: decimal

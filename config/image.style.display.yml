@@ -1,0 +1,14 @@
+uuid: 9a4a4dbd-8b98-41c9-9900-eb6ba9c182e9
+langcode: en
+status: true
+dependencies: {  }
+name: display
+label: display
+effects:
+  5c6816cb-982a-4393-a626-3889265cb11d:
+    uuid: 5c6816cb-982a-4393-a626-3889265cb11d
+    id: image_scale_and_crop
+    weight: 0
+    data:
+      width: 350
+      height: 350

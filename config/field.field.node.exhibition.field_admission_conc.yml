@@ -1,0 +1,23 @@
+uuid: 46db3f8b-db31-4b1b-b900-f96ec3ce985a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_admission_conc
+    - node.type.exhibition
+id: node.exhibition.field_admission_conc
+field_name: field_admission_conc
+entity_type: node
+bundle: exhibition
+label: 'Concessionary admission fee'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: £
+  suffix: ''
+field_type: decimal
