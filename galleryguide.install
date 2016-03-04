@@ -67,7 +67,7 @@ function galleryguide_shortcuts() {
 }
 
 /**
- * Permissions for the authenticated user.
+ * Permissions for the anonymous user.
  *
  * @return array
  *   An array of permissions.
