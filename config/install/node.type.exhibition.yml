@@ -1,0 +1,11 @@
+uuid: 4d673575-36cb-4aac-b700-df1a1a6507d2
+langcode: en
+status: true
+dependencies: {  }
+name: Exhibition
+type: exhibition
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

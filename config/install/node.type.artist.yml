@@ -1,0 +1,11 @@
+uuid: f5f940b3-433f-48a3-8b00-f2f63de96985
+langcode: en
+status: true
+dependencies: {  }
+name: Artist
+type: artist
+description: 'Artist information, with biography'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

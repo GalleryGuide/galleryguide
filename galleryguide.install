@@ -15,13 +15,10 @@ use Drupal\user\RoleInterface;
  * @see system_install()
  */
 function galleryguide_install() {
-  // Set front page to "node".
-  \Drupal::configFactory()->getEditable('system.site')
-    ->set('page.front', '/node')->save(TRUE);
-
+  
   // Allow visitor account creation with administrative approval.
   $user_settings = \Drupal::configFactory()->getEditable('user.settings');
-  $user_settings->set('register', USER_REGISTER_VISITORS_ADMINISTRATIVE_APPROVAL)
+  $user_settings->set('register', USER_REGISTER_VISITORS)
     ->save(TRUE);
 
   galleryguide_shortcuts();
@@ -34,7 +31,6 @@ function galleryguide_install() {
   // Enable default permissions for system roles.
   user_role_grant_permissions(RoleInterface::ANONYMOUS_ID, galleryguide_permissions_anon());
   user_role_grant_permissions(RoleInterface::AUTHENTICATED_ID, galleryguide_permissions_auth());
-
 
 }
 

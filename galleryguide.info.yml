@@ -1,6 +1,6 @@
-name: Standard
+name: The Gallery Guide
 type: profile
-description: 'Install with commonly used features pre-configured.'
+description: 'Installation profile for The Gallery Guide.'
 version: VERSION
 core: 8.x
 dependencies:
@@ -38,6 +38,12 @@ dependencies:
   - views_ui
   - tour
   - automated_cron
+
+  - address
+  - composer_manager
+  - geolocation
+  
+  
 themes:
   - gall
   - seven
