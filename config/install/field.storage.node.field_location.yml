@@ -5,6 +5,8 @@ dependencies:
   module:
     - geolocation
     - node
+_core:
+  default_config_hash: JZ-MitmgQdDlxAcR8IFtRuHgSqR1RnevOzgu3xmn0N8
 id: node.field_location
 field_name: field_location
 entity_type: node

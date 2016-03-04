@@ -5,6 +5,8 @@ dependencies:
   module:
     - link
     - node
+_core:
+  default_config_hash: Lq1vl5xUYW4nn_lxIS-GWQB3xHjATKE7zY-z5aHeYTo
 id: node.field_artist_website
 field_name: field_artist_website
 entity_type: node

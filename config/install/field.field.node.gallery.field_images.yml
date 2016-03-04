@@ -7,6 +7,8 @@ dependencies:
     - node.type.gallery
   module:
     - image
+_core:
+  default_config_hash: j4uj95JiLGOXwbE7sd2dXnpVXdjdBKr4KXzkTGxqm-0
 id: node.gallery.field_images
 field_name: field_images
 entity_type: node

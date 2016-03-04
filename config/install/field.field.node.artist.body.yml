@@ -7,6 +7,8 @@ dependencies:
     - node.type.artist
   module:
     - text
+_core:
+  default_config_hash: QIHQMWy2EbF8vYYM0L7pyr5aGdLWJDu5bEtm0TsyhOw
 id: node.artist.body
 field_name: body
 entity_type: node

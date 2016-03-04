@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.storage.node.field_admission_std
     - node.type.gallery
+_core:
+  default_config_hash: 914TKN5Bz5qyg1kbYga5Q6HkpTba-I4g8mDqWd3dLVc
 id: node.gallery.field_admission_std
 field_name: field_admission_std
 entity_type: node

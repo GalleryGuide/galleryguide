@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.storage.node.field_admission_std
     - node.type.exhibition
+_core:
+  default_config_hash: FwKMUiG46iR7tJOjMtRNdSt2Rl2P1IAbd6mTWzJD_bU
 id: node.exhibition.field_admission_std
 field_name: field_admission_std
 entity_type: node

@@ -4,7 +4,7 @@ status: true
 dependencies: {  }
 name: Exhibition
 type: exhibition
-description: ''
+description: 'An exhibition or event at a gallery'
 help: ''
 new_revision: true
 preview_mode: 1

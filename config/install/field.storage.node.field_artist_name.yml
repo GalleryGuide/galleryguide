@@ -4,6 +4,8 @@ status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: Cy5Pokza-Tv4x3SfUQXP5wAxBRqH-4fmVihYMCz-bec
 id: node.field_artist_name
 field_name: field_artist_name
 entity_type: node

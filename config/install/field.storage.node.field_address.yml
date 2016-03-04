@@ -1,17 +1,16 @@
-uuid: 8202370f-0f29-40a7-ad11-174457382d87
+uuid: 5ff50d72-237d-4530-9b03-3ca86cada0e8
 langcode: en
 status: true
 dependencies:
   module:
+    - address
     - node
-_core:
-  default_config_hash: UjrTUIAFq6gbhbCHR2Y1Tinu9_ElfjJhsPfVvy-KxoI
-id: node.field_email
-field_name: field_email
+id: node.field_address
+field_name: field_address
 entity_type: node
-type: email
+type: address
 settings: {  }
-module: core
+module: address
 locked: false
 cardinality: 1
 translatable: true

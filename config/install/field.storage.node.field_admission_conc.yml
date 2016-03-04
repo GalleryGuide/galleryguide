@@ -4,6 +4,8 @@ status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: rIoCa7usIqR-t6mVSXFo4u0up4SzRW85tKzmn1XiWfE
 id: node.field_admission_conc
 field_name: field_admission_conc
 entity_type: node

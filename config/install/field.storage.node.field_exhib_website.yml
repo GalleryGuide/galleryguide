@@ -5,6 +5,8 @@ dependencies:
   module:
     - link
     - node
+_core:
+  default_config_hash: X-vX1rH1VpmvlDoIYVkyUyan3Rm8fZK8YCyhFkWWeUY
 id: node.field_exhib_website
 field_name: field_exhib_website
 entity_type: node

@@ -4,6 +4,8 @@ status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: 85VsEXc_Vzs3RLgxBSY2SVwQPpqCwjhkSlkN1reHzLQ
 id: node.field_admission_std
 field_name: field_admission_std
 entity_type: node

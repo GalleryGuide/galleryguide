@@ -7,6 +7,8 @@ dependencies:
     - node.type.exhibition
   module:
     - link
+_core:
+  default_config_hash: pNoegtlt-RPFEE3lr8mmjxwUS07thL2dW7nJieQEHg0
 id: node.exhibition.field_exhib_website
 field_name: field_exhib_website
 entity_type: node

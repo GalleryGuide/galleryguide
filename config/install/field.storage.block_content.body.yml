@@ -1,15 +1,15 @@
-uuid: cf9c1280-13a1-41cf-8430-487a2c4a4116
+uuid: d8902f7c-fe76-4ae3-9000-d5edd6395e22
 langcode: en
 status: true
 dependencies:
   module:
-    - node
+    - block_content
     - text
 _core:
-  default_config_hash: raKyUdNAggiQCv0NxMJv31DoXiHQrOwUo1hUMyyWABw
-id: node.body
+  default_config_hash: eS0snV_L3dx9shtWRTzm5eblwOJ7qKWC9IE-4GMTDFc
+id: block_content.body
 field_name: body
-entity_type: node
+entity_type: block_content
 type: text_with_summary
 settings: {  }
 module: text

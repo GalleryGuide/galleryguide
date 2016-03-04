@@ -5,6 +5,8 @@ dependencies:
   module:
     - geolocation
     - node
+_core:
+  default_config_hash: SHztnd0GCRqEpiQrYnhEQ6N4n60kbxaLS1kZqEV-Hrc
 id: node.field_gallery_location
 field_name: field_gallery_location
 entity_type: node
