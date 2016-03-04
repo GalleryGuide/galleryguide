@@ -1,0 +1,33 @@
+uuid: 172ccc13-ec4d-4ec0-8900-b38b42415c13
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_facilities
+field_name: field_facilities
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Cafe
+      label: Cafe
+    -
+      value: Restaurant
+      label: Restaurant
+    -
+      value: Bar
+      label: Bar
+    -
+      value: Shop
+      label: Shop
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
