@@ -43,6 +43,8 @@ dependencies:
   - composer_manager
   - geolocation
   
+  - gallery_migrations
+  
   
 themes:
   - gall
