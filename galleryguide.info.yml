@@ -42,6 +42,7 @@ dependencies:
   - address
   - composer_manager
   - geolocation
+  - office_hours
   
   - gallery_migrations
   
