@@ -5,7 +5,6 @@ dependencies:
   config:
     - field.field.node.exhibition.artists
     - field.field.node.exhibition.body
-    - field.field.node.exhibition.comment_no_subject
     - field.field.node.exhibition.field_admission_conc
     - field.field.node.exhibition.field_admission_std
     - field.field.node.exhibition.field_exhib_website
@@ -39,11 +38,6 @@ content:
       rows: 9
       summary_rows: 3
       placeholder: ''
-    third_party_settings: {  }
-  comment:
-    type: comment_default
-    weight: 20
-    settings: {  }
     third_party_settings: {  }
   created:
     type: datetime_timestamp

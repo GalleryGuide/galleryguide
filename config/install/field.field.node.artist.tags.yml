@@ -1,0 +1,25 @@
+uuid: 92e21d6c-1382-44a0-a905-5a7399e2f592
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.tags
+    - node.type.artist
+    - taxonomy.vocabulary.tags
+id: node.artist.tags
+field_name: tags
+entity_type: node
+bundle: artist
+label: Tags
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      - tags
+    auto_create: true
+field_type: entity_reference

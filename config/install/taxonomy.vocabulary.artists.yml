@@ -1,0 +1,9 @@
+uuid: edf0b2ea-5195-44c4-ac35-53e3b230055e
+langcode: en
+status: true
+dependencies: {  }
+name: Artists
+vid: artists
+description: 'Exhibited artists'
+hierarchy: 1
+weight: 0

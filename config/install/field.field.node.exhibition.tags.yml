@@ -1,0 +1,25 @@
+uuid: 9513022a-4ecf-472c-a500-dcbf17e128c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.tags
+    - node.type.exhibition
+    - taxonomy.vocabulary.tags
+id: node.exhibition.tags
+field_name: tags
+entity_type: node
+bundle: exhibition
+label: Tags
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      - tags
+    auto_create: true
+field_type: entity_reference

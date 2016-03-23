@@ -5,7 +5,6 @@ dependencies:
   config:
     - field.field.node.artist.artists
     - field.field.node.artist.body
-    - field.field.node.artist.comment_no_subject
     - field.field.node.artist.field_artist_website
     - field.field.node.artist.field_images
     - field.field.node.artist.tags
@@ -27,11 +26,6 @@ content:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
-    third_party_settings: {  }
-  comment:
-    type: comment_default
-    weight: 20
-    settings: {  }
     third_party_settings: {  }
   created:
     type: datetime_timestamp
