@@ -1,0 +1,97 @@
+uuid: 60e4e24c-bfd4-4e29-bd10-16917a1715cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.artist.artists
+    - field.field.node.artist.body
+    - field.field.node.artist.comment_no_subject
+    - field.field.node.artist.field_artist_website
+    - field.field.node.artist.field_images
+    - field.field.node.artist.tags
+    - image.style.thumbnail
+    - node.type.artist
+  module:
+    - image
+    - link
+    - path
+id: node.artist.default
+targetEntityType: node
+bundle: artist
+mode: default
+content:
+  artists:
+    type: entity_reference_autocomplete_tags
+    weight: 20
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  comment:
+    type: comment_default
+    weight: 20
+    settings: {  }
+    third_party_settings: {  }
+  created:
+    type: datetime_timestamp
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+  field_artist_website:
+    weight: -1
+    type: link_default
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_images:
+    weight: -2
+    type: image_image
+    settings:
+      progress_indicator: bar
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 15
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 16
+    third_party_settings: {  }
+  tags:
+    type: entity_reference_autocomplete_tags
+    weight: 20
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  body: true
+  comment_no_subject: true
