@@ -6,7 +6,7 @@ dependencies:
     - geolocation
     - node
 _core:
-  default_config_hash: SHztnd0GCRqEpiQrYnhEQ6N4n60kbxaLS1kZqEV-Hrc
+  default_config_hash: TWQXt8xnUOnpAHiwMZ4vDHUxNrPIKPT5skhytaWQXKk
 id: node.field_gallery_location
 field_name: field_gallery_location
 entity_type: node

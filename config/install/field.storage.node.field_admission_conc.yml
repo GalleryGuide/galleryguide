@@ -5,7 +5,7 @@ dependencies:
   module:
     - node
 _core:
-  default_config_hash: rIoCa7usIqR-t6mVSXFo4u0up4SzRW85tKzmn1XiWfE
+  default_config_hash: mryD0_eOncpyw4zkHtmZgAn2faWJSWAbgyW0I0FjVMI
 id: node.field_admission_conc
 field_name: field_admission_conc
 entity_type: node

@@ -8,7 +8,7 @@ dependencies:
   module:
     - text
 _core:
-  default_config_hash: QIHQMWy2EbF8vYYM0L7pyr5aGdLWJDu5bEtm0TsyhOw
+  default_config_hash: nr-Khlok9ffuS2-c9nF0Gyvas5jDXK6na9gFptmVTIU
 id: node.artist.body
 field_name: body
 entity_type: node

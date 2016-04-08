@@ -14,12 +14,18 @@ dependencies:
     - field.field.node.gallery.field_images
     - field.field.node.gallery.field_website
     - field.field.node.gallery.tags
+    - field.field.node.gallery.tags1
     - image.style.thumbnail
     - node.type.gallery
   module:
+    - address
+    - geolocation
     - image
     - link
     - path
+    - text
+_core:
+  default_config_hash: f0Z0678LWS6drhP81GqoyHXZ7-mtT5ImSBDWnS15vqk
 id: node.gallery.default
 targetEntityType: node
 bundle: gallery
@@ -31,6 +37,14 @@ content:
     settings:
       match_operator: CONTAINS
       size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  body:
+    type: text_textarea_with_summary
+    weight: 0
+    settings:
+      rows: 9
+      summary_rows: 3
       placeholder: ''
     third_party_settings: {  }
   created:
@@ -60,6 +74,17 @@ content:
   field_facilities:
     weight: 8
     type: options_buttons
+    settings: {  }
+    third_party_settings: {  }
+  field_gallery_address:
+    type: address_default
+    weight: 0
+    settings:
+      default_country: null
+    third_party_settings: {  }
+  field_gallery_location:
+    type: geolocation_googlegeocoder
+    weight: 0
     settings: {  }
     third_party_settings: {  }
   field_images:
@@ -117,7 +142,4 @@ content:
       placeholder: ''
     third_party_settings: {  }
 hidden:
-  body: true
   comment_no_subject: true
-  field_gallery_address: true
-  field_gallery_location: true

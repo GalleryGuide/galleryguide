@@ -6,6 +6,8 @@ dependencies:
     - field.storage.node.artists
     - node.type.gallery
     - taxonomy.vocabulary.artists
+_core:
+  default_config_hash: 6R4qLYK0siEeyGcy-9ME6KoQQlWDP4243hLfexCMY7o
 id: node.gallery.artists
 field_name: artists
 entity_type: node

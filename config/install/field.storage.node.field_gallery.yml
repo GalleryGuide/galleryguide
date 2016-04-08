@@ -4,6 +4,8 @@ status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: udDEGxNpzpBQVPZ2Elj1EavmLx1Yz2jhW3KN5yKdiq4
 id: node.field_gallery
 field_name: field_gallery
 entity_type: node

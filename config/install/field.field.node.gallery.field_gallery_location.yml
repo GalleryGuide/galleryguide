@@ -8,7 +8,7 @@ dependencies:
   module:
     - geolocation
 _core:
-  default_config_hash: DvE-TMBJK2yfcN0GC8TSg_dhKHBpc25_JjuYNuo0FLI
+  default_config_hash: yFQAcXQC7-UR5F7Ogv2Edo-oGKkButVL5HQuDUKuwDA
 id: node.gallery.field_gallery_location
 field_name: field_gallery_location
 entity_type: node

@@ -5,7 +5,7 @@ dependencies:
   module:
     - node
 _core:
-  default_config_hash: Cy5Pokza-Tv4x3SfUQXP5wAxBRqH-4fmVihYMCz-bec
+  default_config_hash: N80-tQgMY0ZQCLpVk2w7p-1feps6jREwXzhK6pfmZBM
 id: node.field_artist_name
 field_name: field_artist_name
 entity_type: node

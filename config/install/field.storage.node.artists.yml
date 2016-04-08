@@ -5,6 +5,8 @@ dependencies:
   module:
     - node
     - taxonomy
+_core:
+  default_config_hash: T2_4KcNpztuh9653518-hnaa5JJzuZT7Ws7NpNok4BE
 id: node.artists
 field_name: artists
 entity_type: node

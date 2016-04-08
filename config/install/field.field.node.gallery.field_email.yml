@@ -6,7 +6,7 @@ dependencies:
     - field.storage.node.field_email
     - node.type.gallery
 _core:
-  default_config_hash: sIrixIviY1JaWdpUDr5giBsHXHy9Infg_1mOCETEhss
+  default_config_hash: '-tyA5ZDBwRJ6j13ESpCtVQpX-SwJPjKe-wzecR6_FwY'
 id: node.gallery.field_email
 field_name: field_email
 entity_type: node

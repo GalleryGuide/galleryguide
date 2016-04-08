@@ -6,7 +6,7 @@ dependencies:
     - link
     - node
 _core:
-  default_config_hash: 4dB0KhXG5aB8bTMFfcSYSuWu_ppUkISDLrOtiQrnxc0
+  default_config_hash: IAtKeC9IECE5Ok-RoCRuergt3O9ZcPj3gkm5s23FbUE
 id: node.field_website
 field_name: field_website
 entity_type: node

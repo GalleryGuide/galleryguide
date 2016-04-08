@@ -2,6 +2,8 @@ uuid: edf0b2ea-5195-44c4-ac35-53e3b230055e
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: 20GP-bxdXkC4WCIxa7eJzjKyK4OsO6FY6FTrQ3H6iGU
 name: Artists
 vid: artists
 description: 'Exhibited artists'

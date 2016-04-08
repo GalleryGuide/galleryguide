@@ -8,7 +8,7 @@ dependencies:
   module:
     - image
 _core:
-  default_config_hash: oGomohZ_55sPq-7iQkDxVVaEwatePmk49Ldjn3RcAPg
+  default_config_hash: Ifo7JO_2_dbZ8yrL7YdoCbtDqSCU27bmm5CJ7O9_KAM
 id: node.artist.field_images
 field_name: field_images
 entity_type: node
@@ -21,14 +21,14 @@ default_value: {  }
 default_value_callback: ''
 settings:
   file_extensions: 'png gif jpg jpeg'
-  file_directory: 'public://'
+  file_directory: ''
   max_filesize: ''
   alt_field: false
   alt_field_required: false
   title_field: false
   title_field_required: true
   max_resolution: 600x600
-  min_resolution: '0'
+  min_resolution: ''
   default_image:
     uuid: null
     alt: ''

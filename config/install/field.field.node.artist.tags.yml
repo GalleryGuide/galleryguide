@@ -6,6 +6,8 @@ dependencies:
     - field.storage.node.tags
     - node.type.artist
     - taxonomy.vocabulary.tags
+_core:
+  default_config_hash: g3MOQX0GeGWxojStdcODeeoD8u0S4i4fdr3CvOQJ--k
 id: node.artist.tags
 field_name: tags
 entity_type: node

@@ -5,6 +5,8 @@ dependencies:
   module:
     - address
     - node
+_core:
+  default_config_hash: tA2GiIF8QEm7Cecia0tluyOpoC88wYCT1TDNkoQ6WRc
 id: node.field_gallery_address
 field_name: field_gallery_address
 entity_type: node
