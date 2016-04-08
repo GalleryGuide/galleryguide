@@ -1,0 +1,24 @@
+uuid: b747ec7f-d5e9-4344-b900-ef321f4050b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.primary-links
+  module:
+    - system
+  theme:
+    - iui
+id: menu_25
+theme: iui
+region: sidebar_first
+weight: -19
+provider: null
+plugin: 'system_menu_block:primary-links'
+settings:
+  id: 'system_menu_block:primary-links'
+  label: ''
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

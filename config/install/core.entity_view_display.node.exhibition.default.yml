@@ -1,0 +1,63 @@
+uuid: 2265af23-a359-4901-950d-1394c8c3ece3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.exhibition.artists
+    - field.field.node.exhibition.artists1
+    - field.field.node.exhibition.body
+    - field.field.node.exhibition.comment_no_subject
+    - field.field.node.exhibition.field_admission_conc
+    - field.field.node.exhibition.field_admission_std
+    - field.field.node.exhibition.field_exhib_website
+    - field.field.node.exhibition.field_gallery
+    - field.field.node.exhibition.field_images
+    - field.field.node.exhibition.tags
+    - field.field.node.exhibition.tags1
+    - node.type.exhibition
+  module:
+    - user
+id: node.exhibition.default
+targetEntityType: node
+bundle: exhibition
+mode: default
+content:
+  artists1:
+    label: hidden
+    type: entity_reference_label
+    weight: 20
+    settings:
+      link: true
+    third_party_settings: {  }
+  comment:
+    label: hidden
+    type: comment_default
+    weight: 20
+    settings: {  }
+    third_party_settings: {  }
+  field_exhib_dates:
+    label: hidden
+    weight: 2
+    type: datetime_default
+    settings:
+      format_type: fallback
+    third_party_settings: {  }
+  links:
+    weight: 100
+  tags1:
+    label: hidden
+    type: entity_reference_label
+    weight: 20
+    settings:
+      link: true
+    third_party_settings: {  }
+hidden:
+  artists: true
+  body: true
+  comment_no_subject: true
+  field_admission_conc: true
+  field_admission_std: true
+  field_exhib_website: true
+  field_gallery: true
+  field_images: true
+  tags: true

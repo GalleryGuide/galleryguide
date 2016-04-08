@@ -1,0 +1,11 @@
+uuid: 6af5a6ce-098a-4d65-a401-1b4cb4f32fd3
+langcode: en
+status: true
+dependencies: {  }
+name: Link
+type: link
+description: 'Links to other relevant sites'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

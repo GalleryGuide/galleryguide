@@ -1,0 +1,20 @@
+uuid: eae6913d-f9e4-45a6-bf21-33c093fc0312
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.links
+field_name: links
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

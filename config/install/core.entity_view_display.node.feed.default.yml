@@ -1,0 +1,41 @@
+uuid: 0ac35482-acde-43e1-915c-925f5b8c2fcd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.feed.body
+    - field.field.node.feed.comment
+    - field.field.node.feed.upload
+    - node.type.feed
+  module:
+    - comment
+    - file
+    - text
+    - user
+id: node.feed.default
+targetEntityType: node
+bundle: feed
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  comment:
+    label: hidden
+    type: comment_default
+    weight: 20
+    settings:
+      pager_id: 0
+    third_party_settings: {  }
+  links:
+    weight: 100
+  upload:
+    label: hidden
+    settings: {  }
+    type: file_default
+    weight: 102
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,38 @@
+uuid: 805c01d3-5d3d-4bd5-9900-dc353df3abb7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0de59d0e-530f-4861-8300-b2d4222be107'
+  module:
+    - block_content
+    - system
+    - user
+  theme:
+    - gall
+id: block_1
+theme: gall
+region: content
+weight: -8
+provider: null
+plugin: 'block_content:0de59d0e-530f-4861-8300-b2d4222be107'
+settings:
+  id: 'block_content:0de59d0e-530f-4861-8300-b2d4222be107'
+  label: ''
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      anonymous: anonymous
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    negate: false
+  request_path:
+    id: request_path
+    negate: true
+    pages: '/user/*'

@@ -1,0 +1,11 @@
+uuid: 26283db3-d6c2-4468-a800-fcaee00609b7
+langcode: en
+status: true
+dependencies: {  }
+name: 'Online gallery'
+type: gallery_online
+description: 'A gallery which does not have a physical location'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,8 @@
+uuid: b41f3d8f-9ce9-4954-a900-ed4d5cada61a
+langcode: en
+status: true
+dependencies: {  }
+id: menu-galleries
+label: Galleries
+description: ''
+locked: false

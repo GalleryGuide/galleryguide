@@ -1,0 +1,24 @@
+uuid: f77e471e-9b83-4b61-a400-c66bef6e7017
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.menu-mobile
+  module:
+    - system
+  theme:
+    - mobile
+id: menu_31
+theme: mobile
+region: content
+weight: -64
+provider: null
+plugin: 'system_menu_block:menu-mobile'
+settings:
+  id: 'system_menu_block:menu-mobile'
+  label: ''
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

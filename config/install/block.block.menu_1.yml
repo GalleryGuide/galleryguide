@@ -1,0 +1,24 @@
+uuid: 8003b42f-b20f-42be-8e00-ed9a23e99af7
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.secondary-links
+  module:
+    - system
+  theme:
+    - garland
+id: menu_1
+theme: garland
+region: footer
+weight: -1
+provider: null
+plugin: 'system_menu_block:secondary-links'
+settings:
+  id: 'system_menu_block:secondary-links'
+  label: ''
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

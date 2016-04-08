@@ -1,0 +1,28 @@
+uuid: 05d7d4ad-a648-4d58-8a1a-26e218178d29
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.menu-exhibitions
+  module:
+    - system
+  theme:
+    - seven
+id: menu_35
+theme: seven
+region: sidebar_first
+weight: -60
+provider: null
+plugin: 'system_menu_block:menu-exhibitions'
+settings:
+  id: 'system_menu_block:menu-exhibitions'
+  label: ''
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/exhibition*\n/node/add/exhibition"

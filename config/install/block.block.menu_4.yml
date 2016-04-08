@@ -1,0 +1,28 @@
+uuid: d023e067-36d8-496d-b245-698ba241db2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.menu-artists
+  module:
+    - system
+  theme:
+    - gall
+id: menu_4
+theme: gall
+region: sidebar_first
+weight: -65
+provider: null
+plugin: 'system_menu_block:menu-artists'
+settings:
+  id: 'system_menu_block:menu-artists'
+  label: ''
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/artists\n/artists/*"

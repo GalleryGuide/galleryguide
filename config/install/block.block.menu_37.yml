@@ -1,0 +1,24 @@
+uuid: c7804b57-cd4f-4375-8700-ffc685887584
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.primary-links
+  module:
+    - system
+  theme:
+    - seven
+id: menu_37
+theme: seven
+region: sidebar_first
+weight: -19
+provider: null
+plugin: 'system_menu_block:primary-links'
+settings:
+  id: 'system_menu_block:primary-links'
+  label: ''
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

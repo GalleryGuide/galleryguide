@@ -1,0 +1,28 @@
+uuid: fbc512f1-0441-4ccc-b100-cb2a5ec91d5f
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.menu-articles
+  module:
+    - system
+  theme:
+    - iui
+id: menu_20
+theme: iui
+region: sidebar_first
+weight: -58
+provider: null
+plugin: 'system_menu_block:menu-articles'
+settings:
+  id: 'system_menu_block:menu-articles'
+  label: ''
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/article*\n/node/add/story"

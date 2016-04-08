@@ -1,0 +1,28 @@
+uuid: 63b92464-11bc-496a-8900-ec7b13a72077
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.menu-exhibitions
+  module:
+    - system
+  theme:
+    - gall
+id: menu_10
+theme: gall
+region: sidebar_first
+weight: -64
+provider: null
+plugin: 'system_menu_block:menu-exhibitions'
+settings:
+  id: 'system_menu_block:menu-exhibitions'
+  label: ''
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/exhibition*\n/node/add/exhibition"

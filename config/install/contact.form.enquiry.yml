@@ -1,0 +1,10 @@
+uuid: d1366c4a-02ea-4e30-8d05-5dd12325d4e5
+langcode: en
+status: true
+dependencies: {  }
+id: enquiry
+label: Enquiry
+recipients:
+  - info@thegalleryguide.co.uk
+reply: 'Thank you for your enquiry. We will contact you as soon as possible.'
+weight: -1

@@ -1,0 +1,24 @@
+uuid: d7e1a2a5-4099-4fb3-a437-55f83ad3f9c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.secondary-links
+  module:
+    - system
+  theme:
+    - iui
+id: menu_26
+theme: iui
+region: footer
+weight: -60
+provider: null
+plugin: 'system_menu_block:secondary-links'
+settings:
+  id: 'system_menu_block:secondary-links'
+  label: ''
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

@@ -1,0 +1,8 @@
+uuid: 76aff1cc-b626-45bb-9100-bbb7365b8dfd
+langcode: en
+status: true
+dependencies: {  }
+id: menu-artists
+label: Artists
+description: ''
+locked: false

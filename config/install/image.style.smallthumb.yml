@@ -1,0 +1,14 @@
+uuid: 32b7f7e7-2c5a-41b8-8a05-5c911a295440
+langcode: en
+status: true
+dependencies: {  }
+name: smallthumb
+label: smallthumb
+effects:
+  ecd6ce09-5335-4e58-902d-45573201235c:
+    uuid: ecd6ce09-5335-4e58-902d-45573201235c
+    id: image_scale_and_crop
+    weight: 0
+    data:
+      width: 50
+      height: 50

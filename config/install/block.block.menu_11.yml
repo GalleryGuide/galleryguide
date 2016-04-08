@@ -1,0 +1,28 @@
+uuid: 5a7eca8f-ac68-480d-a537-556986e4d9b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.menu-articles
+  module:
+    - system
+  theme:
+    - garland
+id: menu_11
+theme: garland
+region: sidebar_first
+weight: -28
+provider: null
+plugin: 'system_menu_block:menu-articles'
+settings:
+  id: 'system_menu_block:menu-articles'
+  label: ''
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/article*\n/node/add/story"

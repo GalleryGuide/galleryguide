@@ -1,0 +1,47 @@
+uuid: a7c9a98e-f1c1-4174-9c05-5ebafb804007
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.profile_realname
+    - field.field.user.user.profile_website
+    - field.field.user.user.user_picture
+    - image.style.thumbnail
+  module:
+    - image
+    - link
+    - text
+    - user
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  account:
+    weight: -10
+  contact:
+    weight: 5
+  language:
+    weight: 0
+  profile_realname:
+    type: text_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    weight: 8
+    third_party_settings: {  }
+  profile_website:
+    type: link_default
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    weight: 7
+    third_party_settings: {  }
+  user_picture:
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    type: image_image
+    weight: 6
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,41 @@
+uuid: 3cbc1e47-4582-425a-bf01-1a0f8b78bf5f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.rss
+    - field.field.node.exhibition.artists
+    - field.field.node.exhibition.body
+    - field.field.node.exhibition.field_admission_conc
+    - field.field.node.exhibition.field_admission_std
+    - field.field.node.exhibition.field_exhib_website
+    - field.field.node.exhibition.field_gallery
+    - field.field.node.exhibition.field_images
+    - field.field.node.exhibition.tags
+    - node.type.exhibition
+  module:
+    - user
+id: node.exhibition.rss
+targetEntityType: node
+bundle: exhibition
+mode: rss
+content:
+  field_exhib_dates:
+    label: hidden
+    weight: 2
+    type: datetime_default
+    settings:
+      format_type: fallback
+      timezone_override: ''
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden:
+  artists: true
+  body: true
+  field_admission_conc: true
+  field_admission_std: true
+  field_exhib_website: true
+  field_gallery: true
+  field_images: true
+  tags: true

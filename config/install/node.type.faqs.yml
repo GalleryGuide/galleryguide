@@ -1,0 +1,11 @@
+uuid: 3a53a3c5-1a54-41b3-a900-b4128ce70cc7
+langcode: en
+status: true
+dependencies: {  }
+name: FAQs
+type: faqs
+description: 'Frequently asked questions, and answers'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

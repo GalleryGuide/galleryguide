@@ -1,0 +1,22 @@
+uuid: bc228d74-b66c-4b73-8205-0580aff8449f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.poll
+id: node.poll.sticky
+field_name: sticky
+entity_type: node
+bundle: poll
+label: 'Sticky at the top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

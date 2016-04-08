@@ -1,0 +1,28 @@
+uuid: 3993ee5c-1d39-4058-8008-8d1307695f61
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.menu-events
+  module:
+    - system
+  theme:
+    - chameleon
+id: menu_17
+theme: chameleon
+region: sidebar_first
+weight: -56
+provider: null
+plugin: 'system_menu_block:menu-events'
+settings:
+  id: 'system_menu_block:menu-events'
+  label: ''
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/events\n/events/*"

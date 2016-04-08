@@ -1,0 +1,93 @@
+uuid: 551d4034-c97f-41f4-960c-12191f21452d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.search_index
+    - field.field.node.gallery.artists
+    - field.field.node.gallery.artists1
+    - field.field.node.gallery.body
+    - field.field.node.gallery.comment_no_subject
+    - field.field.node.gallery.field_admission_conc
+    - field.field.node.gallery.field_admission_std
+    - field.field.node.gallery.field_email
+    - field.field.node.gallery.field_facilities
+    - field.field.node.gallery.field_gallery_address
+    - field.field.node.gallery.field_gallery_location
+    - field.field.node.gallery.field_images
+    - field.field.node.gallery.field_website
+    - field.field.node.gallery.tags
+    - field.field.node.gallery.tags1
+    - node.type.gallery
+  module:
+    - image
+    - link
+    - text
+    - user
+id: node.gallery.search_index
+targetEntityType: node
+bundle: gallery
+mode: search_index
+content:
+  field_admission_conc:
+    label: above
+    weight: 7
+    type: number_decimal
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+  field_admission_std:
+    label: above
+    weight: 6
+    type: number_decimal
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+  field_email:
+    label: above
+    weight: 1
+    type: email_mailto
+    settings: {  }
+    third_party_settings: {  }
+  field_facilities:
+    label: above
+    weight: 8
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+  field_images:
+    label: hidden
+    weight: -2
+    type: image
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+  field_website:
+    label: hidden
+    weight: 0
+    type: link
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden:
+  artists: true
+  artists1: true
+  body: true
+  comment_no_subject: true
+  field_gallery_address: true
+  field_gallery_location: true
+  tags: true
+  tags1: true

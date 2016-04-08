@@ -1,0 +1,37 @@
+uuid: 84eceedf-3117-4e18-923e-62b53123e000
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: 'anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'view addthis'
+  - 'access comments'
+  - 'tag content'
+  - 'access site-wide contact form'
+  - 'view field_admission_conc'
+  - 'view field_admission_std'
+  - 'view field_associated'
+  - 'view field_born'
+  - 'view field_email'
+  - 'view field_event_date'
+  - 'view field_exhib_dates'
+  - 'view field_exhib_gallery'
+  - 'view field_exhib_website'
+  - 'view field_facilities'
+  - 'view field_images'
+  - 'view field_mainbody'
+  - 'view field_openingtimes'
+  - 'view field_postcode_short'
+  - 'view field_related'
+  - 'view field_sort_name'
+  - 'view field_surname'
+  - 'view field_website'
+  - 'view Terms and Conditions'
+  - 'access content'
+  - 'search content'
+  - 'use advanced search'

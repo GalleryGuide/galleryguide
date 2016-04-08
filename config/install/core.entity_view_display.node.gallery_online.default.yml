@@ -1,0 +1,41 @@
+uuid: 5fe5cae1-e7ec-4cb6-9100-d13856db2a98
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.gallery_online.body
+    - field.field.node.gallery_online.comment
+    - field.field.node.gallery_online.upload
+    - node.type.gallery_online
+  module:
+    - comment
+    - file
+    - text
+    - user
+id: node.gallery_online.default
+targetEntityType: node
+bundle: gallery_online
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  comment:
+    label: hidden
+    type: comment_default
+    weight: 20
+    settings:
+      pager_id: 0
+    third_party_settings: {  }
+  links:
+    weight: 100
+  upload:
+    label: hidden
+    settings: {  }
+    type: file_default
+    weight: 102
+    third_party_settings: {  }
+hidden: {  }

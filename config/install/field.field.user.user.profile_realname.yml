@@ -1,0 +1,21 @@
+uuid: 98943c66-67c8-4071-8d01-1fc51c21f011
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.profile_realname
+  module:
+    - text
+    - user
+id: user.user.profile_realname
+field_name: profile_realname
+entity_type: user
+bundle: user
+label: 'Real name'
+description: 'Your real name, if you want to share it with the other users of The Gallery Guide'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

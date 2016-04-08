@@ -1,0 +1,32 @@
+uuid: 06fcb567-8874-4bc9-b208-0813e6449dcf
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.search_result
+    - field.field.node.link.body
+    - field.field.node.link.field_website
+    - node.type.link
+  module:
+    - link
+    - user
+id: node.link.search_result
+targetEntityType: node
+bundle: link
+mode: search_result
+content:
+  field_website:
+    label: hidden
+    weight: 32
+    type: link
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden:
+  body: true

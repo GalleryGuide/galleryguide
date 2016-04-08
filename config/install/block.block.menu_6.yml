@@ -1,0 +1,28 @@
+uuid: 3a588c1b-c1e3-4e70-b24f-795a8dbeeb35
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.menu-events
+  module:
+    - system
+  theme:
+    - gall
+id: menu_6
+theme: gall
+region: sidebar_first
+weight: -58
+provider: null
+plugin: 'system_menu_block:menu-events'
+settings:
+  id: 'system_menu_block:menu-events'
+  label: ''
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/events\n/events/*"

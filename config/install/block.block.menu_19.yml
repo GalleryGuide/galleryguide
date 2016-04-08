@@ -1,0 +1,28 @@
+uuid: c1af1097-cd09-4fc9-aa00-db5f5e039c46
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.menu-galleries
+  module:
+    - system
+  theme:
+    - chameleon
+id: menu_19
+theme: chameleon
+region: sidebar_first
+weight: -60
+provider: null
+plugin: 'system_menu_block:menu-galleries'
+settings:
+  id: 'system_menu_block:menu-galleries'
+  label: ''
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/galleries\n/galleries/*\n/node/add/gallery"

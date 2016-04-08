@@ -1,0 +1,27 @@
+uuid: 5ca9d7f6-eb94-46c8-b817-23a9154f1909
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.upload
+    - node.type.gallery_online
+  module:
+    - file
+id: node.gallery_online.upload
+field_name: upload
+entity_type: node
+bundle: gallery_online
+label: upload
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  description_field: true
+  file_extensions: 'jpg jpeg gif png txt doc xls pdf ppt pps odt ods odp'
+  max_filesize: 1MB
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

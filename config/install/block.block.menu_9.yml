@@ -1,0 +1,28 @@
+uuid: f0ccefb2-24f5-411e-8559-89247422039c
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.menu-articles
+  module:
+    - system
+  theme:
+    - gall
+id: menu_9
+theme: gall
+region: sidebar_first
+weight: -60
+provider: null
+plugin: 'system_menu_block:menu-articles'
+settings:
+  id: 'system_menu_block:menu-articles'
+  label: ''
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/article*\n/node/add/story"

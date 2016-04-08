@@ -1,0 +1,34 @@
+uuid: 29ccbb98-f006-4a6e-8200-f399ecd872cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+    - user
+  theme:
+    - gall
+id: user_3
+theme: gall
+region: content
+weight: -8
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: ''
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+      editor: editor
+      administrator: administrator
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    negate: false

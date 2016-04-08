@@ -1,0 +1,28 @@
+uuid: 36694d75-5bda-40d3-b401-1d77648b002f
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.menu-artists
+  module:
+    - system
+  theme:
+    - seven
+id: menu_33
+theme: seven
+region: sidebar_first
+weight: -60
+provider: null
+plugin: 'system_menu_block:menu-artists'
+settings:
+  id: 'system_menu_block:menu-artists'
+  label: ''
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/artists\n/artists/*"

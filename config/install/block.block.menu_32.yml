@@ -1,0 +1,28 @@
+uuid: 9fc0b168-3c76-4438-8000-c7f5b17535dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.menu-articles
+  module:
+    - system
+  theme:
+    - seven
+id: menu_32
+theme: seven
+region: sidebar_first
+weight: -58
+provider: null
+plugin: 'system_menu_block:menu-articles'
+settings:
+  id: 'system_menu_block:menu-articles'
+  label: ''
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/article*\n/node/add/story"

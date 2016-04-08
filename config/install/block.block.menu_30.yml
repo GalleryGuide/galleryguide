@@ -1,0 +1,24 @@
+uuid: df5a451d-9ca8-4372-be00-f2f4b12a430e
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.secondary-links
+  module:
+    - system
+  theme:
+    - mobile
+id: menu_30
+theme: mobile
+region: footer
+weight: -63
+provider: null
+plugin: 'system_menu_block:secondary-links'
+settings:
+  id: 'system_menu_block:secondary-links'
+  label: ''
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

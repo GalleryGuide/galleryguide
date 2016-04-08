@@ -1,0 +1,10 @@
+uuid: 6da23494-9b0c-447b-a300-eda3987d09c9
+langcode: en
+status: true
+dependencies: {  }
+id: website_support_request
+label: 'Website support request'
+recipients:
+  - info@thegalleryguide.co.uk
+reply: 'Thank you for your enquiry. We will contact you as soon as possible.'
+weight: 0

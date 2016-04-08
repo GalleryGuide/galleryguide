@@ -1,0 +1,28 @@
+uuid: 8b02027a-0ec5-4b9e-8f00-e78746a9085b
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.menu-exhibitions
+  module:
+    - system
+  theme:
+    - mobile
+id: menu_28
+theme: mobile
+region: content
+weight: -63
+provider: null
+plugin: 'system_menu_block:menu-exhibitions'
+settings:
+  id: 'system_menu_block:menu-exhibitions'
+  label: ''
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/exhibition*\n/node/add/exhibition"

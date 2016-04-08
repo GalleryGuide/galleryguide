@@ -1,0 +1,22 @@
+uuid: 34990374-68a5-4185-ba38-5655afa787fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.exhibition
+id: node.exhibition.sticky
+field_name: sticky
+entity_type: node
+bundle: exhibition
+label: 'Sticky at the top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

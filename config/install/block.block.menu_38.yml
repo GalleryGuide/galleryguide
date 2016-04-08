@@ -1,0 +1,24 @@
+uuid: 3ac20735-c3ea-4b42-8406-6bc339cf9d1b
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.secondary-links
+  module:
+    - system
+  theme:
+    - seven
+id: menu_38
+theme: seven
+region: footer
+weight: -60
+provider: null
+plugin: 'system_menu_block:secondary-links'
+settings:
+  id: 'system_menu_block:secondary-links'
+  label: ''
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

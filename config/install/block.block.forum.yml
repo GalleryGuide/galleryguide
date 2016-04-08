@@ -1,0 +1,19 @@
+uuid: 9b38f579-d7f6-433b-9708-8b0f44091e75
+langcode: en
+status: true
+dependencies:
+  theme:
+    - zen
+id: forum
+theme: zen
+region: sidebar_second
+weight: -18
+provider: null
+plugin: forum_new_block
+settings:
+  id: broken
+  label: ''
+  provider: core
+  label_display: visible
+  block_count: 5
+visibility: {  }

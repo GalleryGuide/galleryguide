@@ -1,0 +1,8 @@
+uuid: db2e601d-3212-4e64-b500-d0c6ded196b6
+langcode: en
+status: true
+dependencies: {  }
+id: menu-events
+label: Events
+description: ''
+locked: false

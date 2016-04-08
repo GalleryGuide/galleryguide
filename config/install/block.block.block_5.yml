@@ -1,0 +1,30 @@
+uuid: 32c70928-0862-4540-9b08-8d7f9c0c9d6d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:8ea776f0-ecbe-4d70-ab07-7bccb5396b23'
+  module:
+    - block_content
+    - system
+  theme:
+    - chameleon
+id: block_5
+theme: chameleon
+region: sidebar_first
+weight: -53
+provider: null
+plugin: 'block_content:8ea776f0-ecbe-4d70-ab07-7bccb5396b23'
+settings:
+  id: 'block_content:8ea776f0-ecbe-4d70-ab07-7bccb5396b23'
+  label: ''
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '/admin/*'

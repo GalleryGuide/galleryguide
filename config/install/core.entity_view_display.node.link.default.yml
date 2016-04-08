@@ -1,0 +1,52 @@
+uuid: 59908482-a186-4168-b700-a6f34b71a4f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.link.body
+    - field.field.node.link.comment
+    - field.field.node.link.field_website
+    - field.field.node.link.links
+    - node.type.link
+  module:
+    - comment
+    - link
+    - text
+    - user
+id: node.link.default
+targetEntityType: node
+bundle: link
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  comment:
+    label: hidden
+    type: comment_default
+    weight: 20
+    settings:
+      pager_id: 0
+    third_party_settings: {  }
+  field_website:
+    label: hidden
+    weight: 32
+    type: link
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+  links:
+    label: hidden
+    type: entity_reference_label
+    weight: 20
+    settings:
+      link: true
+    third_party_settings: {  }
+hidden: {  }

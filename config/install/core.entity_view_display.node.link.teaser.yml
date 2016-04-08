@@ -1,0 +1,39 @@
+uuid: fe64b78b-5c76-4c03-ba08-8e918f51235c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.link.body
+    - field.field.node.link.field_website
+    - node.type.link
+  module:
+    - link
+    - text
+    - user
+id: node.link.teaser
+targetEntityType: node
+bundle: link
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  field_website:
+    label: hidden
+    weight: 32
+    type: link
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }

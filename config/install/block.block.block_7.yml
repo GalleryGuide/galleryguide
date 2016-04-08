@@ -1,0 +1,30 @@
+uuid: 7564b93e-6407-4c84-8b02-2f50df38537f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:843ddb06-99d0-44be-b609-9a62ab7a6f8a'
+  module:
+    - block_content
+    - system
+  theme:
+    - iui
+id: block_7
+theme: iui
+region: sidebar_first
+weight: -56
+provider: null
+plugin: 'block_content:843ddb06-99d0-44be-b609-9a62ab7a6f8a'
+settings:
+  id: 'block_content:843ddb06-99d0-44be-b609-9a62ab7a6f8a'
+  label: ''
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '/admin/*'

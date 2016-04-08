@@ -1,0 +1,8 @@
+uuid: b3a3413c-9764-496b-bb29-417483570256
+langcode: en
+status: true
+dependencies: {  }
+id: menu-articles
+label: Articles
+description: ''
+locked: false

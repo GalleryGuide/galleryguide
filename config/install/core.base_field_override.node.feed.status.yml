@@ -1,0 +1,22 @@
+uuid: bff2103c-1aa7-46ef-b721-33a1160af462
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.feed
+id: node.feed.status
+field_name: status
+entity_type: node
+bundle: feed
+label: null
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,20 @@
+uuid: 22ada2f5-5ccb-4d03-9000-0c9dc677858b
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - chameleon
+id: search_3
+theme: chameleon
+region: sidebar_first
+weight: -60
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: ''
+  provider: search
+  label_display: visible
+visibility: {  }

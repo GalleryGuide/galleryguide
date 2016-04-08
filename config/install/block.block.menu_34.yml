@@ -1,0 +1,28 @@
+uuid: e624de81-f3e3-4790-8109-9af745f89cb4
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.menu-events
+  module:
+    - system
+  theme:
+    - seven
+id: menu_34
+theme: seven
+region: sidebar_first
+weight: -56
+provider: null
+plugin: 'system_menu_block:menu-events'
+settings:
+  id: 'system_menu_block:menu-events'
+  label: ''
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/events\n/events/*"

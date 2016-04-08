@@ -1,0 +1,20 @@
+uuid: 3d592bd7-33fe-4393-b500-a8c40db30397
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - gall
+id: user_2
+theme: gall
+region: content
+weight: -8
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: ''
+  provider: user
+  label_display: visible
+visibility: {  }

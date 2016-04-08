@@ -1,0 +1,41 @@
+uuid: 6db9a8f7-936f-4972-9811-179cd46c1f95
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.story.artists1
+    - field.field.node.story.body
+    - field.field.node.story.comment
+    - node.type.story
+  module:
+    - comment
+    - text
+    - user
+id: node.story.default
+targetEntityType: node
+bundle: story
+mode: default
+content:
+  artists1:
+    label: hidden
+    type: entity_reference_label
+    weight: 20
+    settings:
+      link: true
+    third_party_settings: {  }
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  comment:
+    label: hidden
+    type: comment_default
+    weight: 20
+    settings:
+      pager_id: 0
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }

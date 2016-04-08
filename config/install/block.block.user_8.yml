@@ -1,0 +1,20 @@
+uuid: 75e6c7ea-14dc-466b-ac00-ff5c3f58cf25
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - iui
+id: user_8
+theme: iui
+region: sidebar_first
+weight: -60
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: ''
+  provider: user
+  label_display: visible
+visibility: {  }

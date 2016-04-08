@@ -1,0 +1,46 @@
+uuid: dfea34d4-c118-4bff-9801-1d862d7f56c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.artist.artists
+    - field.field.node.artist.body
+    - field.field.node.artist.field_artist_website
+    - field.field.node.artist.field_images
+    - field.field.node.artist.tags
+    - node.type.artist
+  module:
+    - link
+    - user
+id: node.artist.teaser
+targetEntityType: node
+bundle: artist
+mode: teaser
+content:
+  field_artist_website:
+    label: above
+    weight: -1
+    type: link
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+  field_born:
+    label: above
+    weight: -4
+    type: datetime_default
+    settings:
+      format_type: fallback
+      timezone_override: ''
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden:
+  artists: true
+  body: true
+  field_images: true
+  tags: true

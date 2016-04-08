@@ -1,0 +1,14 @@
+uuid: 2b389737-020a-45ee-ad00-e1d96f63cecd
+langcode: en
+status: true
+dependencies: {  }
+name: thumb
+label: thumb
+effects:
+  3f6c5abf-534d-4aa8-8200-be423f525a04:
+    uuid: 3f6c5abf-534d-4aa8-8200-be423f525a04
+    id: image_scale_and_crop
+    weight: 0
+    data:
+      width: 140
+      height: 140

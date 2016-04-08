@@ -1,0 +1,24 @@
+uuid: 6d10e7a5-84d0-44d2-b900-c44023085394
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.secondary-links
+  module:
+    - system
+  theme:
+    - zen
+id: menu_7
+theme: zen
+region: footer
+weight: -3
+provider: null
+plugin: 'system_menu_block:secondary-links'
+settings:
+  id: 'system_menu_block:secondary-links'
+  label: ''
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

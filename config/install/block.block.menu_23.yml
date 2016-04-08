@@ -1,0 +1,28 @@
+uuid: b918ef70-e2e8-4bc8-ba3c-602ce2989a00
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.menu-exhibitions
+  module:
+    - system
+  theme:
+    - iui
+id: menu_23
+theme: iui
+region: sidebar_first
+weight: -60
+provider: null
+plugin: 'system_menu_block:menu-exhibitions'
+settings:
+  id: 'system_menu_block:menu-exhibitions'
+  label: ''
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/exhibition*\n/node/add/exhibition"

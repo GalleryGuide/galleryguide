@@ -1,0 +1,28 @@
+uuid: 783d3fd1-3b5f-4a2d-a500-aa10d924c931
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.menu-galleries
+  module:
+    - system
+  theme:
+    - gall
+id: menu_5
+theme: gall
+region: sidebar_first
+weight: -63
+provider: null
+plugin: 'system_menu_block:menu-galleries'
+settings:
+  id: 'system_menu_block:menu-galleries'
+  label: ''
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/galleries\n/galleries/*\n/node/add/gallery"

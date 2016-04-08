@@ -1,0 +1,25 @@
+uuid: adb79b0f-6622-44f4-9142-66e584f184f0
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:db6af0fc-adef-4327-8a07-0722ae04bc64'
+  module:
+    - block_content
+  theme:
+    - gall
+id: block_2
+theme: gall
+region: sidebar_first
+weight: -54
+provider: null
+plugin: 'block_content:db6af0fc-adef-4327-8a07-0722ae04bc64'
+settings:
+  id: 'block_content:db6af0fc-adef-4327-8a07-0722ae04bc64'
+  label: ''
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

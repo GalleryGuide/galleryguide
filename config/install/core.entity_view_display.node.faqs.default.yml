@@ -1,0 +1,41 @@
+uuid: a8ed0e4d-674b-4244-b400-d47efdaf8129
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.faqs.body
+    - field.field.node.faqs.comment
+    - field.field.node.faqs.faqs
+    - node.type.faqs
+  module:
+    - comment
+    - text
+    - user
+id: node.faqs.default
+targetEntityType: node
+bundle: faqs
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  comment:
+    label: hidden
+    type: comment_default
+    weight: 20
+    settings:
+      pager_id: 0
+    third_party_settings: {  }
+  faqs:
+    label: hidden
+    type: entity_reference_label
+    weight: 20
+    settings:
+      link: true
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }

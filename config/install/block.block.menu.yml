@@ -1,0 +1,24 @@
+uuid: b71061f2-c320-4417-b707-7d2a1fb5d426
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.primary-links
+  module:
+    - system
+  theme:
+    - garland
+id: menu
+theme: garland
+region: header
+weight: -19
+provider: null
+plugin: 'system_menu_block:primary-links'
+settings:
+  id: 'system_menu_block:primary-links'
+  label: ''
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

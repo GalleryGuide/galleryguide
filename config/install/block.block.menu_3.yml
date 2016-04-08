@@ -1,0 +1,24 @@
+uuid: d95bd75f-ac59-4d42-a909-0984865ce4ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.secondary-links
+  module:
+    - system
+  theme:
+    - gall
+id: menu_3
+theme: gall
+region: footer
+weight: -8
+provider: null
+plugin: 'system_menu_block:secondary-links'
+settings:
+  id: 'system_menu_block:secondary-links'
+  label: ''
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }
