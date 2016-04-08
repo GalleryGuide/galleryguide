@@ -1,0 +1,18 @@
+uuid: 57be23fe-b991-4898-8b36-542ec880d00b
+langcode: en
+status: true
+dependencies: {  }
+countryCode: BF
+format: "%recipient\n%organization\n%addressLine1\n%addressLine2\n%locality %sortingCode"
+requiredFields:
+  - recipient
+  - addressLine1
+  - locality
+uppercaseFields:
+  - locality
+administrativeAreaType: null
+localityType: city
+dependentLocalityType: null
+postalCodeType: null
+postalCodePattern: null
+postalCodePrefix: null
