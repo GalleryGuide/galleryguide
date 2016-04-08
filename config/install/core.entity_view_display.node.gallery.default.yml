@@ -101,12 +101,12 @@ content:
     label: visually_hidden
     settings:
       type: ROADMAP
-      zoom: 10
+      zoom: '14'
       height: 400px
       width: 100%
-      title: ''
       info_text: ''
-      info_auto_display: true
+      info_auto_display: '1'
+      title: ''
     third_party_settings: {  }
   field_images:
     type: image
