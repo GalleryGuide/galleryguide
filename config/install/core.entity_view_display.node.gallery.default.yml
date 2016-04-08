@@ -33,7 +33,7 @@ mode: default
 content:
   artists:
     type: entity_reference_label
-    weight: 4
+    weight: 7
     label: above
     settings:
       link: true
@@ -41,13 +41,13 @@ content:
   artists1:
     label: hidden
     type: entity_reference_label
-    weight: 12
+    weight: 6
     settings:
       link: true
     third_party_settings: {  }
   body:
     type: text_default
-    weight: 6
+    weight: 1
     label: visually_hidden
     settings: {  }
     third_party_settings: {  }
@@ -59,7 +59,7 @@ content:
     third_party_settings: {  }
   field_admission_conc:
     type: number_decimal
-    weight: 9
+    weight: 10
     label: above
     settings:
       thousand_separator: ''
@@ -69,7 +69,7 @@ content:
     third_party_settings: {  }
   field_admission_std:
     type: number_decimal
-    weight: 8
+    weight: 9
     label: above
     settings:
       thousand_separator: ''
@@ -79,25 +79,25 @@ content:
     third_party_settings: {  }
   field_email:
     type: email_mailto
-    weight: 10
+    weight: 11
     label: above
     settings: {  }
     third_party_settings: {  }
   field_facilities:
     type: list_default
-    weight: 7
+    weight: 8
     label: above
     settings: {  }
     third_party_settings: {  }
   field_gallery_address:
     type: address_default
-    weight: 5
+    weight: 2
     label: above
     settings: {  }
     third_party_settings: {  }
   field_gallery_location:
     type: geolocation_map
-    weight: 0
+    weight: 3
     label: visually_hidden
     settings:
       type: ROADMAP
@@ -110,7 +110,7 @@ content:
     third_party_settings: {  }
   field_images:
     type: image
-    weight: 1
+    weight: 0
     label: visually_hidden
     settings:
       image_style: ''
@@ -118,7 +118,7 @@ content:
     third_party_settings: {  }
   field_website:
     type: link
-    weight: 2
+    weight: 4
     label: above
     settings:
       trim_length: 80
@@ -133,7 +133,7 @@ content:
     third_party_settings: {  }
   tags:
     type: entity_reference_label
-    weight: 3
+    weight: 5
     label: above
     settings:
       link: true
@@ -141,7 +141,7 @@ content:
   tags1:
     label: hidden
     type: entity_reference_label
-    weight: 11
+    weight: 12
     settings:
       link: true
     third_party_settings: {  }

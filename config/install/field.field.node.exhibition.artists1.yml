@@ -1,0 +1,25 @@
+uuid: 46a0e407-b16f-4555-8101-01b97432b8c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.artists1
+    - node.type.exhibition
+    - taxonomy.vocabulary.artists1
+id: node.exhibition.artists1
+field_name: artists1
+entity_type: node
+bundle: exhibition
+label: Artists
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      - artists1
+    auto_create: true
+field_type: entity_reference

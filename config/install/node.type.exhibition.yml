@@ -6,7 +6,7 @@ _core:
   default_config_hash: u0f2yP_FfkaJq_hPp2yGQh60Qi4Hk9ohHvtgKXxdsfg
 name: Exhibition
 type: exhibition
-description: 'An exhibition or event at a gallery'
+description: ''
 help: ''
 new_revision: true
 preview_mode: 1

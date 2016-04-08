@@ -4,13 +4,16 @@ status: true
 dependencies:
   config:
     - field.field.node.exhibition.artists
+    - field.field.node.exhibition.artists1
     - field.field.node.exhibition.body
+    - field.field.node.exhibition.comment_no_subject
     - field.field.node.exhibition.field_admission_conc
     - field.field.node.exhibition.field_admission_std
     - field.field.node.exhibition.field_exhib_website
     - field.field.node.exhibition.field_gallery
     - field.field.node.exhibition.field_images
     - field.field.node.exhibition.tags
+    - field.field.node.exhibition.tags1
     - image.style.thumbnail
     - node.type.exhibition
   module:
@@ -18,12 +21,22 @@ dependencies:
     - link
     - path
     - text
+_core:
+  default_config_hash: nwpzCbjQIiLJKexfu0o-X1oRYI1tDX3yZfWiooV620o
 id: node.exhibition.default
 targetEntityType: node
 bundle: exhibition
 mode: default
 content:
   artists:
+    type: entity_reference_autocomplete_tags
+    weight: 20
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  artists1:
     type: entity_reference_autocomplete_tags
     weight: 20
     settings:
@@ -38,6 +51,11 @@ content:
       rows: 9
       summary_rows: 3
       placeholder: ''
+    third_party_settings: {  }
+  comment:
+    type: comment_default
+    weight: 20
+    settings: {  }
     third_party_settings: {  }
   created:
     type: datetime_timestamp
@@ -96,6 +114,14 @@ content:
     weight: 16
     third_party_settings: {  }
   tags:
+    type: entity_reference_autocomplete_tags
+    weight: 20
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  tags1:
     type: entity_reference_autocomplete_tags
     weight: 20
     settings:

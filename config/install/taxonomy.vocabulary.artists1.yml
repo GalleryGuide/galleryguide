@@ -1,0 +1,9 @@
+uuid: d713db4c-8713-45f1-8f38-56f565397f58
+langcode: en
+status: true
+dependencies: {  }
+name: Artists
+vid: artists1
+description: 'Exhibited artists'
+hierarchy: 1
+weight: 0
