@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 name: display
-label: display
+label: 'Display (350×350)'
 effects:
   550b1d30-0021-4ffd-ad34-529d5cf633bd:
     uuid: 550b1d30-0021-4ffd-ad34-529d5cf633bd

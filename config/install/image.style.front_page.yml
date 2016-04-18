@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 name: front_page
-label: front_page
+label: 'Front Page (540×315)'
 effects:
   fce4d67b-c5d4-44ef-801a-269e50135ae6:
     uuid: fce4d67b-c5d4-44ef-801a-269e50135ae6

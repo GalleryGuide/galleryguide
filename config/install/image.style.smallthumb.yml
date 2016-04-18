@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 name: smallthumb
-label: smallthumb
+label: 'Small Thumbnail (50×50)'
 effects:
   ecd6ce09-5335-4e58-902d-45573201235c:
     uuid: ecd6ce09-5335-4e58-902d-45573201235c
