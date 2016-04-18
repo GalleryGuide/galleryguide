@@ -246,7 +246,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: 'Galleries New'
+      title: 'New Galleries'
       header: {  }
       footer: {  }
       empty: {  }
