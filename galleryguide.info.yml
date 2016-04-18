@@ -43,6 +43,7 @@ dependencies:
   - address
   - composer_manager
   - geolocation
+  - menu_trail_by_path
   - office_hours
   - prepopulate
   
