@@ -18,7 +18,6 @@ dependencies:
     - node.type.exhibition
   module:
     - datetime
-    - fivestar
     - image
     - link
     - text
