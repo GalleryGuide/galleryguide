@@ -1,8 +1,0 @@
-uuid: 6c8923b7-d800-4540-a575-fd6d43279551
-langcode: en
-status: true
-dependencies: {  }
-id: comment_no_subject
-label: 'Comments without subject field'
-target_entity_type_id: node
-description: 'Allows commenting on content, comments without subject field'
