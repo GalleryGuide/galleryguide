@@ -1,8 +1,0 @@
-uuid: db6ee9a1-3606-4bc8-8036-251664d6c125
-langcode: en
-status: true
-dependencies: {  }
-id: menu-exhibitions
-label: Exhibitions
-description: ''
-locked: false

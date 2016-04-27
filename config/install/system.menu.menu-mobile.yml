@@ -1,8 +1,0 @@
-uuid: 5191fd8e-94d8-4423-bd7b-1674e85c46bf
-langcode: en
-status: true
-dependencies: {  }
-id: menu-mobile
-label: 'Mobile menu'
-description: 'Main navigation for mobile site'
-locked: false

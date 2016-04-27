@@ -1,8 +1,0 @@
-uuid: 949c4579-1749-44e8-897c-aeef20ffbdbb
-langcode: en
-status: true
-dependencies: {  }
-id: menu-artists
-label: Artists
-description: ''
-locked: false

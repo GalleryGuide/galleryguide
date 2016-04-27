@@ -1,8 +1,0 @@
-uuid: 98bf191b-ce3f-4378-9243-0d1256790fd8
-langcode: en
-status: true
-dependencies: {  }
-id: menu-articles
-label: Articles
-description: ''
-locked: false

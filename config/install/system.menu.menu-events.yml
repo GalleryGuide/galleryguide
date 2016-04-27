@@ -1,8 +1,0 @@
-uuid: b4c1f8f9-a4df-4239-8711-025187607f38
-langcode: en
-status: true
-dependencies: {  }
-id: menu-events
-label: Events
-description: ''
-locked: false
