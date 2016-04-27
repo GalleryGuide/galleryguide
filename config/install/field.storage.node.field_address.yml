@@ -1,16 +1,16 @@
-uuid: ac3b11d4-ac63-4a9e-8d53-84d0d4040690
+uuid: 4e2739b2-49b8-4e8d-8b5e-182267991183
 langcode: en
 status: true
 dependencies:
   module:
-    - fivestar
+    - address
     - node
-id: node.field_rating
-field_name: field_rating
+id: node.field_address
+field_name: field_address
 entity_type: node
-type: fivestar
+type: address
 settings: {  }
-module: fivestar
+module: address
 locked: false
 cardinality: 1
 translatable: true
