@@ -97,11 +97,6 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
-  field_rating:
-    weight: 35
-    settings: {  }
-    third_party_settings: {  }
-    type: fivestar_exposed
   path:
     type: path
     weight: 30

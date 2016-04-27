@@ -13,7 +13,6 @@ dependencies:
     - field.field.node.exhibition.field_exhib_gallery
     - field.field.node.exhibition.field_exhib_website
     - field.field.node.exhibition.field_images
-    - field.field.node.exhibition.field_rating
     - field.field.node.exhibition.tags
     - image.style.large
     - node.type.exhibition
@@ -118,17 +117,6 @@ content:
       image_style: large
       image_link: ''
     third_party_settings: {  }
-  field_rating:
-    weight: 21
-    label: above
-    settings:
-      widget:
-        fivestar_widget: null
-      style: average
-      text: average
-      expose: true
-    third_party_settings: {  }
-    type: fivestar_default
   links:
     weight: 9
     settings: {  }
