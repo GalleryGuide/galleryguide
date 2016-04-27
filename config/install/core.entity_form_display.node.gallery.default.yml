@@ -12,7 +12,6 @@ dependencies:
     - field.field.node.gallery.field_facilities
     - field.field.node.gallery.field_images
     - field.field.node.gallery.field_location
-    - field.field.node.gallery.field_owner
     - field.field.node.gallery.field_website
     - field.field.node.gallery.tags
     - image.style.thumbnail
@@ -98,14 +97,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: geolocation_googlegeocoder
-  field_owner:
-    weight: 14
-    type: entity_reference_autocomplete
-    settings:
-      match_operator: CONTAINS
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
   field_website:
     weight: 0
     type: link_default

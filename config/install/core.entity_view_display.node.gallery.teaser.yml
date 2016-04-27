@@ -13,7 +13,6 @@ dependencies:
     - field.field.node.gallery.field_facilities
     - field.field.node.gallery.field_images
     - field.field.node.gallery.field_location
-    - field.field.node.gallery.field_owner
     - field.field.node.gallery.field_website
     - field.field.node.gallery.tags
     - image.style.medium
@@ -43,7 +42,6 @@ hidden:
   field_email: true
   field_facilities: true
   field_location: true
-  field_owner: true
   field_website: true
   links: true
   tags: true

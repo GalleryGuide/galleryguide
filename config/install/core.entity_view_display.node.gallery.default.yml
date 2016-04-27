@@ -12,7 +12,6 @@ dependencies:
     - field.field.node.gallery.field_facilities
     - field.field.node.gallery.field_images
     - field.field.node.gallery.field_location
-    - field.field.node.gallery.field_owner
     - field.field.node.gallery.field_website
     - field.field.node.gallery.tags
     - node.type.gallery
@@ -107,13 +106,6 @@ content:
       title: ''
     third_party_settings: {  }
     type: geolocation_map
-  field_owner:
-    type: entity_reference_label
-    weight: 2
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
   field_website:
     type: link
     weight: 4
