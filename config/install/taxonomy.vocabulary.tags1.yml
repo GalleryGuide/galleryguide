@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 name: Tags
-vid: tags1
+vid: tags
 description: ''
 hierarchy: 1
 weight: 0

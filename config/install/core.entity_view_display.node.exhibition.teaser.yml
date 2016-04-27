@@ -14,7 +14,7 @@ dependencies:
     - field.field.node.exhibition.field_exhib_gallery
     - field.field.node.exhibition.field_exhib_website
     - field.field.node.exhibition.field_images
-    - field.field.node.exhibition.tags1
+    - field.field.node.exhibition.tags
     - node.type.exhibition
   module:
     - text
@@ -57,4 +57,4 @@ hidden:
   field_date_to: true
   field_exhib_website: true
   field_images: true
-  tags1: true
+  tags: true

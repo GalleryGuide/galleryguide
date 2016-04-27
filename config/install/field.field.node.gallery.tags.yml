@@ -3,11 +3,11 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.tags1
+    - field.storage.node.tags
     - node.type.gallery
-    - taxonomy.vocabulary.tags1
-id: node.gallery.tags1
-field_name: tags1
+    - taxonomy.vocabulary.tags
+id: node.gallery.tags
+field_name: tags
 entity_type: node
 bundle: gallery
 label: Tags
@@ -20,6 +20,6 @@ settings:
   handler: 'default:taxonomy_term'
   handler_settings:
     target_bundles:
-      - tags1
+      - tags
     auto_create: true
 field_type: entity_reference

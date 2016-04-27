@@ -14,7 +14,7 @@ dependencies:
     - field.field.node.exhibition.field_exhib_website
     - field.field.node.exhibition.field_images
     - field.field.node.exhibition.field_rating
-    - field.field.node.exhibition.tags1
+    - field.field.node.exhibition.tags
     - image.style.large
     - node.type.exhibition
   module:
@@ -133,7 +133,7 @@ content:
     weight: 9
     settings: {  }
     third_party_settings: {  }
-  tags1:
+  tags:
     label: above
     type: entity_reference_label
     weight: 7

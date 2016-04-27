@@ -13,13 +13,11 @@ dependencies:
     - field.field.node.exhibition.field_exhib_gallery
     - field.field.node.exhibition.field_exhib_website
     - field.field.node.exhibition.field_images
-    - field.field.node.exhibition.field_rating
-    - field.field.node.exhibition.tags1
+    - field.field.node.exhibition.tags
     - image.style.thumbnail
     - node.type.exhibition
   module:
     - datetime
-    - fivestar
     - image
     - link
     - path
@@ -121,7 +119,7 @@ content:
       display_label: true
     weight: 16
     third_party_settings: {  }
-  tags1:
+  tags:
     type: entity_reference_autocomplete_tags
     weight: 20
     settings:

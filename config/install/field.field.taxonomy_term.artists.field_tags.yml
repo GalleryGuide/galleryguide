@@ -5,7 +5,7 @@ dependencies:
   config:
     - field.storage.taxonomy_term.field_tags
     - taxonomy.vocabulary.artists
-    - taxonomy.vocabulary.tags1
+    - taxonomy.vocabulary.tags
 id: taxonomy_term.artists.field_tags
 field_name: field_tags
 entity_type: taxonomy_term
@@ -20,7 +20,7 @@ settings:
   handler: 'default:taxonomy_term'
   handler_settings:
     target_bundles:
-      tags1: tags1
+      tags: tags
     sort:
       field: _none
     auto_create: false

@@ -16,7 +16,7 @@ dependencies:
     - field.field.node.gallery.field_location
     - field.field.node.gallery.field_owner
     - field.field.node.gallery.field_website
-    - field.field.node.gallery.tags1
+    - field.field.node.gallery.tags
     - image.style.medium
     - node.type.gallery
   module:
@@ -48,4 +48,4 @@ hidden:
   field_owner: true
   field_website: true
   links: true
-  tags1: true
+  tags: true

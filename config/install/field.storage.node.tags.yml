@@ -5,8 +5,8 @@ dependencies:
   module:
     - node
     - taxonomy
-id: node.tags1
-field_name: tags1
+id: node.tags
+field_name: tags
 entity_type: node
 type: entity_reference
 settings:

@@ -15,7 +15,7 @@ dependencies:
     - field.field.node.gallery.field_location
     - field.field.node.gallery.field_owner
     - field.field.node.gallery.field_website
-    - field.field.node.gallery.tags1
+    - field.field.node.gallery.tags
     - image.style.thumbnail
     - node.type.gallery
   module:
@@ -131,7 +131,7 @@ content:
       display_label: true
     weight: 16
     third_party_settings: {  }
-  tags1:
+  tags:
     type: entity_reference_autocomplete_tags
     weight: 20
     settings:

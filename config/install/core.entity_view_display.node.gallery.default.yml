@@ -15,7 +15,7 @@ dependencies:
     - field.field.node.gallery.field_location
     - field.field.node.gallery.field_owner
     - field.field.node.gallery.field_website
-    - field.field.node.gallery.tags1
+    - field.field.node.gallery.tags
     - node.type.gallery
   module:
     - geolocation
@@ -130,7 +130,7 @@ content:
     weight: 11
     settings: {  }
     third_party_settings: {  }
-  tags1:
+  tags:
     label: above
     type: entity_reference_label
     weight: 9
