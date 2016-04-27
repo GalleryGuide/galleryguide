@@ -1,4 +1,4 @@
-uuid: 4319750c-c4a6-4793-8bbe-8df03d3368f0
+uuid: f0cee221-e892-4771-83bc-84abb6496d95
 langcode: en
 status: true
 dependencies: {  }
@@ -7,10 +7,10 @@ _core:
 name: medium
 label: 'Medium (220×220)'
 effects:
-  192718a0-c4e4-4c95-bcda-8e1e82df8781:
-    uuid: 192718a0-c4e4-4c95-bcda-8e1e82df8781
+  e4b628f1-d18e-4d7a-a38f-9c9697e3b417:
+    uuid: e4b628f1-d18e-4d7a-a38f-9c9697e3b417
     id: image_scale_and_crop
-    weight: 0
+    weight: 2
     data:
       width: 220
       height: 220

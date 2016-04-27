@@ -1,4 +1,4 @@
-uuid: 3a588c1b-c1e3-4e70-b24f-795a8dbeeb35
+uuid: 8786e369-e79f-4157-872a-6c03ffb2a6da
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,9 @@ dependencies:
   module:
     - system
   theme:
-    - gall
+    - bartik
 id: menu_6
-theme: gall
+theme: bartik
 region: sidebar_first
 weight: -58
 provider: null
@@ -18,7 +18,7 @@ settings:
   id: 'system_menu_block:menu-events'
   label: ''
   provider: system
-  label_display: visible
+  label_display: '0'
   level: 1
   depth: 0
 visibility:

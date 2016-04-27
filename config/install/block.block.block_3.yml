@@ -1,23 +1,23 @@
-uuid: 440b6a5a-4472-4cf2-b200-a6365bd3e239
+uuid: 087e3a5e-38d2-428f-af58-b5bc6db91777
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:843ddb06-99d0-44be-b609-9a62ab7a6f8a'
+    - 'block_content:basic:364270fe-499e-4446-93ee-7ed74018e15b'
   module:
     - block_content
     - system
   theme:
-    - gall
+    - bartik
 id: block_3
-theme: gall
+theme: bartik
 region: content
-weight: -8
+weight: -56
 provider: null
-plugin: 'block_content:843ddb06-99d0-44be-b609-9a62ab7a6f8a'
+plugin: 'block_content:364270fe-499e-4446-93ee-7ed74018e15b'
 settings:
-  id: 'block_content:843ddb06-99d0-44be-b609-9a62ab7a6f8a'
-  label: ''
+  id: 'block_content:364270fe-499e-4446-93ee-7ed74018e15b'
+  label: '<none>'
   provider: block_content
   label_display: visible
   status: true

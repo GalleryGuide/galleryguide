@@ -1,0 +1,24 @@
+uuid: 16c0a5a2-ae13-424b-9129-33bd66bb8cae
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.primary-links
+  module:
+    - system
+  theme:
+    - gall
+id: primarylinks
+theme: gall
+region: header
+weight: -12
+provider: null
+plugin: 'system_menu_block:primary-links'
+settings:
+  id: 'system_menu_block:primary-links'
+  label: 'Primary links'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

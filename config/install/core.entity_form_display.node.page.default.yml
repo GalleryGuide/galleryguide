@@ -1,4 +1,4 @@
-uuid: 2422f1d1-6fc1-4909-b101-1d4ec9ae4a2f
+uuid: badb4b42-63ea-452d-8c97-dafcc55e622c
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,8 @@ dependencies:
     - comment
     - path
     - text
+_core:
+  default_config_hash: KSvzyFhdLuxniTsunUnUfpfMmod2l57GibtVjL8ymHM
 id: node.page.default
 targetEntityType: node
 bundle: page

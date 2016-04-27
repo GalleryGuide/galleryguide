@@ -1,20 +1,20 @@
-uuid: 3d592bd7-33fe-4393-b500-a8c40db30397
+uuid: e8375176-9cbf-4f19-aaa6-439d259bbdf5
 langcode: en
 status: true
 dependencies:
   module:
     - user
   theme:
-    - gall
+    - bartik
 id: user_2
-theme: gall
+theme: bartik
 region: content
-weight: -8
+weight: -60
 provider: null
 plugin: user_login_block
 settings:
   id: user_login_block
-  label: ''
+  label: 'Log in'
   provider: user
   label_display: visible
 visibility: {  }

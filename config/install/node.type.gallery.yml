@@ -1,9 +1,7 @@
-uuid: 023c9db6-c30e-4d65-8e02-022cbbc5abdd
+uuid: 21efe42e-45e5-47d0-a188-abd8e841123c
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: XHh3BH0U-vFfVxx7K25c9bjkAt3hla1tUyqMwtGJjG0
 name: Gallery
 type: gallery
 description: 'Galleries and exhibition spaces'

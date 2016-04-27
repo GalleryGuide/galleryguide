@@ -1,0 +1,30 @@
+uuid: 3c5a418c-50f0-4cba-999f-ec496e9918a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_related
+    - node.type.artist
+    - node.type.exhibition
+    - node.type.gallery
+    - node.type.story
+id: node.story.field_related
+field_name: field_related
+entity_type: node
+bundle: story
+label: 'Related content'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      artist: artist
+      '': null
+      exhibition: exhibition
+      gallery: gallery
+      story: story
+field_type: entity_reference

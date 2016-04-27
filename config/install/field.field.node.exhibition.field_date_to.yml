@@ -1,0 +1,21 @@
+uuid: 1bdb702c-f017-4452-9db4-4523e35f3c94
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_to
+    - node.type.exhibition
+  module:
+    - datetime
+id: node.exhibition.field_date_to
+field_name: field_date_to
+entity_type: node
+bundle: exhibition
+label: 'Date To'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

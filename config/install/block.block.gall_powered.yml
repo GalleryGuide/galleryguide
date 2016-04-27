@@ -1,0 +1,22 @@
+uuid: 2c3c00b2-95f9-486a-a9a5-6805f1d3938c
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - gall
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: gall_powered
+theme: gall
+region: '-1'
+weight: -1
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

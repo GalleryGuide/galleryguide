@@ -1,13 +1,15 @@
-uuid: a6ea4129-dca8-413d-9000-f919384308ae
+uuid: 7a6a87cd-5a1c-49a9-912e-5581bd47bdea
 langcode: en
 status: true
 dependencies:
   module:
     - search
   theme:
-    - gall
+    - bartik
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
 id: search_1
-theme: gall
+theme: bartik
 region: sidebar_first
 weight: -62
 provider: null
@@ -16,5 +18,5 @@ settings:
   id: search_form_block
   label: ''
   provider: search
-  label_display: visible
+  label_display: '0'
 visibility: {  }

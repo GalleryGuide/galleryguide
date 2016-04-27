@@ -1,12 +1,12 @@
-uuid: 32b7f7e7-2c5a-41b8-8a05-5c911a295440
+uuid: 155c61d2-7b1b-44de-bfc3-8fa69cb4f5af
 langcode: en
 status: true
 dependencies: {  }
 name: smallthumb
-label: 'Small Thumbnail (50×50)'
+label: smallthumb
 effects:
-  ecd6ce09-5335-4e58-902d-45573201235c:
-    uuid: ecd6ce09-5335-4e58-902d-45573201235c
+  f6090de4-1af2-4176-90aa-b863ff53b79a:
+    uuid: f6090de4-1af2-4176-90aa-b863ff53b79a
     id: image_scale_and_crop
     weight: 0
     data:

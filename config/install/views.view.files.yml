@@ -1,4 +1,4 @@
-uuid: f6b88e37-b640-47f1-b22e-46d98108cc39
+uuid: 41219f7e-567b-4e87-a87f-996e99f562e9
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     - file
     - user
 _core:
-  default_config_hash: cd5WTpAoJg1rBLH-5w1C-GF477pRWanut86CCBMeUz0
+  default_config_hash: rRWxAX-IQkJ5viACQRovRkC784EyCl9493GU_G23n2Q
 id: files
 label: Files
 module: file
@@ -250,7 +250,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: 'Mime type'
+          label: 'MIME type'
           exclude: false
           alter:
             alter_text: false
@@ -626,7 +626,7 @@ display:
           exposed: true
           expose:
             operator_id: filemime_op
-            label: 'Mime type'
+            label: 'MIME type'
             description: ''
             use_operator: false
             operator: filemime_op

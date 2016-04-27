@@ -1,0 +1,27 @@
+uuid: 1a185134-ca07-43a2-a7c0-9d60b4e03c4c
+langcode: en
+status: true
+dependencies:
+  module:
+    - adsense
+  theme:
+    - gall
+id: managedad
+theme: gall
+region: preheader
+weight: -15
+provider: null
+plugin: adsense_managed_ad_block
+settings:
+  id: adsense_managed_ad_block
+  label: 'Managed ad'
+  provider: adsense
+  label_display: '0'
+  ad_slot: '4455612432'
+  ad_format: responsive
+  ad_width: '250'
+  ad_height: '250'
+  ad_shape:
+    auto: auto
+  ad_align: center
+visibility: {  }

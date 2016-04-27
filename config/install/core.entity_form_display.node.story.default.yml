@@ -1,11 +1,12 @@
-uuid: 6de142d3-706c-4b36-9f05-5f84c1cf280f
+uuid: b78f9e9d-262d-448f-8886-5fdab48a70d4
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.story.artists1
+    - field.field.node.story.artists
     - field.field.node.story.body
     - field.field.node.story.comment
+    - field.field.node.story.field_related
     - node.type.story
   module:
     - comment
@@ -16,7 +17,7 @@ targetEntityType: node
 bundle: story
 mode: default
 content:
-  artists1:
+  artists:
     type: entity_reference_autocomplete_tags
     weight: 20
     settings:
@@ -41,6 +42,14 @@ content:
     type: datetime_timestamp
     weight: 10
     settings: {  }
+    third_party_settings: {  }
+  field_related:
+    weight: 31
+    type: entity_reference_autocomplete
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   path:
     type: path

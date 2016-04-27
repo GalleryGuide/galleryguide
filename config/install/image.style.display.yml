@@ -1,12 +1,12 @@
-uuid: 906bca04-a022-4f1c-8125-373183a60199
+uuid: 34a2029d-4b94-4ab2-afff-3c6e8a36f879
 langcode: en
 status: true
 dependencies: {  }
 name: display
-label: 'Display (350×350)'
+label: display
 effects:
-  550b1d30-0021-4ffd-ad34-529d5cf633bd:
-    uuid: 550b1d30-0021-4ffd-ad34-529d5cf633bd
+  88f8fc35-6c88-417d-b035-8e3c51289792:
+    uuid: 88f8fc35-6c88-417d-b035-8e3c51289792
     id: image_scale_and_crop
     weight: 0
     data:

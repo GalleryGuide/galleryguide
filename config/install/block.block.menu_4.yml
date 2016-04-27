@@ -1,4 +1,4 @@
-uuid: d023e067-36d8-496d-b245-698ba241db2b
+uuid: 5206fb68-6e21-460f-9bf6-aeb016843dcc
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,9 @@ dependencies:
   module:
     - system
   theme:
-    - gall
+    - bartik
 id: menu_4
-theme: gall
+theme: bartik
 region: sidebar_first
 weight: -65
 provider: null
@@ -18,7 +18,7 @@ settings:
   id: 'system_menu_block:menu-artists'
   label: ''
   provider: system
-  label_display: visible
+  label_display: '0'
   level: 1
   depth: 0
 visibility:

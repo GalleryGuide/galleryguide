@@ -1,4 +1,4 @@
-uuid: 9ad4da64-84bf-4977-8820-3204370b585c
+uuid: 03b745b5-4562-4252-8cb8-761cbfed8819
 langcode: en
 status: true
 dependencies:
@@ -7,8 +7,6 @@ dependencies:
     - node.type.gallery
   module:
     - link
-_core:
-  default_config_hash: c73pCRkL3CTvqoUb90CFX7QpySDQ22TzhnpWJB8lGXg
 id: node.gallery.field_website
 field_name: field_website
 entity_type: node

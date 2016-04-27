@@ -1,19 +1,19 @@
-uuid: 3cbc1e47-4582-425a-bf01-1a0f8b78bf5f
+uuid: b110f3f4-6721-409c-b3dd-ae6915b7e928
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.rss
     - field.field.node.exhibition.artists
-    - field.field.node.exhibition.artists1
     - field.field.node.exhibition.body
     - field.field.node.exhibition.comment_no_subject
     - field.field.node.exhibition.field_admission_conc
     - field.field.node.exhibition.field_admission_std
+    - field.field.node.exhibition.field_date_from
+    - field.field.node.exhibition.field_date_to
+    - field.field.node.exhibition.field_exhib_gallery
     - field.field.node.exhibition.field_exhib_website
-    - field.field.node.exhibition.field_gallery
     - field.field.node.exhibition.field_images
-    - field.field.node.exhibition.tags
     - field.field.node.exhibition.tags1
     - node.type.exhibition
   module:
@@ -31,17 +31,23 @@ content:
       format_type: fallback
       timezone_override: ''
     third_party_settings: {  }
+  field_exhib_gallery:
+    label: hidden
+    weight: 0
+    type: entity_reference_label
+    settings:
+      link: true
+    third_party_settings: {  }
   links:
     weight: 100
 hidden:
   artists: true
-  artists1: true
   body: true
   comment_no_subject: true
   field_admission_conc: true
   field_admission_std: true
+  field_date_from: true
+  field_date_to: true
   field_exhib_website: true
-  field_gallery: true
   field_images: true
-  tags: true
   tags1: true

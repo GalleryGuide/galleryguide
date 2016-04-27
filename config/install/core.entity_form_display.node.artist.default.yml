@@ -1,15 +1,13 @@
-uuid: 60e4e24c-bfd4-4e29-bd10-16917a1715cc
+uuid: 2fd79884-e684-4d72-b06c-c9f30f81c31e
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.artist.artists
-    - field.field.node.artist.artists1
     - field.field.node.artist.body
     - field.field.node.artist.comment_no_subject
     - field.field.node.artist.field_artist_website
     - field.field.node.artist.field_images
-    - field.field.node.artist.tags
     - field.field.node.artist.tags1
     - image.style.thumbnail
     - node.type.artist
@@ -17,8 +15,7 @@ dependencies:
     - image
     - link
     - path
-_core:
-  default_config_hash: 9uWITaMq2uH-FmYskm6nxQDFqdHqFL1ITDKsGLzdGUI
+    - text
 id: node.artist.default
 targetEntityType: node
 bundle: artist
@@ -32,12 +29,12 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  artists1:
-    type: entity_reference_autocomplete_tags
-    weight: 20
+  body:
+    type: text_textarea_with_summary
+    weight: 31
     settings:
-      match_operator: CONTAINS
-      size: 60
+      rows: 9
+      summary_rows: 3
       placeholder: ''
     third_party_settings: {  }
   comment:
@@ -59,11 +56,11 @@ content:
     third_party_settings: {  }
   field_images:
     weight: -2
-    type: image_image
     settings:
       progress_indicator: bar
       preview_image_style: thumbnail
     third_party_settings: {  }
+    type: image_image
   path:
     type: path
     weight: 30
@@ -80,14 +77,6 @@ content:
     settings:
       display_label: true
     weight: 16
-    third_party_settings: {  }
-  tags:
-    type: entity_reference_autocomplete_tags
-    weight: 20
-    settings:
-      match_operator: CONTAINS
-      size: 60
-      placeholder: ''
     third_party_settings: {  }
   tags1:
     type: entity_reference_autocomplete_tags
@@ -113,5 +102,4 @@ content:
       placeholder: ''
     third_party_settings: {  }
 hidden:
-  body: true
   comment_no_subject: true

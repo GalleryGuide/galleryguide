@@ -1,12 +1,10 @@
-uuid: 717f6661-6c28-4cb8-bd00-bf8d1ea3f8ec
+uuid: 6c45daaf-cdd6-41d1-81a1-09320eb24b1e
 langcode: en
 status: true
 dependencies:
   module:
     - node
     - taxonomy
-_core:
-  default_config_hash: T2_4KcNpztuh9653518-hnaa5JJzuZT7Ws7NpNok4BE
 id: node.artists
 field_name: artists
 entity_type: node

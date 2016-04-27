@@ -1,4 +1,4 @@
-uuid: b3dd3b11-719b-49cf-9c20-32b70fd4cad2
+uuid: af7e4b2b-e1e8-4d40-be18-00526e683212
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,8 @@ dependencies:
     - comment
     - text
     - user
+_core:
+  default_config_hash: oZ-7vpIJxjxL2up9B5KrJGD0lazQ9aN0P-fIPo6OrSU
 id: node.page.default
 targetEntityType: node
 bundle: page
@@ -18,7 +20,7 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 101
+    weight: 100
     settings: {  }
     third_party_settings: {  }
   comment:
@@ -29,5 +31,5 @@ content:
       pager_id: 0
     third_party_settings: {  }
   links:
-    weight: 100
+    weight: 101
 hidden: {  }

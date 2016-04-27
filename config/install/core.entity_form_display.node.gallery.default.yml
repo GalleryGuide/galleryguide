@@ -1,33 +1,29 @@
-uuid: 0fdf6921-e418-40d8-bb3f-634dca5b2b8a
+uuid: 1b8cc429-283f-42be-8476-d534cddf95e5
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.gallery.artists
-    - field.field.node.gallery.artists1
     - field.field.node.gallery.body
     - field.field.node.gallery.comment_no_subject
     - field.field.node.gallery.field_admission_conc
     - field.field.node.gallery.field_admission_std
+    - field.field.node.gallery.field_associated
     - field.field.node.gallery.field_email
     - field.field.node.gallery.field_facilities
-    - field.field.node.gallery.field_gallery_address
-    - field.field.node.gallery.field_gallery_location
     - field.field.node.gallery.field_images
+    - field.field.node.gallery.field_location
+    - field.field.node.gallery.field_owner
     - field.field.node.gallery.field_website
-    - field.field.node.gallery.tags
     - field.field.node.gallery.tags1
     - image.style.thumbnail
     - node.type.gallery
   module:
-    - address
     - geolocation
     - image
     - link
     - path
     - text
-_core:
-  default_config_hash: f0Z0678LWS6drhP81GqoyHXZ7-mtT5ImSBDWnS15vqk
 id: node.gallery.default
 targetEntityType: node
 bundle: gallery
@@ -41,17 +37,9 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  artists1:
-    type: entity_reference_autocomplete_tags
-    weight: 20
-    settings:
-      match_operator: CONTAINS
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
   body:
     type: text_textarea_with_summary
-    weight: 0
+    weight: 31
     settings:
       rows: 9
       summary_rows: 3
@@ -79,6 +67,14 @@ content:
     settings:
       placeholder: ''
     third_party_settings: {  }
+  field_associated:
+    weight: 5
+    type: entity_reference_autocomplete
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
   field_email:
     weight: 1
     type: email_default
@@ -88,26 +84,28 @@ content:
     third_party_settings: {  }
   field_facilities:
     weight: 8
-    type: options_buttons
     settings: {  }
     third_party_settings: {  }
-  field_gallery_address:
-    type: address_default
-    weight: 0
-    settings:
-      default_country: null
-    third_party_settings: {  }
-  field_gallery_location:
-    type: geolocation_googlegeocoder
-    weight: 0
-    settings: {  }
-    third_party_settings: {  }
+    type: options_select
   field_images:
     weight: -2
-    type: image_image
     settings:
       progress_indicator: bar
       preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+  field_location:
+    weight: 32
+    settings: {  }
+    third_party_settings: {  }
+    type: geolocation_googlegeocoder
+  field_owner:
+    weight: 14
+    type: entity_reference_autocomplete
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   field_website:
     weight: 0
@@ -132,14 +130,6 @@ content:
     settings:
       display_label: true
     weight: 16
-    third_party_settings: {  }
-  tags:
-    type: entity_reference_autocomplete_tags
-    weight: 20
-    settings:
-      match_operator: CONTAINS
-      size: 60
-      placeholder: ''
     third_party_settings: {  }
   tags1:
     type: entity_reference_autocomplete_tags

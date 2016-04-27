@@ -1,0 +1,36 @@
+uuid: b56a6f2f-c09e-4bf7-94f6-fb1906799056
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+    - user
+  theme:
+    - gall
+_core:
+  default_config_hash: NeHSoqm4XFqA7_0bDmR429ZZQt3LRbZMNRJTMsFyOfI
+id: gall_user_3
+theme: gall
+region: '-1'
+weight: 2
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: ''
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+      editor: editor
+      administrator1: administrator1
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    negate: false

@@ -1,9 +1,7 @@
-uuid: 4d673575-36cb-4aac-b700-df1a1a6507d2
+uuid: 13b0df5d-00fb-469c-859c-df446a020f57
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: u0f2yP_FfkaJq_hPp2yGQh60Qi4Hk9ohHvtgKXxdsfg
 name: Exhibition
 type: exhibition
 description: ''

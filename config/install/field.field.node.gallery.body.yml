@@ -1,4 +1,4 @@
-uuid: 23219d99-cdbf-415b-bf4e-7867cc89ce75
+uuid: 67f67af9-ba73-4b34-a253-0204441929db
 langcode: en
 status: true
 dependencies:
@@ -7,8 +7,6 @@ dependencies:
     - node.type.gallery
   module:
     - text
-_core:
-  default_config_hash: usLpQLLdXOBkpjnwHUMfgn5fKKUxp55MhM6rFAYKCgk
 id: node.gallery.body
 field_name: body
 entity_type: node

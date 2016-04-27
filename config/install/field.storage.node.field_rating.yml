@@ -1,0 +1,19 @@
+uuid: ac3b11d4-ac63-4a9e-8d53-84d0d4040690
+langcode: en
+status: true
+dependencies:
+  module:
+    - fivestar
+    - node
+id: node.field_rating
+field_name: field_rating
+entity_type: node
+type: fivestar
+settings: {  }
+module: fivestar
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,10 +1,12 @@
-uuid: 04ec1495-f1ca-4c96-9edd-4921a9d22d6c
+uuid: 2d3865b1-5497-410e-b9cb-df2193fa5c54
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_images
+    - image.style.medium
     - node.type.gallery
+    - system.menu.main
   module:
     - image
     - node
@@ -50,7 +52,7 @@ display:
           sort_asc_label: Asc
           sort_desc_label: Desc
       pager:
-        type: full
+        type: mini
         options:
           items_per_page: 12
           offset: 0
@@ -65,20 +67,12 @@ display:
             offset: false
             offset_label: Offset
           tags:
-            previous: '‹ Previous'
-            next: 'Next ›'
-            first: '« First'
-            last: 'Last »'
-          quantity: 9
+            previous: ‹‹
+            next: ››
       style:
         type: default
       row:
         type: fields
-        options:
-          default_field_elements: true
-          inline: {  }
-          separator: ''
-          hide_empty: false
       fields:
         title:
           id: title
@@ -131,7 +125,7 @@ display:
           click_sort_column: value
           type: string
           settings:
-            link_to_entity: true
+            link_to_entity: false
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -197,7 +191,7 @@ display:
           type: image
           settings:
             image_style: medium
-            image_link: content
+            image_link: ''
           group_column: ''
           group_columns: {  }
           group_rows: true
@@ -209,6 +203,57 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
+        path:
+          id: path
+          table: node
+          field: path
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          absolute: false
+          entity_type: node
+          plugin_id: node_path
       filters:
         status:
           value: true
@@ -263,6 +308,29 @@ display:
         - user.permissions
       tags:
         - 'config:field.storage.node.field_images'
+  block_1:
+    display_plugin: block
+    id: block_1
+    display_title: Block
+    position: 2
+    display_options:
+      display_extenders: {  }
+      pager:
+        type: some
+        options:
+          items_per_page: 4
+          offset: 0
+      defaults:
+        pager: false
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_images'
   page_1:
     display_plugin: page
     id: page_1
@@ -271,6 +339,10 @@ display:
     display_options:
       display_extenders: {  }
       path: galleries/new
+      menu:
+        type: normal
+        title: 'Galleries New'
+        menu_name: main
     cache_metadata:
       max-age: -1
       contexts:

@@ -1,4 +1,4 @@
-uuid: 472be445-9593-478c-9442-669a5ab06adb
+uuid: 5de5bd33-1027-4137-9f23-5e65820d88ab
 langcode: en
 status: true
 dependencies:
@@ -7,8 +7,6 @@ dependencies:
     - node.type.exhibition
   module:
     - link
-_core:
-  default_config_hash: '-Uhn9ZYXhPpe6Ec-f3aJ8pQGvIz0jsZhO7wuvx2d2NY'
 id: node.exhibition.field_exhib_website
 field_name: field_exhib_website
 entity_type: node

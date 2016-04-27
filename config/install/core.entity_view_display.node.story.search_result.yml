@@ -1,0 +1,27 @@
+uuid: 1c7d53b8-a2eb-44cd-8b0f-456a5aad299c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.search_result
+    - field.field.node.story.body
+    - field.field.node.story.field_related
+    - node.type.story
+  module:
+    - user
+id: node.story.search_result
+targetEntityType: node
+bundle: story
+mode: search_result
+content:
+  field_related:
+    label: hidden
+    weight: 31
+    type: entity_reference_label
+    settings:
+      link: true
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden:
+  body: true

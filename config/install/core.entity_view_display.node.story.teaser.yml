@@ -1,10 +1,11 @@
-uuid: 33467df5-f926-4465-a63c-60e65ee04984
+uuid: 9f991d0c-41ce-475f-b07a-5528ee3d7322
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.story.body
+    - field.field.node.story.field_related
     - node.type.story
   module:
     - text
@@ -20,6 +21,13 @@ content:
     weight: 101
     settings:
       trim_length: 600
+    third_party_settings: {  }
+  field_related:
+    label: hidden
+    weight: 31
+    type: entity_reference_label
+    settings:
+      link: true
     third_party_settings: {  }
   links:
     weight: 100

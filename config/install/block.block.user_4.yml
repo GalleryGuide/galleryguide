@@ -1,4 +1,4 @@
-uuid: 2e356b6e-76b5-4d52-b744-689ae5ccf215
+uuid: 40c92a13-e360-4a3b-9291-8a8f849ca5d5
 langcode: en
 status: true
 dependencies:
@@ -19,7 +19,7 @@ settings:
   id: 'system_menu_block:tools'
   label: ''
   provider: system
-  label_display: visible
+  label_display: '0'
   level: 1
   depth: 0
 visibility:
@@ -28,7 +28,7 @@ visibility:
     roles:
       authenticated: authenticated
       editor: editor
-      administrator: administrator
+      administrator1: administrator1
     context_mapping:
       user: '@user.current_user_context:current_user'
     negate: false

@@ -1,4 +1,4 @@
-uuid: ed5f3fba-6bcf-425f-b700-a11d421759ee
+uuid: 11b944ea-ea04-4752-a233-a547a4e64bbb
 langcode: en
 status: true
 dependencies:
@@ -18,7 +18,7 @@ settings:
   id: 'system_menu_block:menu-galleries'
   label: ''
   provider: system
-  label_display: visible
+  label_display: '0'
   level: 1
   depth: 0
 visibility:

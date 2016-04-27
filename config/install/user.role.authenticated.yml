@@ -1,4 +1,4 @@
-uuid: 559e31a2-2b12-4c3a-9100-aac2df7c6c79
+uuid: 7b045758-1408-45e5-a4bd-47b4dcc120cb
 langcode: en
 status: true
 dependencies: {  }
@@ -75,3 +75,4 @@ permissions:
   - 'use advanced search'
   - 'access user profiles'
   - 'change own username'
+  - 'use text format filtered_html'

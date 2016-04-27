@@ -1,9 +1,7 @@
-uuid: f5f940b3-433f-48a3-8b00-f2f63de96985
+uuid: 9520207f-8ead-4914-ae5e-4673e3a420f0
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: 0IOYPV5656PLxixi8H81axEcGBkd2BY0_4ur4F0fW_M
 name: Artist
 type: artist
 description: 'Artist information, with biography'

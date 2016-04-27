@@ -1,0 +1,38 @@
+uuid: 725c7ee6-164e-4366-a86f-c8226eb1b042
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.artists.field_image
+    - field.field.taxonomy_term.artists.field_tags
+    - taxonomy.vocabulary.artists
+  module:
+    - image
+    - text
+id: taxonomy_term.artists.default
+targetEntityType: taxonomy_term
+bundle: artists
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+  field_image:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_tags:
+    weight: 2
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+hidden: {  }

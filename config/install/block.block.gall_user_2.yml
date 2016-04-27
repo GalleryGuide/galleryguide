@@ -1,0 +1,20 @@
+uuid: 7831504e-de1e-4ecd-81c1-bfedbfdb7716
+langcode: en
+status: false
+dependencies:
+  module:
+    - user
+  theme:
+    - gall
+id: gall_user_2
+theme: gall
+region: '-1'
+weight: -2
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'Log in'
+  provider: user
+  label_display: visible
+visibility: {  }

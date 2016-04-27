@@ -1,0 +1,25 @@
+uuid: 8bb73458-9bc9-45d4-b822-5b39a3a0ed42
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:148b0002-9568-46cd-b3c0-02a6d86a62b5'
+  module:
+    - block_content
+  theme:
+    - gall
+id: gall_block_2
+theme: gall
+region: '-1'
+weight: 3
+provider: null
+plugin: 'block_content:148b0002-9568-46cd-b3c0-02a6d86a62b5'
+settings:
+  id: 'block_content:148b0002-9568-46cd-b3c0-02a6d86a62b5'
+  label: ''
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

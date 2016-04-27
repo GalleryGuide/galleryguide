@@ -1,11 +1,9 @@
-uuid: 614fac09-43c3-4f61-b304-4d09ace62c24
+uuid: 22ad1a3b-8b5d-42e4-973f-87b7bf3fc2ea
 langcode: en
 status: true
 dependencies:
   module:
     - node
-_core:
-  default_config_hash: mryD0_eOncpyw4zkHtmZgAn2faWJSWAbgyW0I0FjVMI
 id: node.field_admission_conc
 field_name: field_admission_conc
 entity_type: node

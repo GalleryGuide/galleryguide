@@ -1,4 +1,4 @@
-uuid: 0dde4c9d-7b58-41fd-984b-75cbea2dcce0
+uuid: 3fcfe59d-3740-4be4-bed8-a40e97d45bb3
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
   module:
     - text
     - user
+_core:
+  default_config_hash: rN2zrScZAJ9xB16hm_Deb9QJKy6JXnn0PdI2n5Z3KRs
 id: node.page.teaser
 targetEntityType: node
 bundle: page
@@ -17,10 +19,10 @@ content:
   body:
     label: hidden
     type: text_summary_or_trimmed
-    weight: 101
+    weight: 100
     settings:
       trim_length: 600
     third_party_settings: {  }
   links:
-    weight: 100
+    weight: 101
 hidden: {  }

@@ -1,0 +1,22 @@
+uuid: 0e78d9ae-88c8-41aa-a49a-ffb2087b08b6
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gall
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: gall_messages
+theme: gall
+region: content_top
+weight: -12
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

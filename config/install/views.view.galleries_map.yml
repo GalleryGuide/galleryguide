@@ -1,9 +1,11 @@
-uuid: af0a5515-5d0a-4533-b636-5468fb1cf729
+uuid: df70ca9c-f0b7-4b47-b3e1-2d7c26c028e7
 langcode: en
 status: true
 dependencies:
   config:
+    - field.storage.node.field_location
     - node.type.gallery
+    - system.menu.main
   module:
     - geolocation
     - node
@@ -49,28 +51,25 @@ display:
           sort_asc_label: Asc
           sort_desc_label: Desc
       pager:
-        type: full
+        type: none
         options:
-          items_per_page: 50
+          items_per_page: null
           offset: 0
-          id: 0
-          total_pages: null
-          expose:
-            items_per_page: false
-            items_per_page_label: 'Items per page'
-            items_per_page_options: '5, 10, 25, 50'
-            items_per_page_options_all: false
-            items_per_page_options_all_label: '- All -'
-            offset: false
-            offset_label: Offset
-          tags:
-            previous: '‹ Previous'
-            next: 'Next ›'
-            first: '« First'
-            last: 'Last »'
-          quantity: 9
       style:
         type: maps_common
+        options:
+          geolocation_field: field_location
+          title_field: title
+          centre:
+            first_row:
+              enable: true
+              weight: 0
+            fixed_value:
+              enable: true
+              weight: 0
+              settings:
+                latitude: ''
+                longitude: ''
       row:
         type: fields
       fields:
@@ -121,6 +120,68 @@ display:
           multi_type: separator
           separator: ', '
           field_api_classes: false
+        field_location:
+          id: field_location
+          table: node__field_location
+          field: field_location
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: ''
+          type: geolocation_latlng
+          settings: {  }
+          group_column: ''
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: geolocation_field
       filters:
         status:
           value: true
@@ -142,36 +203,23 @@ display:
           entity_type: node
           entity_field: type
           plugin_id: bundle
-      sorts:
-        title:
-          id: title
-          table: node_field_data
-          field: title
-          order: DESC
-          entity_type: node
-          entity_field: title
-          plugin_id: standard
-          relationship: none
-          group_type: group
-          admin_label: ''
-          exposed: false
-          expose:
-            label: ''
-      title: Galleries
+      sorts: {  }
+      title: 'Galleries Map'
       header: {  }
       footer: {  }
       empty: {  }
       relationships: {  }
       arguments: {  }
+      display_extenders: {  }
     cache_metadata:
       max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
-        - url.query_args
         - 'user.node_grants:view'
         - user.permissions
-      tags: {  }
+      tags:
+        - 'config:field.storage.node.field_location'
   page_1:
     display_plugin: page
     id: page_1
@@ -180,12 +228,16 @@ display:
     display_options:
       display_extenders: {  }
       path: galleries
+      menu:
+        type: normal
+        title: Galleries
+        menu_name: main
     cache_metadata:
       max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
-        - url.query_args
         - 'user.node_grants:view'
         - user.permissions
-      tags: {  }
+      tags:
+        - 'config:field.storage.node.field_location'

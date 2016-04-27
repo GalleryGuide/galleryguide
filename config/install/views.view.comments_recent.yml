@@ -1,9 +1,10 @@
-uuid: 7e874770-9d75-42a0-b100-d19358bc1d12
+uuid: 671d27cb-56bd-44e4-a1c9-eff464ce5aae
 langcode: en
 status: true
 dependencies:
   module:
     - comment
+    - node
     - user
 _core:
   default_config_hash: jmfZ73IDUpneecqVXUK3whGzTcvwLBBll9U3ZTCzndo

@@ -1,4 +1,4 @@
-uuid: a7c9a98e-f1c1-4174-9c05-5ebafb804007
+uuid: 38b178cc-c778-4394-b16d-b97419e589fa
 langcode: en
 status: true
 dependencies:
@@ -12,6 +12,8 @@ dependencies:
     - link
     - text
     - user
+_core:
+  default_config_hash: LLAieeozVsoZDb-2PbFxRJpQqnKmpR7-4OoRJnduz-U
 id: user.user.default
 targetEntityType: user
 bundle: user
@@ -28,20 +30,22 @@ content:
     settings:
       size: 60
       placeholder: ''
-    weight: 8
+    weight: 9
     third_party_settings: {  }
   profile_website:
     type: link_default
     settings:
       placeholder_url: ''
       placeholder_title: ''
-    weight: 7
+    weight: 8
     third_party_settings: {  }
+  timezone:
+    weight: 6
   user_picture:
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
     type: image_image
-    weight: 6
+    weight: 7
     third_party_settings: {  }
 hidden: {  }

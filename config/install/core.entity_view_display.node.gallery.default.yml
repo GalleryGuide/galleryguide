@@ -1,25 +1,23 @@
-uuid: f55ac8e5-623e-47d5-b550-802bdb5b89c4
+uuid: 59060fa0-6789-42e1-abed-7cabaef8d430
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.gallery.artists
-    - field.field.node.gallery.artists1
     - field.field.node.gallery.body
     - field.field.node.gallery.comment_no_subject
     - field.field.node.gallery.field_admission_conc
     - field.field.node.gallery.field_admission_std
+    - field.field.node.gallery.field_associated
     - field.field.node.gallery.field_email
     - field.field.node.gallery.field_facilities
-    - field.field.node.gallery.field_gallery_address
-    - field.field.node.gallery.field_gallery_location
     - field.field.node.gallery.field_images
+    - field.field.node.gallery.field_location
+    - field.field.node.gallery.field_owner
     - field.field.node.gallery.field_website
-    - field.field.node.gallery.tags
     - field.field.node.gallery.tags1
     - node.type.gallery
   module:
-    - address
     - geolocation
     - image
     - link
@@ -32,23 +30,16 @@ bundle: gallery
 mode: default
 content:
   artists:
-    type: entity_reference_label
-    weight: 7
     label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-  artists1:
-    label: hidden
     type: entity_reference_label
-    weight: 6
+    weight: 10
     settings:
       link: true
     third_party_settings: {  }
   body:
+    label: hidden
     type: text_default
     weight: 1
-    label: visually_hidden
     settings: {  }
     third_party_settings: {  }
   comment:
@@ -59,7 +50,7 @@ content:
     third_party_settings: {  }
   field_admission_conc:
     type: number_decimal
-    weight: 10
+    weight: 7
     label: above
     settings:
       thousand_separator: ''
@@ -69,7 +60,7 @@ content:
     third_party_settings: {  }
   field_admission_std:
     type: number_decimal
-    weight: 9
+    weight: 6
     label: above
     settings:
       thousand_separator: ''
@@ -77,44 +68,52 @@ content:
       scale: 2
       prefix_suffix: true
     third_party_settings: {  }
+  field_associated:
+    type: entity_reference_label
+    weight: 8
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
   field_email:
     type: email_mailto
-    weight: 11
+    weight: 5
     label: above
     settings: {  }
     third_party_settings: {  }
   field_facilities:
     type: list_default
-    weight: 8
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-  field_gallery_address:
-    type: address_default
-    weight: 2
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-  field_gallery_location:
-    type: geolocation_map
     weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+  field_images:
+    type: image
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+  field_location:
+    weight: 21
     label: visually_hidden
     settings:
       type: ROADMAP
-      zoom: '14'
+      zoom: '13'
       height: 400px
       width: 100%
       info_text: ''
       info_auto_display: '1'
       title: ''
     third_party_settings: {  }
-  field_images:
-    type: image
-    weight: 0
-    label: visually_hidden
+    type: geolocation_map
+  field_owner:
+    type: entity_reference_label
+    weight: 2
+    label: above
     settings:
-      image_style: ''
-      image_link: ''
+      link: true
     third_party_settings: {  }
   field_website:
     type: link
@@ -128,20 +127,13 @@ content:
       target: ''
     third_party_settings: {  }
   links:
-    weight: 13
+    weight: 11
     settings: {  }
     third_party_settings: {  }
-  tags:
-    type: entity_reference_label
-    weight: 5
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
   tags1:
-    label: hidden
+    label: above
     type: entity_reference_label
-    weight: 12
+    weight: 9
     settings:
       link: true
     third_party_settings: {  }

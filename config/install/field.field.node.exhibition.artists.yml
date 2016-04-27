@@ -1,4 +1,4 @@
-uuid: f064de1b-bcb9-486f-8f00-be53f0e08998
+uuid: 59ecb4b3-e679-4f7e-9c12-8fc100975756
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,6 @@ dependencies:
     - field.storage.node.artists
     - node.type.exhibition
     - taxonomy.vocabulary.artists
-_core:
-  default_config_hash: UyamXElq-EhhAVL0ZF-qCIhcnPQRfVvDHa48qPSv-qw
 id: node.exhibition.artists
 field_name: artists
 entity_type: node

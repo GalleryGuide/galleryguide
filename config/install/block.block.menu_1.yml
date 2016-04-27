@@ -1,4 +1,4 @@
-uuid: 8003b42f-b20f-42be-8e00-ed9a23e99af7
+uuid: 6ed10dd0-2e0d-4504-a6eb-71bcfc2df121
 langcode: en
 status: true
 dependencies:
@@ -16,7 +16,7 @@ provider: null
 plugin: 'system_menu_block:secondary-links'
 settings:
   id: 'system_menu_block:secondary-links'
-  label: ''
+  label: '<none>'
   provider: system
   label_display: visible
   level: 1

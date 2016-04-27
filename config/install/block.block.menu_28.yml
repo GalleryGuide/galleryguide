@@ -1,4 +1,4 @@
-uuid: 8b02027a-0ec5-4b9e-8f00-e78746a9085b
+uuid: 2770bb0c-a5d4-4902-8996-2dd44a10ce4f
 langcode: en
 status: true
 dependencies:
@@ -18,7 +18,7 @@ settings:
   id: 'system_menu_block:menu-exhibitions'
   label: ''
   provider: system
-  label_display: visible
+  label_display: '0'
   level: 1
   depth: 0
 visibility:

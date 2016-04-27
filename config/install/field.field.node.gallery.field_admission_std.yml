@@ -1,12 +1,10 @@
-uuid: 547bc672-9d00-4322-8800-f712fb854b5f
+uuid: 51e9ee23-9a44-491e-a685-f5f8691c3147
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_admission_std
     - node.type.gallery
-_core:
-  default_config_hash: fkEyedvFpd7zYRJXv6_yFEr4MtiSLxIIIylp2QCUJC8
 id: node.gallery.field_admission_std
 field_name: field_admission_std
 entity_type: node

@@ -1,0 +1,27 @@
+uuid: 9d9bf095-f557-40f3-8a1d-e5f9ad3c33c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.rss
+    - field.field.node.story.body
+    - field.field.node.story.field_related
+    - node.type.story
+  module:
+    - user
+id: node.story.rss
+targetEntityType: node
+bundle: story
+mode: rss
+content:
+  field_related:
+    label: hidden
+    weight: 31
+    type: entity_reference_label
+    settings:
+      link: true
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden:
+  body: true

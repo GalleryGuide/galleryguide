@@ -1,12 +1,10 @@
-uuid: 46db3f8b-db31-4b1b-b900-f96ec3ce985a
+uuid: 0f2266ce-5189-4f7a-9286-0b328a41c438
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_admission_conc
     - node.type.exhibition
-_core:
-  default_config_hash: X0RZfKOMaJjgr1cQUdXIkttewUIt84FkVsd5ZOGfBtI
 id: node.exhibition.field_admission_conc
 field_name: field_admission_conc
 entity_type: node

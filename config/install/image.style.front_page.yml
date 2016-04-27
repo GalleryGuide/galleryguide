@@ -1,12 +1,12 @@
-uuid: b050cd46-2301-47ba-b800-db1a06cdf50a
+uuid: eb0e94dd-8983-4bdc-a66f-a3eb4fdb51e8
 langcode: en
 status: true
 dependencies: {  }
 name: front_page
-label: 'Front Page (540×315)'
+label: front_page
 effects:
-  fce4d67b-c5d4-44ef-801a-269e50135ae6:
-    uuid: fce4d67b-c5d4-44ef-801a-269e50135ae6
+  acb59dc5-f8c2-43af-9de7-14c139a37268:
+    uuid: acb59dc5-f8c2-43af-9de7-14c139a37268
     id: image_scale_and_crop
     weight: -10
     data:

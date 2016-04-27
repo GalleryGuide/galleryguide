@@ -1,10 +1,10 @@
-uuid: cb75b59f-2665-4def-b200-faacfa4da11b
+uuid: cc08b50d-3aad-44be-bf7d-22ba161a048b
 langcode: en
 status: true
 dependencies: {  }
 id: editor
 label: editor
-weight: 2
+weight: 3
 is_admin: null
 permissions:
   - 'view addthis'
@@ -27,3 +27,5 @@ permissions:
   - 'create story content'
   - 'search content'
   - 'use advanced search'
+  - 'use text format filtered_html'
+  - 'use text format full_html1'

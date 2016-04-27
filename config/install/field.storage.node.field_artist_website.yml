@@ -1,12 +1,10 @@
-uuid: 8ff865ff-4ec5-4534-b200-e12ae34fcd7b
+uuid: 10f56a29-80ce-425e-af4d-0108ad080a54
 langcode: en
 status: true
 dependencies:
   module:
     - link
     - node
-_core:
-  default_config_hash: wlZii1ifBlj-sDTL6NvPFoYTHqJ_GquWzTAHAsBk6Yc
 id: node.field_artist_website
 field_name: field_artist_website
 entity_type: node

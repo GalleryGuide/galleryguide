@@ -1,4 +1,4 @@
-uuid: 6d10e7a5-84d0-44d2-b900-c44023085394
+uuid: c87389a7-a6c7-41e6-92ac-f32470c4032b
 langcode: en
 status: true
 dependencies:
@@ -18,7 +18,7 @@ settings:
   id: 'system_menu_block:secondary-links'
   label: ''
   provider: system
-  label_display: visible
+  label_display: '0'
   level: 1
   depth: 0
 visibility: {  }

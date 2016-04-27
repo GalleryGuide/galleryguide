@@ -1,4 +1,4 @@
-uuid: 75e6c7ea-14dc-466b-ac00-ff5c3f58cf25
+uuid: e3b14866-f91a-4482-a7f6-4f356cdf9206
 langcode: en
 status: true
 dependencies:
@@ -16,5 +16,5 @@ settings:
   id: user_login_block
   label: ''
   provider: user
-  label_display: visible
+  label_display: '0'
 visibility: {  }

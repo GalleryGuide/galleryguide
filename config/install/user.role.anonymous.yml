@@ -1,4 +1,4 @@
-uuid: 84eceedf-3117-4e18-923e-62b53123e000
+uuid: 84b56ae9-0275-4d55-823f-2c804da32d90
 langcode: en
 status: true
 dependencies: {  }
@@ -35,3 +35,4 @@ permissions:
   - 'access content'
   - 'search content'
   - 'use advanced search'
+  - 'use text format filtered_html'

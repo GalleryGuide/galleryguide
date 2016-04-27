@@ -1,4 +1,4 @@
-uuid: fe01f4dc-622d-48f4-9500-bf876466889a
+uuid: 8006a35e-7d61-4645-9105-c95cebd0a953
 langcode: en
 status: true
 dependencies:
@@ -18,7 +18,7 @@ settings:
   id: 'system_menu_block:menu-articles'
   label: ''
   provider: system
-  label_display: visible
+  label_display: '0'
   level: 1
   depth: 0
 visibility:

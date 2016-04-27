@@ -1,12 +1,10 @@
-uuid: 8e94783f-04b0-4b98-aa57-87260213ae7c
+uuid: f19e40bc-d234-477a-aae0-c7bdf491e38c
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_email
     - node.type.gallery
-_core:
-  default_config_hash: '-tyA5ZDBwRJ6j13ESpCtVQpX-SwJPjKe-wzecR6_FwY'
 id: node.gallery.field_email
 field_name: field_email
 entity_type: node

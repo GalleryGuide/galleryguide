@@ -1,4 +1,4 @@
-uuid: 9b38f579-d7f6-433b-9708-8b0f44091e75
+uuid: e589c10e-fdcb-480b-b403-5b951e1ba8ca
 langcode: en
 status: true
 dependencies:
@@ -14,6 +14,6 @@ settings:
   id: broken
   label: ''
   provider: core
-  label_display: visible
+  label_display: '0'
   block_count: 5
 visibility: {  }

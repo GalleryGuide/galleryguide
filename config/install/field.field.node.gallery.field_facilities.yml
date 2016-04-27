@@ -1,4 +1,4 @@
-uuid: d0dbc575-1de9-4eb3-a500-ee1a428ca2b3
+uuid: 2f1e740b-14ab-45c2-b6ec-b335d1e66ac9
 langcode: en
 status: true
 dependencies:
@@ -7,8 +7,6 @@ dependencies:
     - node.type.gallery
   module:
     - options
-_core:
-  default_config_hash: 1zSfXBmOQ2Yx_E6yQeXM9NIJBj495yAED2lx1EgP9DE
 id: node.gallery.field_facilities
 field_name: field_facilities
 entity_type: node

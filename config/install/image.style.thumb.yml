@@ -1,12 +1,12 @@
-uuid: 2b389737-020a-45ee-ad00-e1d96f63cecd
+uuid: 085ed708-9b5e-43db-9ceb-b4b3a4ff518f
 langcode: en
 status: true
 dependencies: {  }
 name: thumb
-label: 'Thumbnail (140×140)'
+label: thumb
 effects:
-  3f6c5abf-534d-4aa8-8200-be423f525a04:
-    uuid: 3f6c5abf-534d-4aa8-8200-be423f525a04
+  a47bdb7d-8a23-4970-b1b9-c0078469464c:
+    uuid: a47bdb7d-8a23-4970-b1b9-c0078469464c
     id: image_scale_and_crop
     weight: 0
     data:

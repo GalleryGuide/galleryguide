@@ -1,0 +1,28 @@
+uuid: ada7a9aa-c282-4c4c-bfa8-4561fceae8a5
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.menu-articles
+  module:
+    - system
+  theme:
+    - gall
+id: gall_menu_9
+theme: gall
+region: '-1'
+weight: -10
+provider: null
+plugin: 'system_menu_block:menu-articles'
+settings:
+  id: 'system_menu_block:menu-articles'
+  label: ''
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/article*\n/node/add/story"

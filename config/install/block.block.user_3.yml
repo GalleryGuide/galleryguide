@@ -1,4 +1,4 @@
-uuid: 29ccbb98-f006-4a6e-8200-f399ecd872cc
+uuid: 6df7d137-40a5-463b-a32b-6f0e8a31a912
 langcode: en
 status: true
 dependencies:
@@ -8,18 +8,20 @@ dependencies:
     - system
     - user
   theme:
-    - gall
+    - bartik
+_core:
+  default_config_hash: NeHSoqm4XFqA7_0bDmR429ZZQt3LRbZMNRJTMsFyOfI
 id: user_3
-theme: gall
+theme: bartik
 region: content
-weight: -8
+weight: -59
 provider: null
 plugin: 'system_menu_block:tools'
 settings:
   id: 'system_menu_block:tools'
   label: ''
   provider: system
-  label_display: visible
+  label_display: '0'
   level: 1
   depth: 0
 visibility:
@@ -28,7 +30,7 @@ visibility:
     roles:
       authenticated: authenticated
       editor: editor
-      administrator: administrator
+      administrator1: administrator1
     context_mapping:
       user: '@user.current_user_context:current_user'
     negate: false

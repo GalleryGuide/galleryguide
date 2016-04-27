@@ -1,11 +1,9 @@
-uuid: 04813f42-066a-4782-8e03-3bdf96d11b7f
+uuid: 5109c5a7-4efc-4335-81fa-ea3cb085cb56
 langcode: en
 status: true
 dependencies:
   module:
     - node
-_core:
-  default_config_hash: YmJfE6DFPavw6-aEzIBzGXl-wxNlMYQrxDbRCOmFKdo
 id: node.field_admission_std
 field_name: field_admission_std
 entity_type: node

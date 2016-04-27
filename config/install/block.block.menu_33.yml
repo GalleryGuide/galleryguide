@@ -1,4 +1,4 @@
-uuid: 36694d75-5bda-40d3-b401-1d77648b002f
+uuid: 6d0813a5-9e39-4592-8b1f-5baddc9364a1
 langcode: en
 status: true
 dependencies:
@@ -18,7 +18,7 @@ settings:
   id: 'system_menu_block:menu-artists'
   label: ''
   provider: system
-  label_display: visible
+  label_display: '0'
   level: 1
   depth: 0
 visibility:

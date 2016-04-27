@@ -1,17 +1,12 @@
-uuid: 13305dd4-bcf9-4dca-9700-a3dbc01441d1
+uuid: b356a6f9-f252-4d1e-8b06-2afe6e340a77
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.search_result
-    - field.field.node.artist.artists
-    - field.field.node.artist.artists1
     - field.field.node.artist.body
-    - field.field.node.artist.comment_no_subject
     - field.field.node.artist.field_artist_website
     - field.field.node.artist.field_images
-    - field.field.node.artist.tags
-    - field.field.node.artist.tags1
     - node.type.artist
   module:
     - image
@@ -52,9 +47,4 @@ content:
   links:
     weight: 100
 hidden:
-  artists: true
-  artists1: true
   body: true
-  comment_no_subject: true
-  tags: true
-  tags1: true

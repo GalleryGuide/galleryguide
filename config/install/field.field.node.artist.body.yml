@@ -1,4 +1,4 @@
-uuid: 3ccd19a1-0f6d-43bb-b900-a8a81bff5d0e
+uuid: aab7ae8d-2537-4d2f-a9c3-4b43b4b5bcca
 langcode: en
 status: true
 dependencies:
@@ -7,8 +7,6 @@ dependencies:
     - node.type.artist
   module:
     - text
-_core:
-  default_config_hash: nr-Khlok9ffuS2-c9nF0Gyvas5jDXK6na9gFptmVTIU
 id: node.artist.body
 field_name: body
 entity_type: node

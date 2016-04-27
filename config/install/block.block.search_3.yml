@@ -1,4 +1,4 @@
-uuid: 22ada2f5-5ccb-4d03-9000-0c9dc677858b
+uuid: 7a32d1cf-455a-4de9-a684-93262c6f28ef
 langcode: en
 status: true
 dependencies:
@@ -16,5 +16,5 @@ settings:
   id: search_form_block
   label: ''
   provider: search
-  label_display: visible
+  label_display: '0'
 visibility: {  }

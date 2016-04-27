@@ -1,22 +1,22 @@
-uuid: d95bd75f-ac59-4d42-a909-0984865ce4ad
+uuid: 821bc40f-c23e-4e55-a1b1-9ab9e81b2ab8
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.secondary-links
   module:
     - system
   theme:
-    - gall
+    - bartik
 id: menu_3
-theme: gall
-region: footer
-weight: -8
+theme: bartik
+region: '-1'
+weight: -60
 provider: null
 plugin: 'system_menu_block:secondary-links'
 settings:
   id: 'system_menu_block:secondary-links'
-  label: ''
+  label: '<none>'
   provider: system
   label_display: visible
   level: 1

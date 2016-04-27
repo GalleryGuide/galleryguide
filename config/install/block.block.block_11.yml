@@ -1,9 +1,9 @@
-uuid: 8458c975-f193-45b3-8a08-8e1df22b6bad
+uuid: c5b6e178-1360-4be8-a0a2-8d29a90b1612
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:8ea776f0-ecbe-4d70-ab07-7bccb5396b23'
+    - 'block_content:basic:8f6db65a-e2ad-4154-88a6-7587c86272b0'
   module:
     - block_content
     - system
@@ -14,12 +14,12 @@ theme: seven
 region: sidebar_first
 weight: -53
 provider: null
-plugin: 'block_content:8ea776f0-ecbe-4d70-ab07-7bccb5396b23'
+plugin: 'block_content:8f6db65a-e2ad-4154-88a6-7587c86272b0'
 settings:
-  id: 'block_content:8ea776f0-ecbe-4d70-ab07-7bccb5396b23'
+  id: 'block_content:8f6db65a-e2ad-4154-88a6-7587c86272b0'
   label: ''
   provider: block_content
-  label_display: visible
+  label_display: '0'
   status: true
   info: ''
   view_mode: full

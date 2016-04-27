@@ -1,0 +1,32 @@
+uuid: f7b09588-76e8-420a-8625-9ea73dac8f07
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.exhibitions_this_gallery
+  module:
+    - node
+    - views
+  theme:
+    - gall
+id: views_block__exhibitions_this_gallery_future
+theme: gall
+region: content_bottom
+weight: -17
+provider: null
+plugin: 'views_block:exhibitions_this_gallery-future'
+settings:
+  id: 'views_block:exhibitions_this_gallery-future'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      gallery: gallery
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

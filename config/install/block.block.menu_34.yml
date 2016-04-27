@@ -1,4 +1,4 @@
-uuid: e624de81-f3e3-4790-8109-9af745f89cb4
+uuid: 9a8f0a7d-48bf-4010-abd3-cf2fa923eb8a
 langcode: en
 status: true
 dependencies:
@@ -18,7 +18,7 @@ settings:
   id: 'system_menu_block:menu-events'
   label: ''
   provider: system
-  label_display: visible
+  label_display: '0'
   level: 1
   depth: 0
 visibility:

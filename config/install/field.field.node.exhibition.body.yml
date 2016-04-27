@@ -1,4 +1,4 @@
-uuid: 4d988830-9e9f-4ac4-be00-e39a9d41ac97
+uuid: 5fecf27f-70a2-423d-a59a-13b9b637f26d
 langcode: en
 status: true
 dependencies:
@@ -7,8 +7,6 @@ dependencies:
     - node.type.exhibition
   module:
     - text
-_core:
-  default_config_hash: K-LLNVxUvk6vfvOxq4R5kHISCAPBF2U8IBfdCzys9wc
 id: node.exhibition.body
 field_name: body
 entity_type: node

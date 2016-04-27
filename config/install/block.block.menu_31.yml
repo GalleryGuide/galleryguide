@@ -1,4 +1,4 @@
-uuid: f77e471e-9b83-4b61-a400-c66bef6e7017
+uuid: 0643f4d4-1106-4087-b730-c98600ebd692
 langcode: en
 status: true
 dependencies:
@@ -16,7 +16,7 @@ provider: null
 plugin: 'system_menu_block:menu-mobile'
 settings:
   id: 'system_menu_block:menu-mobile'
-  label: ''
+  label: '<none>'
   provider: system
   label_display: visible
   level: 1

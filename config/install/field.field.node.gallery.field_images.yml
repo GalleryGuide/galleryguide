@@ -1,4 +1,4 @@
-uuid: 7781b233-7c5d-455f-9d00-a381b624d61c
+uuid: 4f953233-98f8-4bd3-803a-0c31d8f7943a
 langcode: en
 status: true
 dependencies:
@@ -7,8 +7,6 @@ dependencies:
     - node.type.gallery
   module:
     - image
-_core:
-  default_config_hash: 8FxxvqxjcyZYcjY5OvU48MpXcML5kObvhUXCG8vEsQw
 id: node.gallery.field_images
 field_name: field_images
 entity_type: node
@@ -20,21 +18,21 @@ translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
+  file_directory: 'public:'
   file_extensions: 'png gif jpg jpeg'
-  file_directory: ''
   max_filesize: ''
+  max_resolution: 600x600
+  min_resolution: ''
   alt_field: false
   alt_field_required: false
   title_field: false
   title_field_required: false
-  max_resolution: 600x600
-  min_resolution: ''
   default_image:
-    uuid: null
+    uuid: 0eef2991-24bf-4fe8-a53c-4b8ee9a5f1c5
     alt: ''
     title: ''
-    width: null
-    height: null
+    width: 300
+    height: 300
   handler: 'default:file'
   handler_settings: {  }
 field_type: image

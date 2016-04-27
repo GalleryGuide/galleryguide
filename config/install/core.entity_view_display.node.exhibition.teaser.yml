@@ -1,28 +1,36 @@
-uuid: 3126127a-85ee-49e4-bb27-399a87c44a45
+uuid: adf73242-9027-4370-848f-767636d5aa8d
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.exhibition.artists
-    - field.field.node.exhibition.artists1
     - field.field.node.exhibition.body
     - field.field.node.exhibition.comment_no_subject
     - field.field.node.exhibition.field_admission_conc
     - field.field.node.exhibition.field_admission_std
+    - field.field.node.exhibition.field_date_from
+    - field.field.node.exhibition.field_date_to
+    - field.field.node.exhibition.field_exhib_gallery
     - field.field.node.exhibition.field_exhib_website
-    - field.field.node.exhibition.field_gallery
     - field.field.node.exhibition.field_images
-    - field.field.node.exhibition.tags
     - field.field.node.exhibition.tags1
     - node.type.exhibition
   module:
+    - text
     - user
 id: node.exhibition.teaser
 targetEntityType: node
 bundle: exhibition
 mode: teaser
 content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
   field_exhib_dates:
     label: hidden
     weight: 2
@@ -31,17 +39,22 @@ content:
       format_type: fallback
       timezone_override: ''
     third_party_settings: {  }
+  field_exhib_gallery:
+    label: hidden
+    weight: 0
+    type: entity_reference_label
+    settings:
+      link: true
+    third_party_settings: {  }
   links:
     weight: 100
 hidden:
   artists: true
-  artists1: true
-  body: true
   comment_no_subject: true
   field_admission_conc: true
   field_admission_std: true
+  field_date_from: true
+  field_date_to: true
   field_exhib_website: true
-  field_gallery: true
   field_images: true
-  tags: true
   tags1: true

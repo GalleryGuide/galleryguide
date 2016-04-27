@@ -1,4 +1,4 @@
-uuid: b71061f2-c320-4417-b707-7d2a1fb5d426
+uuid: 138370c4-cdd2-4dac-9490-e95c6ec95e7e
 langcode: en
 status: true
 dependencies:
@@ -16,7 +16,7 @@ provider: null
 plugin: 'system_menu_block:primary-links'
 settings:
   id: 'system_menu_block:primary-links'
-  label: ''
+  label: '<none>'
   provider: system
   label_display: visible
   level: 1

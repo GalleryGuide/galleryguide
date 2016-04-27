@@ -1,0 +1,22 @@
+uuid: 77c5393e-b60a-4669-80d7-e84541dbb188
+langcode: en
+status: true
+dependencies:
+  theme:
+    - gall
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: gall_local_tasks
+theme: gall
+region: content
+weight: -13
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,14 +1,14 @@
-uuid: 9da21b71-cbb3-43b4-ae00-d98c4358999f
+uuid: 14842af9-4f0a-4fd5-8d44-7ef8ca65f67b
 name: 'The Gallery Guide'
 mail: info@thegalleryguide.co.uk
 slogan: ''
 page:
-  403: /toboggan/denied
-  404: /search404
-  front: /home
+  403: ''
+  404: ''
+  front: /frontpage
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en
 default_langcode: en
 _core:
-  default_config_hash: ajVryzrJL1bbzrXsEOG88MvVH7UblaPbEtoxi5MV9f4
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

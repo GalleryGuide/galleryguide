@@ -1,11 +1,12 @@
-uuid: 6db9a8f7-936f-4972-9811-179cd46c1f95
+uuid: cd10d2af-d6a3-48d2-a841-fa5ec40af9ec
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.story.artists1
+    - field.field.node.story.artists
     - field.field.node.story.body
     - field.field.node.story.comment
+    - field.field.node.story.field_related
     - node.type.story
   module:
     - comment
@@ -16,7 +17,7 @@ targetEntityType: node
 bundle: story
 mode: default
 content:
-  artists1:
+  artists:
     label: hidden
     type: entity_reference_label
     weight: 20
@@ -35,6 +36,13 @@ content:
     weight: 20
     settings:
       pager_id: 0
+    third_party_settings: {  }
+  field_related:
+    label: hidden
+    weight: 31
+    type: entity_reference_label
+    settings:
+      link: true
     third_party_settings: {  }
   links:
     weight: 100

@@ -1,30 +1,16 @@
-uuid: 172ccc13-ec4d-4ec0-8900-b38b42415c13
+uuid: b716268e-a0dc-434f-a207-3cbd62cc953f
 langcode: en
 status: true
 dependencies:
   module:
     - node
     - options
-_core:
-  default_config_hash: TRI7O0X7cvSGL8UPrztYR-m9j4hixxH5PmwJelfJvq4
 id: node.field_facilities
 field_name: field_facilities
 entity_type: node
 type: list_string
 settings:
-  allowed_values:
-    -
-      value: Cafe
-      label: Cafe
-    -
-      value: Restaurant
-      label: Restaurant
-    -
-      value: Bar
-      label: Bar
-    -
-      value: Shop
-      label: Shop
+  allowed_values: {  }
   allowed_values_function: ''
 module: options
 locked: false
