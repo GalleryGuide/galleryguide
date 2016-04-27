@@ -5,11 +5,13 @@ dependencies:
   config:
     - field.storage.node.field_location
     - node.type.gallery
-    - system.menu.main
+    - system.menu.primary-links
   module:
     - geolocation
     - node
     - user
+_core:
+  default_config_hash: ZlQf8Mmkwm99vZ7_6l2CG4-lkfsxNK8DA3Bh23M9pac
 id: galleries_map
 label: 'Galleries Map'
 module: views
@@ -231,6 +233,11 @@ display:
       menu:
         type: normal
         title: Galleries
+        description: ''
+        expanded: true
+        parent: ''
+        weight: -99
+        context: '0'
         menu_name: primary-links
     cache_metadata:
       max-age: -1

@@ -6,13 +6,13 @@ dependencies:
     - field.storage.node.field_images
     - image.style.medium
     - node.type.gallery
-    - system.menu.main
+    - system.menu.primary-links
   module:
     - image
     - node
     - user
 _core:
-  default_config_hash: '-pCFOVfbt__jaohFffTLnVavh4OBC6CjREAnchiRomQ'
+  default_config_hash: EvXDedUC5S992H2UW986HKD_iLcyRi4-XDNVryDTnhQ
 id: galleries_a_z
 label: 'Galleries A-Z'
 module: node
@@ -463,10 +463,13 @@ display:
       path: galleries/a-z
       menu:
         type: normal
-        title: Galleries A-Z
+        title: 'Galleries A-Z'
+        description: ''
+        expanded: false
+        parent: 'views_view:views.galleries_map.page_1'
         weight: 0
+        context: '0'
         menu_name: primary-links
-        parent: ''
       display_extenders: {  }
     cache_metadata:
       contexts:

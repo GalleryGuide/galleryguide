@@ -6,11 +6,13 @@ dependencies:
     - field.storage.node.field_images
     - image.style.medium
     - node.type.gallery
-    - system.menu.main
+    - system.menu.primary-links
   module:
     - image
     - node
     - user
+_core:
+  default_config_hash: OYcvef7S9lM_wOVPJbcX45oa3G5rT2WY9e_U73BVbxs
 id: galleries_new
 label: 'Galleries New'
 module: views
@@ -341,7 +343,12 @@ display:
       path: galleries/new
       menu:
         type: normal
-        title: 'Galleries New'
+        title: 'New Galleries'
+        description: ''
+        expanded: false
+        parent: 'views_view:views.galleries_map.page_1'
+        weight: 0
+        context: '0'
         menu_name: primary-links
     cache_metadata:
       max-age: -1
