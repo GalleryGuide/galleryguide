@@ -5,7 +5,6 @@ dependencies:
   config:
     - field.field.node.gallery.artists
     - field.field.node.gallery.body
-    - field.field.node.gallery.comment_no_subject
     - field.field.node.gallery.field_admission_conc
     - field.field.node.gallery.field_admission_std
     - field.field.node.gallery.field_associated
@@ -155,4 +154,3 @@ content:
       placeholder: ''
     third_party_settings: {  }
 hidden:
-  comment_no_subject: true

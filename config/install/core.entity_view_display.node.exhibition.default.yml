@@ -5,7 +5,6 @@ dependencies:
   config:
     - field.field.node.exhibition.artists
     - field.field.node.exhibition.body
-    - field.field.node.exhibition.comment_no_subject
     - field.field.node.exhibition.field_admission_conc
     - field.field.node.exhibition.field_admission_std
     - field.field.node.exhibition.field_date_from
@@ -128,4 +127,3 @@ content:
       link: true
     third_party_settings: {  }
 hidden:
-  comment_no_subject: true

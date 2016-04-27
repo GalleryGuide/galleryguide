@@ -6,7 +6,6 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.gallery.artists
     - field.field.node.gallery.body
-    - field.field.node.gallery.comment_no_subject
     - field.field.node.gallery.field_admission_conc
     - field.field.node.gallery.field_admission_std
     - field.field.node.gallery.field_associated
@@ -38,7 +37,6 @@ content:
 hidden:
   artists: true
   body: true
-  comment_no_subject: true
   field_admission_conc: true
   field_admission_std: true
   field_associated: true
