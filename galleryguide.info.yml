@@ -3,3 +3,54 @@ type: profile
 description: 'Installation profile for The Gallery Guide.'
 version: VERSION
 core: 8.x
+dependencies:
+  - datetime
+  - node
+  - history
+  - block
+  - breakpoint
+  - ckeditor
+  - color
+  - config
+  - comment
+  - contextual
+  - contact
+  - menu_link_content
+  - datetime
+  - block_content
+  - quickedit
+  - editor
+  - help
+  - image
+  - menu_ui
+  - options
+  - path
+  - page_cache
+  - dynamic_page_cache
+  - taxonomy
+  - dblog
+  - search
+  - shortcut
+  - toolbar
+  - field_ui
+  - file
+  - rdf
+  - search
+  - views
+  - views_ui
+  - tour
+  - automated_cron
+
+  - address
+  - adsense
+  - composer_manager
+  - geolocation
+  - menu_trail_by_path
+  - office_hours
+  - prepopulate
+  
+  
+  
+themes:
+  - gall
+  - adminimal_theme

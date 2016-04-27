@@ -134,6 +134,7 @@ function galleryguide_modules() {
     'views',
     'views_ui',
     'tour',
+    'text',
     'automated_cron',
   );
   
