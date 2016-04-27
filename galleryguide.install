@@ -16,6 +16,9 @@ use Drupal\user\RoleInterface;
  */
 function galleryguide_install() {
   
+  // Enable default modules.
+  galleryguide_modules();
+  
   // Allow visitor account creation with administrative approval.
   $user_settings = \Drupal::configFactory()->getEditable('user.settings');
   $user_settings->set('register', USER_REGISTER_VISITORS)
@@ -87,4 +90,76 @@ function galleryguide_permissions_auth() {
     'skip comment approval',
     'search content',
   );
+}
+
+/**
+ * Enable default modules for the profile.
+ * 
+ * Not using dependencies to allow uninstallation.
+ */
+function galleryguide_modules() {
+  
+  $core_modules = array(
+    'node',    
+    'history',
+    'block',
+    'breakpoint',
+    'ckeditor',
+    'color',
+    'config',
+    'comment',
+    'contextual',
+    'contact',
+    'menu_link_content',
+    'datetime',
+    'block_content',
+    'quickedit',
+    'editor',
+    'help',
+    'image',
+    'menu_ui',
+    'options',
+    'path',
+    'page_cache',
+    'dynamic_page_cache',
+    'taxonomy',
+    'dblog',
+    'search',
+    'shortcut',
+    'toolbar',
+    'field_ui',
+    'file',
+    'rdf',
+    'search',
+    'views',
+    'views_ui',
+    'tour',
+    'automated_cron',
+  );
+  
+  $contrib_modules = array(
+    'address',
+    'adsense',
+    'composer_manager',
+    'geolocation',
+    'menu_trail_by_path',
+    'office_hours',
+    'prepopulate',
+  );
+  
+  $custom_modules = array(
+//    'gallery_migrations',
+  
+  /*
+  exception 'Drupal\Core\Config\UnmetDependenciesException' with message      [error]
+    'Configuration objects (migrate.migration.d6_imagecache_presets,
+    migrate.migration.d6_url_alias, migrate.migration.update_settings,
+    migrate.migration.user_picture_field) provided by gallery_migrations have
+    unmet dependencies' in 
+    */
+  );
+  
+  $module_list = array_merge($core_modules, $contrib_modules, $custom_modules);
+  
+  return \Drupal::service('module_installer')->install($module_list, TRUE);
 }
