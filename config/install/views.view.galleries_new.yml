@@ -342,7 +342,7 @@ display:
       menu:
         type: normal
         title: 'Galleries New'
-        menu_name: main
+        menu_name: primary-links
     cache_metadata:
       max-age: -1
       contexts:

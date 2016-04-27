@@ -463,9 +463,9 @@ display:
       path: galleries/a-z
       menu:
         type: normal
-        title: Glossary
+        title: Galleries A-Z
         weight: 0
-        menu_name: main
+        menu_name: primary-links
         parent: ''
       display_extenders: {  }
     cache_metadata:
