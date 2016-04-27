@@ -8,11 +8,13 @@ dependencies:
     - field.storage.node.field_images
     - image.style.medium
     - node.type.exhibition
-    - system.menu.main
+    - system.menu.primary-links
   module:
     - image
     - node
     - user
+_core:
+  default_config_hash: eOFtgk19tCKcr_Aqby9AxxK3mEXo4VB6dtHidVBnOfg
 id: exhibitions_new
 label: 'Exhibitions New'
 module: views
@@ -506,8 +508,8 @@ display:
         type: normal
         title: 'New Exhibitions'
         description: ''
-        expanded: false
-        parent: ''
+        expanded: true
+        parent: 'views_view:views.exhibitions.page_1'
         weight: 0
         context: '0'
         menu_name: primary-links

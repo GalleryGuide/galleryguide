@@ -6,6 +6,8 @@ dependencies:
     - field.storage.node.tags
     - node.type.gallery
     - taxonomy.vocabulary.tags
+_core:
+  default_config_hash: VbPnDgmTf_xX1rPoAESt4d4fU7cOCj9t_v_wysEoCFo
 id: node.gallery.tags
 field_name: tags
 entity_type: node

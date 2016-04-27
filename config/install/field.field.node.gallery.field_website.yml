@@ -7,6 +7,8 @@ dependencies:
     - node.type.gallery
   module:
     - link
+_core:
+  default_config_hash: mTX4w2sD_JptILcb2yiuyiqKX-Meavs7pRd_HUkjK7c
 id: node.gallery.field_website
 field_name: field_website
 entity_type: node

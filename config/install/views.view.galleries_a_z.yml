@@ -12,7 +12,7 @@ dependencies:
     - node
     - user
 _core:
-  default_config_hash: EvXDedUC5S992H2UW986HKD_iLcyRi4-XDNVryDTnhQ
+  default_config_hash: yQijCuwMD-7pM5QjFjDr2Wr6QHi49aF14gpsYCqpMl0
 id: galleries_a_z
 label: 'Galleries A-Z'
 module: node
@@ -467,7 +467,7 @@ display:
         description: ''
         expanded: false
         parent: 'views_view:views.galleries_map.page_1'
-        weight: 0
+        weight: -50
         context: '0'
         menu_name: primary-links
       display_extenders: {  }

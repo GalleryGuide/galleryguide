@@ -4,6 +4,8 @@ status: true
 dependencies:
   config:
     - node.type.gallery
+_core:
+  default_config_hash: P7p0Ouc-TalObrqNkGw1rI_AWVVjYwiPy48EUIxNamg
 id: node.gallery.sticky
 field_name: sticky
 entity_type: node

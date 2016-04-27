@@ -6,10 +6,13 @@ dependencies:
     - field.storage.node.field_images
     - image.style.medium
     - node.type.exhibition
+    - system.menu.primary-links
   module:
     - image
     - node
     - user
+_core:
+  default_config_hash: etuoVE_15lCTQ3sBcQ3djFVZYEb7wBrGYoc_AwbwPrs
 id: exhibitions
 label: Exhibitions
 module: views
@@ -269,6 +272,15 @@ display:
     display_options:
       display_extenders: {  }
       path: exhibitions
+      menu:
+        type: normal
+        title: Exhibitions
+        description: ''
+        expanded: true
+        parent: ''
+        weight: 0
+        context: '0'
+        menu_name: primary-links
     cache_metadata:
       max-age: -1
       contexts:

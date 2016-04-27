@@ -7,6 +7,8 @@ dependencies:
     - node.type.gallery
   module:
     - text
+_core:
+  default_config_hash: j-o7932Pp9oeoGuAlQj62J_dzp4ol8uq7QdCOVKOxvg
 id: node.gallery.body
 field_name: body
 entity_type: node

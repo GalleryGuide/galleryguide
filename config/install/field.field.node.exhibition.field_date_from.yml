@@ -7,6 +7,8 @@ dependencies:
     - node.type.exhibition
   module:
     - datetime
+_core:
+  default_config_hash: tqHLquBbUSMg_lM9BG4f5NWcvq5Z15MyA0zS4Tjmc6k
 id: node.exhibition.field_date_from
 field_name: field_date_from
 entity_type: node

@@ -4,6 +4,8 @@ status: true
 dependencies:
   config:
     - node.type.gallery
+_core:
+  default_config_hash: BnhFUVlTEp5KEIfaxA2aP2nX-6hnKGL9Oa8z7o3bpDM
 id: node.gallery.promote
 field_name: promote
 entity_type: node

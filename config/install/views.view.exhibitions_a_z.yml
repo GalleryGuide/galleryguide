@@ -14,7 +14,7 @@ dependencies:
     - node
     - user
 _core:
-  default_config_hash: '-pCFOVfbt__jaohFffTLnVavh4OBC6CjREAnchiRomQ'
+  default_config_hash: TCyRPRnhjWS0HUJaEI3TN32hEQrp2Yt3ASPF9t6TDck
 id: exhibitions_a_z
 label: 'Exhibitions A-Z'
 module: node
@@ -565,7 +565,7 @@ display:
         title: 'Exhibitions A-Z'
         description: ''
         expanded: false
-        parent: 'menu_link_content:edacf91c-67c3-4382-8011-788e1e550b72'
+        parent: 'views_view:views.exhibitions.page_1'
         weight: 0
         context: '0'
         menu_name: primary-links

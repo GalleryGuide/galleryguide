@@ -7,6 +7,8 @@ dependencies:
     - node.type.exhibition
   module:
     - text
+_core:
+  default_config_hash: pN_j26XMkQjbdJJ0YP8_yf_xTsSvUxs8fisQBY0WJkI
 id: node.exhibition.body
 field_name: body
 entity_type: node

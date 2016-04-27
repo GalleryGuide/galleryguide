@@ -4,6 +4,8 @@ status: true
 dependencies:
   config:
     - node.type.exhibition
+_core:
+  default_config_hash: H4wUGjSJo91aqdc7-h7m8OaTA2V7edvq-zfUtQgUyGI
 id: node.exhibition.sticky
 field_name: sticky
 entity_type: node

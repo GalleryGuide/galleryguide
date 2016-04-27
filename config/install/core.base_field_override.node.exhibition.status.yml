@@ -4,6 +4,8 @@ status: true
 dependencies:
   config:
     - node.type.exhibition
+_core:
+  default_config_hash: wIYCOBjGNFGycalQSRLLtCmMHPdwI5W0YBSIXr1Bvik
 id: node.exhibition.status
 field_name: status
 entity_type: node

@@ -11,7 +11,7 @@ dependencies:
     - node
     - user
 _core:
-  default_config_hash: ZlQf8Mmkwm99vZ7_6l2CG4-lkfsxNK8DA3Bh23M9pac
+  default_config_hash: egoPfn3FozkHreC63mgVwt-eg9IeWAnae2Z8iX4d3ik
 id: galleries_map
 label: 'Galleries Map'
 module: views
@@ -236,7 +236,7 @@ display:
         description: ''
         expanded: true
         parent: ''
-        weight: -99
+        weight: -50
         context: '0'
         menu_name: primary-links
     cache_metadata:

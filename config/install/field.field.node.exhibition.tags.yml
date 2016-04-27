@@ -6,6 +6,8 @@ dependencies:
     - field.storage.node.tags
     - node.type.exhibition
     - taxonomy.vocabulary.tags
+_core:
+  default_config_hash: zeQ_xdufTuVHvXwO5afqwO3EqGpIWBPbzfOhQHlQH5A
 id: node.exhibition.tags
 field_name: tags
 entity_type: node

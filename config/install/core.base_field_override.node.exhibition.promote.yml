@@ -4,6 +4,8 @@ status: true
 dependencies:
   config:
     - node.type.exhibition
+_core:
+  default_config_hash: odYSxbPM4keyC2hpAvASz_XNJ92NnhXQ92z4ZdMldpc
 id: node.exhibition.promote
 field_name: promote
 entity_type: node

@@ -1,7 +1,15 @@
 uuid: 13b0df5d-00fb-469c-859c-df446a020f57
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: tTVUmWs0BeRBAdzYZ9JZOKpTTJojDjfGkaNjsKwmOkw
 name: Exhibition
 type: exhibition
 description: ''

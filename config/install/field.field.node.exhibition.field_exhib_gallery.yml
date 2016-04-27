@@ -6,6 +6,8 @@ dependencies:
     - field.storage.node.field_exhib_gallery
     - node.type.exhibition
     - node.type.gallery
+_core:
+  default_config_hash: d-pgleknQ32fZXi8GVKW-PbZ8yWmV8C-yO8zNtBQPsw
 id: node.exhibition.field_exhib_gallery
 field_name: field_exhib_gallery
 entity_type: node

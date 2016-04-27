@@ -7,6 +7,8 @@ dependencies:
     - node.type.gallery
   module:
     - options
+_core:
+  default_config_hash: GQqJAfD1aprJYwUhVibdQn_HLhewVJkK0ZX4TyzdXtY
 id: node.gallery.field_facilities
 field_name: field_facilities
 entity_type: node

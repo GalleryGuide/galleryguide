@@ -7,6 +7,8 @@ dependencies:
     - node.type.exhibition
   module:
     - image
+_core:
+  default_config_hash: fvSXocnf0cWSFD6z7bAg0rmZTHcmCyrK3IbiiR4PQD0
 id: node.exhibition.field_images
 field_name: field_images
 entity_type: node
