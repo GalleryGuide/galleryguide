@@ -2,6 +2,8 @@ uuid: c6ee16fe-7881-4b75-b7dc-3abb9094503b
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: ys23m-o60U-OAVjWPZ2c2b4Fjh18r4fxAW6Ue92OsPM
 name: 'Filtered HTML'
 format: filtered_html
 weight: 0
@@ -19,7 +21,7 @@ filters:
     status: true
     weight: -10
     settings:
-      allowed_html: '<a href hreflang> <em> <strong> <cite> <code> <ul type> <ol start type> <li> <dl> <dt> <dd><br><p>'
+      allowed_html: '<a href hreflang> <em> <strong> <cite> <code> <ul type> <ol start type> <li> <dl> <dt> <dd> <br> <p>'
       filter_html_help: true
       filter_html_nofollow: false
   filter_htmlcorrector:

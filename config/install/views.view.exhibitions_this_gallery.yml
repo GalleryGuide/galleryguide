@@ -8,7 +8,7 @@ dependencies:
     - node
     - user
 _core:
-  default_config_hash: QWsd9z3Dmvhi_W-HYNjnJXc5mnPHPIxQudBXx28CDcM
+  default_config_hash: m3PMLY7lYAkXNX5pxTeUliTuYsMsv0tIN1k8ch-qpVg
 id: exhibitions_this_gallery
 label: 'Exhibitions - This Gallery'
 module: views

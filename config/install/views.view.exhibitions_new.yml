@@ -14,7 +14,7 @@ dependencies:
     - node
     - user
 _core:
-  default_config_hash: eOFtgk19tCKcr_Aqby9AxxK3mEXo4VB6dtHidVBnOfg
+  default_config_hash: 2rQ0-1X5GkR_QPEfD1UFpwcQjih0OSNi-3V8QTdeM8w
 id: exhibitions_new
 label: 'Exhibitions New'
 module: views
@@ -258,10 +258,10 @@ display:
           absolute: false
           entity_type: node
           plugin_id: node_path
-        artists:
-          id: artists
-          table: node__artists
-          field: artists
+        field_exhib_gallery:
+          id: field_exhib_gallery
+          table: node__field_exhib_gallery
+          field: field_exhib_gallery
           relationship: none
           group_type: group
           admin_label: ''
@@ -321,10 +321,10 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
-        field_exhib_gallery:
-          id: field_exhib_gallery
-          table: node__field_exhib_gallery
-          field: field_exhib_gallery
+        artists:
+          id: artists
+          table: node__artists
+          field: artists
           relationship: none
           group_type: group
           admin_label: ''
