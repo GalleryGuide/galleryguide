@@ -349,7 +349,7 @@ display:
           tokenize: false
           content:
             value: 'There are no exhibitions listed for this gallery at the moment.'
-            format: basic_html
+            format: filtered_html
           plugin_id: text
       relationships:
         field_exhib_gallery:
