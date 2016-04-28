@@ -7,6 +7,8 @@ dependencies:
     - taxonomy.vocabulary.artists
   module:
     - image
+_core:
+  default_config_hash: t-8UVKUrnfbYk2jozUi3PGR1AGj3_xDM-3hHL5G0fOo
 id: taxonomy_term.artists.field_image
 field_name: field_image
 entity_type: taxonomy_term

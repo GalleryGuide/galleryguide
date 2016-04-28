@@ -1,0 +1,23 @@
+uuid: 7f61bacc-5511-410c-aa26-39d5adfc4ae7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_born
+    - taxonomy.vocabulary.artists
+id: taxonomy_term.artists.field_born
+field_name: field_born
+entity_type: taxonomy_term
+bundle: artists
+label: Born
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer
