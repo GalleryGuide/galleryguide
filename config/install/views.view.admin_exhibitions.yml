@@ -792,7 +792,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: 'Gallery Admin'
+      title: 'Exhibition Admin'
       header: {  }
       footer: {  }
       empty: {  }
