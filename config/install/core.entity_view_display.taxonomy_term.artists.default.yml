@@ -1,4 +1,4 @@
-uuid: d2e72b24-9be5-4e8c-91b4-e90f7f04ae7e
+uuid: dd091e82-9220-4e5d-b160-e68b719ddfee
 langcode: en
 status: true
 dependencies:
@@ -8,8 +8,10 @@ dependencies:
     - field.field.taxonomy_term.artists.field_image
     - field.field.taxonomy_term.artists.field_tags
     - field.field.taxonomy_term.artists.field_website
+    - image.style.large
     - taxonomy.vocabulary.artists
   module:
+    - image
     - link
     - text
 id: taxonomy_term.artists.default
@@ -20,27 +22,43 @@ content:
   description:
     label: hidden
     type: text_default
-    weight: 0
+    weight: 3
     settings: {  }
     third_party_settings: {  }
   field_born:
-    weight: 3
-    label: above
+    type: number_integer
+    weight: 1
+    label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true
     third_party_settings: {  }
-    type: number_integer
   field_died:
-    weight: 4
-    label: above
+    type: number_integer
+    weight: 2
+    label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true
     third_party_settings: {  }
-    type: number_integer
+  field_image:
+    type: image
+    weight: 0
+    label: hidden
+    settings:
+      image_style: large
+      image_link: ''
+    third_party_settings: {  }
+  field_tags:
+    type: entity_reference_label
+    weight: 5
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
   field_website:
-    weight: 2
+    type: link
+    weight: 4
     label: above
     settings:
       trim_length: 80
@@ -49,7 +67,4 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
-    type: link
-hidden:
-  field_image: true
-  field_tags: true
+hidden: {  }
