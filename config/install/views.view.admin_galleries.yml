@@ -986,6 +986,11 @@ display:
       menu:
         type: normal
         title: 'Gallery Admin'
+        description: ''
+        expanded: false
+        parent: system.admin_content
+        weight: 0
+        context: '0'
         menu_name: admin
     cache_metadata:
       max-age: 0
