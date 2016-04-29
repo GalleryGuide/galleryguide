@@ -19,7 +19,6 @@ projects:
     'download][type': git
     'download][url': 'https://git.drupal.org/project/adsense.git'
     'download][branch': 8.x-1.x
-    'download][revision': 959c19ecdea603d951500256e940070eb5386b49
   experimental_module_test:
     type: module
     custom_download: true
@@ -56,7 +55,6 @@ projects:
     'download][type': git
     'download][url': 'malcomio@git.drupal.org:project/maintenance_exempt.git'
     'download][branch': 8.x-1.x
-    'download][revision': 029f30d2ae1dad3e9deee9e6ddbefdabf1b8dcb7
   menu_link_content_dynamic_route:
     type: module
     custom_download: true
@@ -65,19 +63,16 @@ projects:
     'download][type': git
     'download][url': 'https://git.drupal.org/project/migrate_plus.git'
     'download][branch': 8.x-2.x
-    'download][revision': c289b00839dc8696c610b2ee4f7758885396d489
   migrate_tools:
     type: module
     'download][type': git
     'download][url': 'https://git.drupal.org/project/migrate_tools.git'
     'download][branch': 8.x-2.x
-    'download][revision': 1893c989f7fa5a128e1447e8ba4d77422d873076
   office_hours:
     type: module
     'download][type': git
     'download][url': 'https://git.drupal.org/project/office_hours.git'
     'download][branch': 8.x-1.x
-    'download][revision': 86c0642a445525c33584219803a53ebe791686d1
   outbound_processing_test:
     type: module
     custom_download: true
@@ -86,7 +81,6 @@ projects:
     'download][type': git
     'download][url': 'https://git.drupal.org/project/prepopulate.git'
     'download][branch': 8.x-2.x
-    'download][revision': 9b5b27bf811a2275c1642f6507696787074a5110
   progressiveimageloader:
     type: module
     custom_download: true
@@ -95,13 +89,11 @@ projects:
     'download][type': git
     'download][url': 'https://git.drupal.org/project/r4032login.git'
     'download][branch': 8.x-1.x
-    'download][revision': 4b2077aa70e3f7b00b8a9cba25af5b948ba2e3b9
   responsive_share_buttons:
     type: module
     'download][type': git
     'download][url': 'malcomio@git.drupal.org:project/responsive_share_buttons.git'
     'download][branch': 8.x-1.x
-    'download][revision': 75568706c6a0d58fabd5d55a8781edff24ccb760
   system_incompatible_module_version_test:
     type: module
     custom_download: true
