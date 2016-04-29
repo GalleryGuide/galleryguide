@@ -23,6 +23,8 @@ projects:
     'download][type': git
     'download][url': 'https://git.drupal.org/project/adsense.git'
     'download][branch': 8.x-1.x
+    patch:
+      - https://www.drupal.org/files/issues/undefined_indexes_in-2715019-2.patch
   experimental_module_test:
     type: module
     custom_download: true
@@ -47,6 +49,7 @@ projects:
     'download][revision': 5ad8a8d048ddae79bc67eef9ac9372aa37cd2861
     patch:
       - https://www.drupal.org/files/issues/integration_with-2681335-4.patch
+      - https://www.drupal.org/files/issues/undefined_index-2715901-2.patch
   help_test:
     type: module
     custom_download: true
@@ -87,6 +90,9 @@ projects:
     'download][type': git
     'download][url': 'https://git.drupal.org/project/prepopulate.git'
     'download][branch': 8.x-2.x
+    patch:
+      - https://www.drupal.org/files/issues/port-2682661-6.patch
+      - https://www.drupal.org/files/issues/prepopulate_for_entity-2668010-11.patch
   progressiveimageloader:
     type: module
     custom_download: true
