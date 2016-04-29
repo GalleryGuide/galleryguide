@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.gallery.artists
     - field.field.node.gallery.body
+    - field.field.node.gallery.field_address
     - field.field.node.gallery.field_admission_conc
     - field.field.node.gallery.field_admission_std
     - field.field.node.gallery.field_associated
@@ -16,12 +17,15 @@ dependencies:
     - field.field.node.gallery.tags
     - node.type.gallery
   module:
+    - address
     - geolocation
     - image
     - link
     - options
     - text
     - user
+_core:
+  default_config_hash: zW4lFfweO1aa8-LfUcDGNMk78QBfhgp5nrQRexHVMbk
 id: node.gallery.default
 targetEntityType: node
 bundle: gallery
@@ -44,6 +48,12 @@ content:
     label: hidden
     type: comment_default
     weight: 20
+    settings: {  }
+    third_party_settings: {  }
+  field_address:
+    type: address_default
+    weight: 0
+    label: above
     settings: {  }
     third_party_settings: {  }
   field_admission_conc:
@@ -128,3 +138,4 @@ content:
     settings:
       link: true
     third_party_settings: {  }
+hidden: {  }
