@@ -11,6 +11,8 @@ dependencies:
     - image
     - taxonomy
     - user
+_core:
+  default_config_hash: JVuDBiQuE-aM4LdFrWK5q5fI6v9Wt145FdahIzDzkWA
 id: artists_by_tag
 label: 'Artists By Tag'
 module: views
@@ -397,6 +399,11 @@ display:
       menu:
         type: normal
         title: 'Artists By Tag'
+        description: ''
+        expanded: false
+        parent: 'views_view:views.artists.page_1'
+        weight: 0
+        context: '0'
         menu_name: primary-links
     cache_metadata:
       max-age: -1
