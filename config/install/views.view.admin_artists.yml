@@ -17,6 +17,8 @@ dependencies:
     - taxonomy
     - text
     - user
+_core:
+  default_config_hash: jCY3yMW_hX4DDXBWh28NtLPU_JsrrKS2i3cmtO4gBD8
 id: admin_artists
 label: 'Admin: Artists'
 module: views
@@ -607,6 +609,11 @@ display:
       menu:
         type: normal
         title: 'Artists Admin'
+        description: ''
+        expanded: false
+        parent: system.admin_content
+        weight: 0
+        context: '0'
         menu_name: admin
     cache_metadata:
       max-age: 0
