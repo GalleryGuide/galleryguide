@@ -13,6 +13,7 @@ dependencies:
     - field.field.node.gallery.field_facilities
     - field.field.node.gallery.field_images
     - field.field.node.gallery.field_location
+    - field.field.node.gallery.field_openingtimes
     - field.field.node.gallery.field_website
     - field.field.node.gallery.tags
     - node.type.gallery
@@ -21,11 +22,12 @@ dependencies:
     - geolocation
     - image
     - link
+    - office_hours
     - options
     - text
     - user
 _core:
-  default_config_hash: zW4lFfweO1aa8-LfUcDGNMk78QBfhgp5nrQRexHVMbk
+  default_config_hash: QpnsKJ1pGIv6-K9GsvLAtlu0RwqNu3k2yUkXNWWwXHw
 id: node.gallery.default
 targetEntityType: node
 bundle: gallery
@@ -116,6 +118,30 @@ content:
       title: ''
     third_party_settings: {  }
     type: geolocation_map
+  field_openingtimes:
+    weight: 22
+    label: above
+    settings:
+      daysformat: long
+      time_type: G
+      compress: false
+      grouped: false
+      showclosed: all
+      closedformat: Closed
+      separator:
+        days: '<br />'
+        grouped_days: ' - '
+        day_hours: ': '
+        hours_hours: '-'
+        more_hours: ', '
+      current_status:
+        position: hide
+        open_text: 'Currently open!'
+        closed_text: 'Currently closed'
+      timezone_field: ''
+      office_hours_first_day: ''
+    third_party_settings: {  }
+    type: office_hours
   field_website:
     type: link
     weight: 4

@@ -13,6 +13,7 @@ dependencies:
     - field.field.node.gallery.field_facilities
     - field.field.node.gallery.field_images
     - field.field.node.gallery.field_location
+    - field.field.node.gallery.field_openingtimes
     - field.field.node.gallery.field_website
     - field.field.node.gallery.tags
     - image.style.thumbnail
@@ -22,10 +23,11 @@ dependencies:
     - geolocation
     - image
     - link
+    - office_hours
     - path
     - text
 _core:
-  default_config_hash: xG713LiiuTrLQLl9TT3oGmEG5oQYfkuMsVBlfRxB-oM
+  default_config_hash: VayxR20dxl8cDeRcxIir852DismVW4T5jqcPVUFi09k
 id: node.gallery.default
 targetEntityType: node
 bundle: gallery
@@ -107,6 +109,12 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: geolocation_googlegeocoder
+  field_openingtimes:
+    weight: 26
+    settings:
+      date_element_type: datelist
+    third_party_settings: {  }
+    type: office_hours_default
   field_website:
     weight: 2
     type: link_default
