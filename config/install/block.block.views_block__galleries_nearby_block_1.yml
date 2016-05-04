@@ -1,0 +1,32 @@
+uuid: a370dd74-cb51-420c-8602-5feffba3a6f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.galleries_nearby
+  module:
+    - node
+    - views
+  theme:
+    - gall
+id: views_block__galleries_nearby_block_1
+theme: gall
+region: content_bottom
+weight: -9
+provider: null
+plugin: 'views_block:galleries_nearby-block_1'
+settings:
+  id: 'views_block:galleries_nearby-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      gallery: gallery
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
