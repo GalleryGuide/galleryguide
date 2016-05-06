@@ -14,7 +14,7 @@ dependencies:
     - node
     - user
 _core:
-  default_config_hash: '-XDnVa2y8WsqlGyfVYqNjpcypctUqe0s3xrhrrxim1Q'
+  default_config_hash: IgKOar4FyiZ62jcLQ49LVaooFCyCNbdd5BIbmJzzoNQ
 id: exhibitions
 label: Exhibitions
 module: views
@@ -459,7 +459,7 @@ display:
         description: ''
         expanded: true
         parent: ''
-        weight: 0
+        weight: -49
         context: '0'
         menu_name: primary-links
     cache_metadata:

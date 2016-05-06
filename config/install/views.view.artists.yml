@@ -11,6 +11,8 @@ dependencies:
     - image
     - taxonomy
     - user
+_core:
+  default_config_hash: WxcIHZcW3LuGEjIn51KwKqXkntEI6IittONh3Cu-9eI
 id: artists
 label: Artists
 module: views
@@ -245,7 +247,7 @@ display:
         description: ''
         expanded: true
         parent: ''
-        weight: 0
+        weight: -48
         context: '0'
         menu_name: primary-links
     cache_metadata:
