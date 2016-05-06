@@ -12,7 +12,7 @@ dependencies:
     - taxonomy
     - user
 _core:
-  default_config_hash: JVuDBiQuE-aM4LdFrWK5q5fI6v9Wt145FdahIzDzkWA
+  default_config_hash: 63Z0K_WtU-TdRjSHBcc2iKe3DUpeCRDlEyME3ckjzNc
 id: artists_by_tag
 label: 'Artists By Tag'
 module: views
@@ -402,7 +402,7 @@ display:
         description: ''
         expanded: false
         parent: 'views_view:views.artists.page_1'
-        weight: 0
+        weight: -50
         context: '0'
         menu_name: primary-links
     cache_metadata:
