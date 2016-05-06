@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+  default_config_hash: RLkXswnTb2cdmmqhyDWaoJnGf2ijPJvHUQq_TB7TN-I
 id: authenticated
 label: 'authenticated user'
 weight: 1
@@ -76,3 +76,5 @@ permissions:
   - 'access user profiles'
   - 'change own username'
   - 'use text format filtered_html'
+  - 'edit terms in artists'
+  - 'edit terms in tags'
