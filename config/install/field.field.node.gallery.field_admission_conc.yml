@@ -6,13 +6,13 @@ dependencies:
     - field.storage.node.field_admission_conc
     - node.type.gallery
 _core:
-  default_config_hash: HRHn5fQfYrAsZjdZ2oqyH-BQxWRH9ezC7YPhCmA_SHI
+  default_config_hash: 4JufUeLf_Z7eVcs3KbyoBxa1_NHy9G0kFbtHTv4OMt0
 id: node.gallery.field_admission_conc
 field_name: field_admission_conc
 entity_type: node
 bundle: gallery
-label: 'Concessionary admission fee'
-description: ''
+label: Concessions
+description: 'The concessionary admission fee'
 required: false
 translatable: true
 default_value: {  }

@@ -6,13 +6,13 @@ dependencies:
     - field.storage.node.field_admission_std
     - node.type.gallery
 _core:
-  default_config_hash: 86CrP83XWxWlz_sHCU4ZvBnZtXVBCIlmNCLJsXV3uLE
+  default_config_hash: 9MNxw0mRstGIQRQ7LeXI40LeSjJfbQ-iCSAVPzo82u8
 id: node.gallery.field_admission_std
 field_name: field_admission_std
 entity_type: node
 bundle: gallery
-label: 'Standard admission fee'
-description: 'The standard adult admission fee.'
+label: Standard
+description: 'The standard adult admission fee'
 required: false
 translatable: true
 default_value: {  }
