@@ -12,7 +12,7 @@ dependencies:
     - node
     - user
 _core:
-  default_config_hash: yQijCuwMD-7pM5QjFjDr2Wr6QHi49aF14gpsYCqpMl0
+  default_config_hash: TKAnCCRwH2qYk7HTO85mWVy8bCakDoEXCBq3CuSTGoM
 id: galleries_a_z
 label: 'Galleries A-Z'
 module: node
@@ -175,7 +175,7 @@ display:
           click_sort_column: value
           type: string
           settings:
-            link_to_entity: true
+            link_to_entity: false
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -241,7 +241,7 @@ display:
           type: image
           settings:
             image_style: medium
-            image_link: content
+            image_link: ''
           group_column: ''
           group_columns: {  }
           group_rows: true
