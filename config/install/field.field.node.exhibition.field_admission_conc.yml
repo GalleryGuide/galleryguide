@@ -11,7 +11,7 @@ id: node.exhibition.field_admission_conc
 field_name: field_admission_conc
 entity_type: node
 bundle: exhibition
-label: 'Concessionary admission fee'
+label: 'Concessions'
 description: ''
 required: false
 translatable: true

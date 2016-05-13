@@ -11,7 +11,7 @@ id: node.exhibition.field_admission_std
 field_name: field_admission_std
 entity_type: node
 bundle: exhibition
-label: 'Standard admission fee'
+label: 'Standard'
 description: 'The standard adult admission fee. Enter zero for free exhibitions.'
 required: false
 translatable: true
