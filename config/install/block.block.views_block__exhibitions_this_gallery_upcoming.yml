@@ -11,14 +11,14 @@ dependencies:
     - gall
 _core:
   default_config_hash: UdsnnQEVGR16y4fJaomDkEi1ktwiimO1yxoV1yYKNNE
-id: views_block__exhibitions_this_gallery_future
+id: views_block__exhibitions_this_gallery_upcoming
 theme: gall
 region: content_bottom
-weight: -16
+weight: -16§
 provider: null
-plugin: 'views_block:exhibitions_this_gallery-future'
+plugin: 'views_block:exhibitions_this_gallery-upcoming'
 settings:
-  id: 'views_block:exhibitions_this_gallery-future'
+  id: 'views_block:exhibitions_this_gallery-upcoming'
   label: ''
   provider: views
   label_display: visible

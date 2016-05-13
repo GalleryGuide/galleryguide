@@ -330,7 +330,7 @@ display:
             group_items: {  }
           plugin_id: datetime
       sorts: {  }
-      title: 'Future Exhibitions'
+      title: 'Upcoming Exhibitions'
       header: {  }
       footer: {  }
       empty:
@@ -544,10 +544,10 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
-  future:
+  upcoming:
     display_plugin: block
-    id: future
-    display_title: 'Future Exhibitions'
+    id: upcoming
+    display_title: 'upcoming Exhibitions'
     position: 1
     display_options:
       display_extenders: {  }
@@ -563,7 +563,7 @@ display:
           empty: true
           tokenize: false
           content:
-            value: 'There are no future exhibitions listed for this artist at the moment.'
+            value: 'There are no upcoming exhibitions listed for this artist at the moment.'
             format: filtered_html
           plugin_id: text
       defaults:

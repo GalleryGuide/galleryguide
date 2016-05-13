@@ -9,14 +9,14 @@ dependencies:
     - views
   theme:
     - gall
-id: views_block__exhibitions_this_artist_future
+id: views_block__exhibitions_this_artist_upcoming
 theme: gall
 region: content_bottom
 weight: -16
 provider: null
-plugin: 'views_block:exhibitions_this_artist-future'
+plugin: 'views_block:exhibitions_this_artist-upcoming'
 settings:
-  id: 'views_block:exhibitions_this_artist-future'
+  id: 'views_block:exhibitions_this_artist-upcoming'
   label: ''
   provider: views
   label_display: visible

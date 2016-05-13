@@ -400,7 +400,7 @@ display:
             group_items: {  }
           plugin_id: datetime
       sorts: {  }
-      title: 'Future Exhibitions'
+      title: 'Upcoming Exhibitions'
       header: {  }
       footer: {  }
       empty:
