@@ -10,7 +10,7 @@ dependencies:
   theme:
     - gall
 _core:
-  default_config_hash: eUvdp6UmrNHp2ACOFNqJ2WG_wASjI1JcKe5YtKewrDI
+  default_config_hash: bILisEmxA1BjrM5KRbMtJj8gbKUrkBaM3tShR0s5Aro
 id: views_block__exhibitions_this_gallery_current
 theme: gall
 region: content_bottom

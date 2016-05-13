@@ -8,10 +8,12 @@ dependencies:
     - views
   theme:
     - gall
+_core:
+  default_config_hash: 0baI-UtS8gf5Kg4v2pKvUBsbuDP8YLF99nJDsB2Uov0
 id: views_block__exhibitions_this_gallery_past
 theme: gall
 region: content_bottom
-weight: -18
+weight: -12
 provider: null
 plugin: 'views_block:exhibitions_this_gallery-past'
 settings:

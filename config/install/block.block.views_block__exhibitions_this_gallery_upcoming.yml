@@ -10,11 +10,11 @@ dependencies:
   theme:
     - gall
 _core:
-  default_config_hash: UdsnnQEVGR16y4fJaomDkEi1ktwiimO1yxoV1yYKNNE
+  default_config_hash: HgUt-fHHvoJpgBQmB8vAwfpPxvR_OASfjaxh-lqOQ3s
 id: views_block__exhibitions_this_gallery_upcoming
 theme: gall
 region: content_bottom
-weight: -16§
+weight: -13
 provider: null
 plugin: 'views_block:exhibitions_this_gallery-upcoming'
 settings:
