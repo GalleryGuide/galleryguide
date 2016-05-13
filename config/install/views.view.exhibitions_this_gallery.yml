@@ -720,7 +720,7 @@ display:
           empty: true
           tokenize: false
           content:
-            value: 'There are no upcoming exhibitions listed for this gallery at the moment.'
+            value: 'There are no future exhibitions listed for this gallery at the moment.'
             format: filtered_html
           plugin_id: text
       defaults:
