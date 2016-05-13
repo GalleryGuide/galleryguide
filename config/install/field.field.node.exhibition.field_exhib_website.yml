@@ -8,7 +8,7 @@ dependencies:
   module:
     - link
 _core:
-  default_config_hash: qopT12WF7HsWghnN4WhFJX5v2MBn3oSeFpq9ydpLGzE
+  default_config_hash: TpQgpEukIogGZwXJnz24n2DneNFoBp-UBogQDKEbHis
 id: node.exhibition.field_exhib_website
 field_name: field_exhib_website
 entity_type: node
@@ -20,6 +20,6 @@ translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
+  link_type: 16
   title: null
-  link_type: 17
 field_type: link
