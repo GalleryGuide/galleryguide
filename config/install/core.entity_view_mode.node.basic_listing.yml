@@ -1,0 +1,10 @@
+uuid: 6f9b81a2-3954-4847-a90b-615de744f9d4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.basic_listing
+label: 'Basic Gallery Listing'
+targetEntityType: node
+cache: true
