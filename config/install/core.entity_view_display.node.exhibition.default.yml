@@ -21,6 +21,8 @@ dependencies:
     - link
     - text
     - user
+_core:
+  default_config_hash: BvjoeFTjMyYHwRmkvi6zYqp1p3nr7hWDNIKi6ReE-Bk
 id: node.exhibition.default
 targetEntityType: node
 bundle: exhibition
@@ -93,7 +95,7 @@ content:
     weight: 11
     label: above
     settings:
-      view_mode: teaser
+      view_mode: basic_listing
       link: false
     third_party_settings: {  }
   field_exhib_website:
@@ -126,3 +128,4 @@ content:
     settings:
       link: true
     third_party_settings: {  }
+hidden: {  }
