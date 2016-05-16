@@ -5,12 +5,26 @@ dependencies:
   module:
     - node
     - options
+_core:
+  default_config_hash: qEExkyHybeMUrkpfqsZixU7Aarp6lKGy19ea0NA7rAw
 id: node.field_facilities
 field_name: field_facilities
 entity_type: node
 type: list_string
 settings:
-  allowed_values: {  }
+  allowed_values:
+    -
+      value: Cafe
+      label: Cafe
+    -
+      value: Restaurant
+      label: Restaurant
+    -
+      value: Bar
+      label: Bar
+    -
+      value: Shop
+      label: Shop
   allowed_values_function: ''
 module: options
 locked: false

@@ -6,12 +6,12 @@ dependencies:
     - field.storage.node.field_admission_std
     - node.type.exhibition
 _core:
-  default_config_hash: GL258yFFLEbdyyRlehyu9t0pZYeTI5bHhE7776JtVhI
+  default_config_hash: YQB9KuP8oS-wqTDOkpvAJp8PA7WzhveEivePUb2M8wY
 id: node.exhibition.field_admission_std
 field_name: field_admission_std
 entity_type: node
 bundle: exhibition
-label: 'Standard'
+label: Standard
 description: 'The standard adult admission fee. Enter zero for free exhibitions.'
 required: false
 translatable: true
