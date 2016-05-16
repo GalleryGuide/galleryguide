@@ -49,7 +49,10 @@ dependencies:
   - office_hours
   - prepopulate
   - r4032login
+
+  - gallerysite
   
 themes:
   - gall
+  - galledit
   - adminimal_theme

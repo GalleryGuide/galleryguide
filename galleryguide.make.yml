@@ -38,9 +38,10 @@ projects:
     type: module
     'download][type': git
     'download][url': 'git@github.com:GalleryGuide/gallery_migrations.git'
-  galleryupdates:
+  gallerysite:
     type: module
-    custom_download: true
+    'download][type': git
+    'download][url': 'git@github.com:GalleryGuide/gallerysite.git'
   geolocation:
     type: module
     'download][type': git
@@ -116,3 +117,7 @@ projects:
     type: theme
     'download][type': git
     'download][url': 'git@github.com:GalleryGuide/gall.git'
+  galledit:
+    type: theme
+    'download][type': git
+    'download][url': 'git@github.com:GalleryGuide/galledit.git'
