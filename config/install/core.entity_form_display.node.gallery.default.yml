@@ -27,7 +27,7 @@ dependencies:
     - path
     - text
 _core:
-  default_config_hash: VayxR20dxl8cDeRcxIir852DismVW4T5jqcPVUFi09k
+  default_config_hash: fJZjXWkoC1XxT2yTopq4AuQ-b_7inG9Hyc-QsYLxQUc
 id: node.gallery.default
 targetEntityType: node
 bundle: gallery
@@ -42,11 +42,10 @@ content:
       placeholder: ''
     third_party_settings: {  }
   body:
-    type: text_textarea_with_summary
+    type: text_textarea
     weight: 17
     settings:
       rows: 9
-      summary_rows: 3
       placeholder: ''
     third_party_settings: {  }
   comment:
@@ -61,7 +60,7 @@ content:
     third_party_settings: {  }
   field_address:
     type: address_default
-    weight: 4
+    weight: 5
     settings:
       default_country: null
     third_party_settings: {  }
@@ -86,7 +85,7 @@ content:
       placeholder: ''
     third_party_settings: {  }
   field_email:
-    weight: 5
+    weight: 3
     type: email_default
     settings:
       placeholder: ''
@@ -105,12 +104,12 @@ content:
     third_party_settings: {  }
     type: image_image
   field_location:
-    weight: 3
+    weight: 4
     settings: {  }
     third_party_settings: {  }
     type: geolocation_googlegeocoder
   field_openingtimes:
-    weight: 26
+    weight: 18
     settings:
       date_element_type: datelist
     third_party_settings: {  }
