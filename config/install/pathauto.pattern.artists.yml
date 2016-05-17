@@ -1,0 +1,23 @@
+uuid: 3400af2d-fef9-4969-a2b8-4b4028e59d55
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: artists
+label: Artists
+type: 'canonical_entities:taxonomy_term'
+pattern: 'artists/[term:name]'
+selection_criteria:
+  3d34360c-a964-4782-8c4c-be0cf4319e22:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      artists: artists
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: 3d34360c-a964-4782-8c4c-be0cf4319e22
+selection_logic: and
+weight: -5
+relationships: {  }
