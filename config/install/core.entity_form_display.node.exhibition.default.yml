@@ -29,7 +29,7 @@ bundle: exhibition
 mode: default
 content:
   artists:
-    type: entity_reference_autocomplete_tags
+    type: entity_reference_autocomplete
     weight: 4
     settings:
       match_operator: CONTAINS
@@ -115,7 +115,7 @@ content:
     weight: 14
     third_party_settings: {  }
   tags:
-    type: entity_reference_autocomplete_tags
+    type: entity_reference_autocomplete
     weight: 5
     settings:
       match_operator: CONTAINS
