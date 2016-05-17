@@ -1,5 +1,5 @@
-uuid: 14842af9-4f0a-4fd5-8d44-7ef8ca65f67b
-name: The Gallery Guide
+uuid: 399e15f1-812c-4d5f-a62c-7e228d8e169d
+name: 'The Gallery Guide'
 mail: info@thegalleryguide.co.uk
 slogan: ''
 page:
@@ -11,4 +11,4 @@ weight_select_max: 100
 langcode: en
 default_langcode: en
 _core:
-  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
+  default_config_hash: SBsDHn5_GVKSsmM_gP-0vYrOSKuG8xIfrpbTUUTs2TA
