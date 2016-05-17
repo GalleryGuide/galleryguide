@@ -107,6 +107,11 @@ projects:
     'download][type': git
     'download][url': 'malcomio@git.drupal.org:project/responsive_share_buttons.git'
     'download][branch': 8.x-1.x
+  twig_extender:
+    type: module
+    'download][type': git
+    'download][url': 'https://git.drupal.org/project/twig_extender.git'
+    'download][branch': 8.x-1.x
   system_incompatible_module_version_test:
     type: module
     custom_download: true

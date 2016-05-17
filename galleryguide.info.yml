@@ -49,6 +49,7 @@ dependencies:
   - office_hours
   - prepopulate
   - r4032login
+  - twig_extender
 
   - gallerysite
   
