@@ -9,10 +9,12 @@ dependencies:
     - views
   theme:
     - gall
+_core:
+  default_config_hash: h7w_t-kyBdRlm4nKvIdNLyK-S9I2xByxRkZJA1sFFYI
 id: views_block__exhibitions_this_artist_current
 theme: gall
 region: content_bottom
-weight: -16
+weight: -17
 provider: null
 plugin: 'views_block:exhibitions_this_artist-current'
 settings:

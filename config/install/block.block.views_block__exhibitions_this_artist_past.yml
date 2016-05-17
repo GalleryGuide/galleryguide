@@ -1,24 +1,22 @@
-uuid: d22d166b-dff3-4cf3-89b9-342e87ae9701
+uuid: 5b68e5c0-6bcf-446f-ba32-e82f9acb261b
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.exhibitions_new
+    - views.view.exhibitions_this_artist
   module:
     - system
     - views
   theme:
     - gall
-_core:
-  default_config_hash: fahfpnfpE7efEdkQHSL167UusMOOl0ug5gOD6wVOHEw
-id: views_block__exhibitions_new_block_1
+id: views_block__exhibitions_this_artist_past
 theme: gall
 region: content_bottom
-weight: -13
+weight: -15
 provider: null
-plugin: 'views_block:exhibitions_new-block_1'
+plugin: 'views_block:exhibitions_this_artist-past'
 settings:
-  id: 'views_block:exhibitions_new-block_1'
+  id: 'views_block:exhibitions_this_artist-past'
   label: ''
   provider: views
   label_display: visible
@@ -27,6 +25,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: '<front>'
+    pages: '/taxonomy/term/*'
     negate: false
     context_mapping: {  }
