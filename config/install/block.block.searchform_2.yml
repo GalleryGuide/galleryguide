@@ -1,0 +1,20 @@
+uuid: 3995ea54-dd4a-4060-846e-288131773c5c
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - galledit
+id: searchform_2
+theme: galledit
+region: header
+weight: -2
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  provider: search
+  label_display: visible
+visibility: {  }

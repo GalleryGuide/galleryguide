@@ -1,0 +1,24 @@
+uuid: 2cedf079-2896-4e88-b033-617b83245d77
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.primary-links
+  module:
+    - system
+  theme:
+    - galledit
+id: primarylinks_2
+theme: galledit
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:primary-links'
+settings:
+  id: 'system_menu_block:primary-links'
+  label: 'Primary links'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: 123a71d0-74be-46cc-820c-7282314c8754
+langcode: en
+status: true
+dependencies:
+  theme:
+    - galledit
+id: tabs
+theme: galledit
+region: content
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

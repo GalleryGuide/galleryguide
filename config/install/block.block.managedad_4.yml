@@ -1,0 +1,27 @@
+uuid: 70deb0c6-3e3d-41ff-a2ab-5770cf223567
+langcode: en
+status: true
+dependencies:
+  module:
+    - adsense
+  theme:
+    - galledit
+id: managedad_4
+theme: galledit
+region: postfooter
+weight: -2
+provider: null
+plugin: adsense_managed_ad_block
+settings:
+  id: adsense_managed_ad_block
+  label: 'Managed ad'
+  provider: adsense
+  label_display: visible
+  ad_slot: '5653144038'
+  ad_format: responsive
+  ad_width: '250'
+  ad_height: '250'
+  ad_shape:
+    auto: auto
+  ad_align: center
+visibility: {  }
