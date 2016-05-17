@@ -8,14 +8,14 @@ dependencies:
   module:
     - geolocation
 _core:
-  default_config_hash: et4YVTZtRFMcmamlmIOyzmW7HwJQxApbvqcC1MGEZiI
+  default_config_hash: PFD9a7mcWbPiWU9AD2lXw3O0O5h3ZxXddnS0BEpsiP8
 id: node.gallery.field_location
 field_name: field_location
 entity_type: node
 bundle: gallery
 label: Location
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
