@@ -18,7 +18,7 @@ dependencies:
     - text
     - user
 _core:
-  default_config_hash: jCY3yMW_hX4DDXBWh28NtLPU_JsrrKS2i3cmtO4gBD8
+  default_config_hash: kptYjj0SYoOc-uJTMqDhmB0dd4BvaXEcSrYMi8c4Yq0
 id: admin_artists
 label: 'Admin: Artists'
 module: views
@@ -646,6 +646,125 @@ display:
           entity_type: taxonomy_term
           entity_field: vid
           plugin_id: bundle
+        field_born_value:
+          id: field_born_value
+          table: taxonomy_term__field_born
+          field: field_born_value
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: '='
+          value:
+            min: ''
+            max: ''
+            value: ''
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_born_value_op
+            label: Born
+            description: ''
+            use_operator: true
+            operator: field_born_value_op
+            identifier: field_born_value
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          plugin_id: numeric
+        field_died_value:
+          id: field_died_value
+          table: taxonomy_term__field_died
+          field: field_died_value
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: '='
+          value:
+            min: ''
+            max: ''
+            value: ''
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_died_value_op
+            label: Died
+            description: ''
+            use_operator: true
+            operator: field_died_value_op
+            identifier: field_died_value
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          plugin_id: numeric
+        name:
+          id: name
+          table: taxonomy_term_field_data
+          field: name
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: contains
+          value: ''
+          group: 1
+          exposed: true
+          expose:
+            operator_id: name_op
+            label: Name
+            description: ''
+            use_operator: false
+            operator: name_op
+            identifier: name
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          entity_type: taxonomy_term
+          entity_field: name
+          plugin_id: string
       sorts: {  }
       title: 'Admin: Artists'
       header: {  }
@@ -659,6 +778,7 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - url
         - url.query_args
         - user.permissions
       tags:
@@ -689,6 +809,7 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - url
         - url.query_args
         - user.permissions
       tags:
