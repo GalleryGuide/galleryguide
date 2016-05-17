@@ -509,7 +509,7 @@ display:
         title: 'New Exhibitions'
         description: ''
         expanded: true
-        parent: 'views_view:views.exhibitions.page_1'
+        parent: 'views_view:views.exhibitions.current'
         weight: -49
         context: '0'
         menu_name: primary-links

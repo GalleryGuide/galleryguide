@@ -3,17 +3,13 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_images
-    - field.storage.node.tags
-    - image.style.medium
     - node.type.gallery
     - system.menu.primary-links
   module:
-    - image
     - node
     - user
 _core:
-  default_config_hash: _vt2pbLWEmIN_p5H1niNIjfPhE7xWLCk7BF_RIS4Gb0
+  default_config_hash: Y6r-wgCw-0aqQv2dEWppcPhUjFG3Pzx_kFwxIyMzzvM
 id: galleries_new
 label: 'Galleries New'
 module: views
@@ -421,9 +417,7 @@ display:
         - url.query_args
         - 'user.node_grants:view'
         - user.permissions
-      tags:
-        - 'config:field.storage.node.field_images'
-        - 'config:field.storage.node.tags'
+      tags: {  }
   block_1:
     display_plugin: block
     id: block_1
@@ -445,9 +439,7 @@ display:
         - 'languages:language_interface'
         - 'user.node_grants:view'
         - user.permissions
-      tags:
-        - 'config:field.storage.node.field_images'
-        - 'config:field.storage.node.tags'
+      tags: {  }
   page_1:
     display_plugin: page
     id: page_1
@@ -473,6 +465,4 @@ display:
         - url.query_args
         - 'user.node_grants:view'
         - user.permissions
-      tags:
-        - 'config:field.storage.node.field_images'
-        - 'config:field.storage.node.tags'
+      tags: {  }

@@ -3,14 +3,12 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_images
-    - image.style.thumbnail
     - node.type.gallery
   module:
-    - geolocation
-    - image
     - node
     - user
+_core:
+  default_config_hash: DQY0ZesXIaZcfP7zKmSCqPXbAApY7h7xPY6DOxkjT1g
 id: galleries_nearby
 label: 'Galleries Nearby'
 module: views
@@ -465,8 +463,7 @@ display:
         - url
         - 'user.node_grants:view'
         - user.permissions
-      tags:
-        - 'config:field.storage.node.field_images'
+      tags: {  }
   block_1:
     display_plugin: block
     id: block_1
@@ -482,5 +479,4 @@ display:
         - url
         - 'user.node_grants:view'
         - user.permissions
-      tags:
-        - 'config:field.storage.node.field_images'
+      tags: {  }

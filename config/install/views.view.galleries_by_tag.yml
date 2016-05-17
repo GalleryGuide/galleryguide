@@ -14,7 +14,7 @@ dependencies:
     - taxonomy
     - user
 _core:
-  default_config_hash: r0ihQbGEDCr-Twi8RkDmjPBPmrq_hngPqIcb2o13sVc
+  default_config_hash: UTPLmQsaSYFLlu0x3eH4tCeTrldV2MKTHQc9GzkgTk8
 id: galleries_by_tag
 label: 'Galleries By Tag'
 module: views

@@ -3,17 +3,12 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.artists
-    - field.storage.node.field_images
-    - image.style.medium
     - node.type.exhibition
   module:
-    - datetime
-    - image
     - node
     - user
 _core:
-  default_config_hash: Me_aXFktV6DbFkxS5GLCB7MCWyhHFFYNgNaBluvXilM
+  default_config_hash: 7avzX41b6iWnrOjyweYBdHobfPD2QlcUQVtv9qUxfRI
 id: exhibitions_this_gallery
 label: 'Exhibitions - This Gallery'
 module: views
@@ -408,9 +403,7 @@ display:
         - url.query_args
         - 'user.node_grants:view'
         - user.permissions
-      tags:
-        - 'config:field.storage.node.artists'
-        - 'config:field.storage.node.field_images'
+      tags: {  }
   current:
     display_plugin: block
     id: current
@@ -553,9 +546,7 @@ display:
         - url.query_args
         - 'user.node_grants:view'
         - user.permissions
-      tags:
-        - 'config:field.storage.node.artists'
-        - 'config:field.storage.node.field_images'
+      tags: {  }
   past:
     display_plugin: block
     id: past
@@ -698,9 +689,7 @@ display:
         - url.query_args
         - 'user.node_grants:view'
         - user.permissions
-      tags:
-        - 'config:field.storage.node.artists'
-        - 'config:field.storage.node.field_images'
+      tags: {  }
   upcoming:
     display_plugin: block
     id: upcoming
@@ -734,6 +723,4 @@ display:
         - url.query_args
         - 'user.node_grants:view'
         - user.permissions
-      tags:
-        - 'config:field.storage.node.artists'
-        - 'config:field.storage.node.field_images'
+      tags: {  }

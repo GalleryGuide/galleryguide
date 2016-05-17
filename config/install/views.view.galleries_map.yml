@@ -11,7 +11,7 @@ dependencies:
     - node
     - user
 _core:
-  default_config_hash: egoPfn3FozkHreC63mgVwt-eg9IeWAnae2Z8iX4d3ik
+  default_config_hash: Qkwtg4YuBlwHSUQIQgHf9Ro8ufVdcDD6D7AZtI-B_-o
 id: galleries_map
 label: 'Galleries Map'
 module: views
