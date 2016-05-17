@@ -13,7 +13,7 @@ dependencies:
     - node
     - user
 _core:
-  default_config_hash: 9FrsHoZhmmr2vqHTGcL2ytTajj0gL6OFep2ZuwF4bHA
+  default_config_hash: CnEBMowIL6L_m8SR0Wh1DYRb3dpJieU5W-DwcCp2IoY
 id: galleries_a_z
 label: 'Galleries A-Z'
 module: node
@@ -151,14 +151,14 @@ display:
             suffix: ''
             target: ''
             nl2br: false
-            max_length: 0
+            max_length: 45
             word_boundary: true
             ellipsis: true
             more_link: false
             more_link_text: ''
             more_link_path: ''
             strip_tags: false
-            trim: false
+            trim: true
             preserve_tags: ''
             html: false
           element_type: h2
@@ -280,14 +280,14 @@ display:
             suffix: ''
             target: ''
             nl2br: false
-            max_length: 0
+            max_length: 45
             word_boundary: true
             ellipsis: true
             more_link: false
             more_link_text: ''
             more_link_path: ''
             strip_tags: false
-            trim: false
+            trim: true
             preserve_tags: ''
             html: false
           element_type: ''
