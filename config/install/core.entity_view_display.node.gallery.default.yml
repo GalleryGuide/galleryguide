@@ -27,7 +27,7 @@ dependencies:
     - text
     - user
 _core:
-  default_config_hash: QpnsKJ1pGIv6-K9GsvLAtlu0RwqNu3k2yUkXNWWwXHw
+  default_config_hash: JPnk-mxeVBREUyyyXp_1OkbD7cPx94oOWeaIBbxi2sY
 id: node.gallery.default
 targetEntityType: node
 bundle: gallery
@@ -55,7 +55,7 @@ content:
   field_address:
     type: address_default
     weight: 0
-    label: above
+    label: visually_hidden
     settings: {  }
     third_party_settings: {  }
   field_admission_conc:
@@ -88,7 +88,7 @@ content:
   field_email:
     type: email_mailto
     weight: 5
-    label: above
+    label: visually_hidden
     settings: {  }
     third_party_settings: {  }
   field_facilities:
@@ -145,7 +145,7 @@ content:
   field_website:
     type: link
     weight: 4
-    label: above
+    label: visually_hidden
     settings:
       trim_length: 80
       url_only: false

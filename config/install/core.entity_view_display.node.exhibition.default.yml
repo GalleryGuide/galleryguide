@@ -22,7 +22,7 @@ dependencies:
     - text
     - user
 _core:
-  default_config_hash: BvjoeFTjMyYHwRmkvi6zYqp1p3nr7hWDNIKi6ReE-Bk
+  default_config_hash: cDx8t-9OCfCObrBun71MBXe-jfj78ZE8WXYVkDZF2OA
 id: node.exhibition.default
 targetEntityType: node
 bundle: exhibition
@@ -101,7 +101,7 @@ content:
   field_exhib_website:
     type: link
     weight: 4
-    label: above
+    label: visually_hidden
     settings:
       trim_length: 80
       url_only: false
