@@ -47,9 +47,9 @@ dependencies:
   - geolocation
   - menu_trail_by_path
   - office_hours
+  - pathauto
   - prepopulate
   - r4032login
-  - twig_extender
 
   - gallerysite
   
