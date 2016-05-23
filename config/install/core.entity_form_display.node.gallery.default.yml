@@ -88,8 +88,8 @@ content:
     weight: 3
     type: email_default
     settings:
-      placeholder: ''
       size: 60
+      placeholder: address@example.com
     third_party_settings: {  }
   field_facilities:
     weight: 10
@@ -118,7 +118,7 @@ content:
     weight: 2
     type: link_default
     settings:
-      placeholder_url: ''
+      placeholder_url: 'http://www.example.com'
       placeholder_title: ''
     third_party_settings: {  }
   path:
