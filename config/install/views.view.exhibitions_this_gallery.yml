@@ -3,8 +3,13 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.storage.node.artists
+    - field.storage.node.field_images
+    - image.style.medium
     - node.type.exhibition
   module:
+    - datetime
+    - image
     - node
     - user
 _core:
@@ -403,7 +408,9 @@ display:
         - url.query_args
         - 'user.node_grants:view'
         - user.permissions
-      tags: {  }
+      tags:
+        - 'config:field.storage.node.artists'
+        - 'config:field.storage.node.field_images'
   current:
     display_plugin: block
     id: current
@@ -546,7 +553,9 @@ display:
         - url.query_args
         - 'user.node_grants:view'
         - user.permissions
-      tags: {  }
+      tags:
+        - 'config:field.storage.node.artists'
+        - 'config:field.storage.node.field_images'
   past:
     display_plugin: block
     id: past
@@ -677,7 +686,7 @@ display:
           empty: true
           tokenize: false
           content:
-            value: 'There are no current exhibitions listed for this gallery at the moment.'
+            value: 'There are no past exhibitions listed for this gallery at the moment.'
             format: filtered_html
           plugin_id: text
     cache_metadata:
@@ -689,7 +698,9 @@ display:
         - url.query_args
         - 'user.node_grants:view'
         - user.permissions
-      tags: {  }
+      tags:
+        - 'config:field.storage.node.artists'
+        - 'config:field.storage.node.field_images'
   upcoming:
     display_plugin: block
     id: upcoming
@@ -723,4 +734,6 @@ display:
         - url.query_args
         - 'user.node_grants:view'
         - user.permissions
-      tags: {  }
+      tags:
+        - 'config:field.storage.node.artists'
+        - 'config:field.storage.node.field_images'
