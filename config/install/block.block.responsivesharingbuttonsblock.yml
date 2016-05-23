@@ -1,0 +1,20 @@
+uuid: 8833873e-c345-4515-8136-6591962e0cae
+langcode: en
+status: true
+dependencies:
+  module:
+    - responsive_share_buttons
+  theme:
+    - gall
+id: responsivesharingbuttonsblock
+theme: gall
+region: footer
+weight: null
+provider: null
+plugin: responsive_sharing_buttons
+settings:
+  id: responsive_sharing_buttons
+  label: 'Responsive Sharing buttons block'
+  provider: responsive_share_buttons
+  label_display: '0'
+visibility: {  }
