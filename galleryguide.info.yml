@@ -45,6 +45,7 @@ dependencies:
   - adsense
   - composer_manager
   - geolocation
+  - google_analytics
   - menu_trail_by_path
   - office_hours
   - pathauto
