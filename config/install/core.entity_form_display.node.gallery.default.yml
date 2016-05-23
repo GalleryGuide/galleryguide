@@ -27,7 +27,7 @@ dependencies:
     - path
     - text
 _core:
-  default_config_hash: fJZjXWkoC1XxT2yTopq4AuQ-b_7inG9Hyc-QsYLxQUc
+  default_config_hash: 9CYrq42GhoVjHT6ObW6cf4fzeyg5dheVaJMh0xd-E78
 id: node.gallery.default
 targetEntityType: node
 bundle: gallery
@@ -62,7 +62,7 @@ content:
     type: address_default
     weight: 5
     settings:
-      default_country: null
+      default_country: GB
     third_party_settings: {  }
   field_admission_conc:
     weight: 9
