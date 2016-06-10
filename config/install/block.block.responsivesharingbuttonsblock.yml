@@ -1,4 +1,4 @@
-uuid: 8833873e-c345-4515-8136-6591962e0cae
+uuid: 0add1474-fe97-458c-865d-d5fcc9418bf5
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
 id: responsivesharingbuttonsblock
 theme: gall
 region: footer
-weight: null
+weight: -18
 provider: null
 plugin: responsive_sharing_buttons
 settings:
