@@ -52,6 +52,7 @@ dependencies:
   - prepopulate
   - r4032login
   - responsive_share_buttons
+  - token
 
   - gallerysite
   
