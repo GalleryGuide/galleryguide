@@ -48,11 +48,6 @@ content:
       rows: 9
       placeholder: ''
     third_party_settings: {  }
-  comment:
-    type: comment_default
-    weight: 20
-    settings: {  }
-    third_party_settings: {  }
   created:
     type: datetime_timestamp
     weight: 11

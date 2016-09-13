@@ -6,7 +6,6 @@ dependencies:
     - core.entity_view_mode.node.search_result
     - field.field.node.gallery.artists
     - field.field.node.gallery.body
-    - field.field.node.gallery.comment_no_subject
     - field.field.node.gallery.field_admission_conc
     - field.field.node.gallery.field_admission_std
     - field.field.node.gallery.field_associated
@@ -14,9 +13,7 @@ dependencies:
     - field.field.node.gallery.field_facilities
     - field.field.node.gallery.field_images
     - field.field.node.gallery.field_location
-    - field.field.node.gallery.field_owner
     - field.field.node.gallery.field_website
-    - field.field.node.gallery.tags1
     - node.type.gallery
   module:
     - image
@@ -75,13 +72,6 @@ content:
       image_style: ''
       image_link: ''
     third_party_settings: {  }
-  field_owner:
-    label: above
-    weight: 14
-    type: entity_reference_label
-    settings:
-      link: true
-    third_party_settings: {  }
   field_website:
     label: hidden
     weight: 0
@@ -98,6 +88,4 @@ content:
 hidden:
   artists: true
   body: true
-  comment_no_subject: true
   field_location: true
-  tags1: true

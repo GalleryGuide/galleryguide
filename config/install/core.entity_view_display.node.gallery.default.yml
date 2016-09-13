@@ -46,12 +46,6 @@ content:
     weight: 1
     settings: {  }
     third_party_settings: {  }
-  comment:
-    label: hidden
-    type: comment_default
-    weight: 20
-    settings: {  }
-    third_party_settings: {  }
   field_address:
     type: address_default
     weight: 0

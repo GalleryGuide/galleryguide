@@ -41,12 +41,6 @@ content:
     weight: 3
     settings: {  }
     third_party_settings: {  }
-  comment:
-    label: hidden
-    type: comment_default
-    weight: 20
-    settings: {  }
-    third_party_settings: {  }
   field_admission_conc:
     type: number_decimal
     weight: 6
