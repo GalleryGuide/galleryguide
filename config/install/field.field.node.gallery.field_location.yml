@@ -8,7 +8,7 @@ dependencies:
   module:
     - geolocation
 _core:
-  default_config_hash: PFD9a7mcWbPiWU9AD2lXw3O0O5h3ZxXddnS0BEpsiP8
+  default_config_hash: jV1VL8PGMkkbGRRmCSZerTv9blV_VvBMDsgp31ph7NI
 id: node.gallery.field_location
 field_name: field_location
 entity_type: node
@@ -17,7 +17,14 @@ label: Location
 description: ''
 required: true
 translatable: false
-default_value: {  }
+default_value:
+  -
+    lat: '51.49025517833076'
+    lng: '-0.12913227081298828'
+    lat_sin: null
+    lat_cos: null
+    lng_rad: null
+    data: null
 default_value_callback: ''
 settings: {  }
 field_type: geolocation
