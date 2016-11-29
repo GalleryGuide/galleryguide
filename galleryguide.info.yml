@@ -53,9 +53,11 @@ dependencies:
   - r4032login
   - responsive_share_buttons
   - token
+  - votingapi
+  - votingapi_widgets
 
   - gallerysite
-  
+
 themes:
   - gall
   - galledit
