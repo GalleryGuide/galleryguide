@@ -46,6 +46,7 @@ dependencies:
   - composer_manager
   - geolocation
   - google_analytics
+  - menu_link_config
   - menu_trail_by_path
   - metatag
   - metatag_facebook

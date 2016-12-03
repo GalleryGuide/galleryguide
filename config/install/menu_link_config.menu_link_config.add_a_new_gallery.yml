@@ -1,0 +1,16 @@
+uuid: 253b0c5c-e1ac-4fbe-b423-4af2ad78f53e
+langcode: en
+status: true
+dependencies: {  }
+id: add_a_new_gallery
+title: 'Add a New Gallery'
+route_name: node.add
+route_parameters:
+  node_type: 21efe42e-45e5-47d0-a188-abd8e841123c
+options: {  }
+expanded: false
+menu_name: primary-links
+enabled: true
+parent: 'views_view:views.galleries_map.page_1'
+weight: 0
+description: ''
