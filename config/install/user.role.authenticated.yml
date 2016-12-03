@@ -1,8 +1,9 @@
+uuid: 1a75733c-7074-45ab-bd51-2a7085f4bc68
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: RLkXswnTb2cdmmqhyDWaoJnGf2ijPJvHUQq_TB7TN-I
+  default_config_hash: 2MyOMUcCtaBfqhO0xPeWXC7Bf0Qf4k-wZIe5Qo2CYZs
 id: authenticated
 label: 'authenticated user'
 weight: 1
@@ -77,3 +78,12 @@ permissions:
   - 'use text format filtered_html'
   - 'edit terms in artists'
   - 'edit terms in tags'
+  - 'clear own vote on node:exhibition:field_rating'
+  - 'edit own vote on node:exhibition:field_rating'
+  - 'vote on node:exhibition:field_rating'
+  - 'clear own vote on node:gallery:field_rating'
+  - 'edit own vote on node:gallery:field_rating'
+  - 'vote on node:gallery:field_rating'
+  - 'clear own vote on taxonomy_term:artists:field_rating'
+  - 'edit own vote on taxonomy_term:artists:field_rating'
+  - 'vote on taxonomy_term:artists:field_rating'
