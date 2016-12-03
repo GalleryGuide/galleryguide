@@ -12,6 +12,7 @@ dependencies:
     - field.field.node.exhibition.field_exhib_gallery
     - field.field.node.exhibition.field_exhib_website
     - field.field.node.exhibition.field_images
+    - field.field.node.exhibition.field_rating
     - field.field.node.exhibition.tags
     - image.style.large
     - node.type.exhibition
@@ -21,8 +22,9 @@ dependencies:
     - link
     - text
     - user
+    - votingapi_widgets
 _core:
-  default_config_hash: cDx8t-9OCfCObrBun71MBXe-jfj78ZE8WXYVkDZF2OA
+  default_config_hash: ypZgBdAKQ4SzLMSjAGR8grrtI_oLFPAy1ZJ_B8PfRNs
 id: node.exhibition.default
 targetEntityType: node
 bundle: exhibition
@@ -111,6 +113,16 @@ content:
       image_style: large
       image_link: ''
     third_party_settings: {  }
+  field_rating:
+    weight: 12
+    label: above
+    settings:
+      readonly: false
+      style: default
+      show_results: false
+      values: {  }
+    third_party_settings: {  }
+    type: voting_api_formatter
   links:
     weight: 9
     settings: {  }

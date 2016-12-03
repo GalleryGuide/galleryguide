@@ -14,6 +14,7 @@ dependencies:
     - field.field.node.gallery.field_images
     - field.field.node.gallery.field_location
     - field.field.node.gallery.field_openingtimes
+    - field.field.node.gallery.field_rating
     - field.field.node.gallery.field_website
     - field.field.node.gallery.tags
     - node.type.gallery
@@ -26,8 +27,9 @@ dependencies:
     - options
     - text
     - user
+    - votingapi_widgets
 _core:
-  default_config_hash: JPnk-mxeVBREUyyyXp_1OkbD7cPx94oOWeaIBbxi2sY
+  default_config_hash: 4XLjwn1LcQoyKRbi4jBRe3B9nDFOYMfxUK6OnJaDVhY
 id: node.gallery.default
 targetEntityType: node
 bundle: gallery
@@ -136,6 +138,16 @@ content:
       office_hours_first_day: ''
     third_party_settings: {  }
     type: office_hours
+  field_rating:
+    weight: 23
+    label: above
+    settings:
+      readonly: false
+      style: default
+      show_results: false
+      values: {  }
+    third_party_settings: {  }
+    type: voting_api_formatter
   field_website:
     type: link
     weight: 4
