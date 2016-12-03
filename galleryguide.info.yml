@@ -47,6 +47,9 @@ dependencies:
   - geolocation
   - google_analytics
   - menu_trail_by_path
+  - metatag
+  - metatag_facebook
+  - metatag_twitter_cards
   - office_hours
   - pathauto
   - prepopulate
