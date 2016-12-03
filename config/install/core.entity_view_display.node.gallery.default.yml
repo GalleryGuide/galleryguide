@@ -29,7 +29,7 @@ dependencies:
     - user
     - votingapi_widgets
 _core:
-  default_config_hash: 4XLjwn1LcQoyKRbi4jBRe3B9nDFOYMfxUK6OnJaDVhY
+  default_config_hash: y4mXWVtJ-iKusAidCOu8OQqSnAn6x_psgBhA7-c4DC8
 id: node.gallery.default
 targetEntityType: node
 bundle: gallery
@@ -105,13 +105,21 @@ content:
     weight: 21
     label: visually_hidden
     settings:
-      type: ROADMAP
-      zoom: '13'
-      height: 400px
-      width: 100%
-      info_text: ''
-      info_auto_display: '1'
       title: ''
+      google_map_settings:
+        type: ROADMAP
+        zoom: '14'
+        mapTypeControl: 1
+        streetViewControl: 1
+        zoomControl: 1
+        scrollwheel: 1
+        draggable: 1
+        style: ''
+        height: 400px
+        width: 100%
+        info_auto_display: 1
+        disableDoubleClickZoom: 0
+      info_text: ''
     third_party_settings: {  }
     type: geolocation_map
   field_openingtimes:
