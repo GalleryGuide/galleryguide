@@ -1,14 +1,16 @@
+uuid: a8e54ea3-b665-429e-aa9d-6190cec96272
 langcode: en
 status: true
 dependencies:
   config:
     - views.view.exhibitions_this_gallery
   module:
+    - ctools
     - views
   theme:
     - gall
 _core:
-  default_config_hash: kZ9GxLhINUp8mTqCW00NRh2vKbyHpuNxuIP5LFyiMgg
+  default_config_hash: uejHi44PhW-TqjgRxdzD_iHrSI61W0Q-oivUhcj3RUE
 id: views_block__exhibitions_this_gallery_past
 theme: gall
 region: content_bottom
@@ -22,4 +24,11 @@ settings:
   label_display: visible
   views_label: ''
   items_per_page: none
-visibility: {  }
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      gallery: gallery
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
