@@ -6,6 +6,7 @@ dependencies:
     - field.field.taxonomy_term.artists.field_born
     - field.field.taxonomy_term.artists.field_died
     - field.field.taxonomy_term.artists.field_image
+    - field.field.taxonomy_term.artists.field_rating
     - field.field.taxonomy_term.artists.field_tags
     - field.field.taxonomy_term.artists.field_website
     - image.style.thumbnail
@@ -15,8 +16,9 @@ dependencies:
     - link
     - path
     - text
+    - votingapi_widgets
 _core:
-  default_config_hash: '-N5jMghM_TmVSrGBUPVlBZYBlIlS9R8NS1OJ8ZfiMHE'
+  default_config_hash: iQNNoFUDDg54KMp-t57GFwFUvdmGMgRfpCoW43cVWkY
 id: taxonomy_term.artists.default
 targetEntityType: taxonomy_term
 bundle: artists
@@ -48,6 +50,11 @@ content:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
+  field_rating:
+    weight: 8
+    settings: {  }
+    third_party_settings: {  }
+    type: voting_api_widget
   field_tags:
     type: entity_reference_autocomplete
     weight: 5
