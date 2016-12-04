@@ -57,10 +57,12 @@ dependencies:
   - r4032login
   - responsive_share_buttons
   - token
+  - views_natural_sort
   - votingapi
   - votingapi_widgets
 
   - gallerysite
+  - gallery_migrations
 
 themes:
   - gall

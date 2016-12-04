@@ -1,3 +1,4 @@
+uuid: 5b15f78c-3777-4442-831a-51e95e853cac
 langcode: en
 status: true
 dependencies:
@@ -11,8 +12,9 @@ dependencies:
     - image
     - node
     - user
+    - views_natural_sort
 _core:
-  default_config_hash: CnEBMowIL6L_m8SR0Wh1DYRb3dpJieU5W-DwcCp2IoY
+  default_config_hash: T_GnwNzF8PqYp--kCQ1iYxXWHvzlGmpjV36j4CVQARk
 id: galleries_a_z
 label: 'Galleries A-Z'
 module: node
@@ -373,7 +375,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          default_action: default
+          default_action: ignore
           exception:
             value: all
             title_enable: true
@@ -433,7 +435,21 @@ display:
       header: {  }
       footer: {  }
       empty: {  }
-      sorts: {  }
+      sorts:
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          relationship: none
+          group_type: group
+          admin_label: ''
+          order: NASC
+          exposed: false
+          expose:
+            label: ''
+          entity_type: node
+          entity_field: title
+          plugin_id: natural
       filters:
         type:
           id: type
