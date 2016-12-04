@@ -1,3 +1,4 @@
+uuid: bb804a45-919b-403d-bca0-52c544a9e990
 langcode: en
 status: true
 dependencies:
@@ -13,8 +14,9 @@ dependencies:
     - image
     - node
     - user
+    - views_natural_sort
 _core:
-  default_config_hash: IYW_Y8yS4RCxr49z40_gfZPxZGrDhpaGONXZlOHbkHo
+  default_config_hash: ntAuqtlCIjbnXqtj99QXLHg8h72oYDxP2mlRTH0WlHs
 id: exhibitions_a_z
 label: 'Exhibitions A-Z'
 module: node
@@ -401,7 +403,21 @@ display:
       header: {  }
       footer: {  }
       empty: {  }
-      sorts: {  }
+      sorts:
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          relationship: none
+          group_type: group
+          admin_label: ''
+          order: NASC
+          exposed: false
+          expose:
+            label: ''
+          entity_type: node
+          entity_field: title
+          plugin_id: natural
       filters:
         type:
           id: type
