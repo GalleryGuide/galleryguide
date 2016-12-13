@@ -9,13 +9,14 @@ dependencies:
     - image.style.medium
     - node.type.exhibition
     - system.menu.primary-links
+    - views.view.gallery_single
   module:
     - datetime
     - image
     - node
     - user
 _core:
-  default_config_hash: _WdsOYu0_QWD_cTDeg8DSVoknPpfRsR6v_lsCKWXl1k
+  default_config_hash: LsUKrqVO-r_v-pi3yzk2_uT5dTpXfYip_WBRMOG4IiQ
 id: exhibitions
 label: Exhibitions
 module: views
@@ -575,19 +576,17 @@ display:
           granularity: second
       title: 'Past Exhibitions'
       header:
-        entity_node:
-          id: entity_node
+        view:
+          id: view
           table: views
-          field: entity_node
+          field: view
           relationship: none
           group_type: group
           admin_label: ''
           empty: true
-          tokenize: true
-          target: '{{ nid }}'
-          view_mode: basic_listing
-          bypass_access: false
-          plugin_id: entity
+          view_to_insert: 'gallery_single:default'
+          inherit_arguments: true
+          plugin_id: view
       footer: {  }
       empty:
         area:
@@ -603,19 +602,6 @@ display:
             value: 'There are no exhibitions currently listed'
             format: filtered_html
           plugin_id: text
-        entity_node:
-          id: entity_node
-          table: views
-          field: entity_node
-          relationship: none
-          group_type: group
-          admin_label: ''
-          empty: true
-          tokenize: true
-          target: '{{ nid }}'
-          view_mode: basic_listing
-          bypass_access: false
-          plugin_id: entity
       relationships:
         field_exhib_gallery:
           id: field_exhib_gallery
