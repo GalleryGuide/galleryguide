@@ -61,6 +61,8 @@ dependencies:
   - views_natural_sort
   - votingapi
   - votingapi_widgets
+  - xmlsitemap
+  - xmlsitemap_engines
 
   - gallerysite
   - gallery_migrations
