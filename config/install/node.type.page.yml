@@ -7,9 +7,9 @@ dependencies:
 third_party_settings:
   menu_ui:
     available_menus:
-      - footer
-      - main
-    parent: 'main:'
+      - primary-links
+      - secondary-links
+    parent: 'primary-links:'
 _core:
   default_config_hash: LYiraJ3C-4BTqpiDfb215vDu_WbeD7iPoAmRg4-8TfA
 name: Page
