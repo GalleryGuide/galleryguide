@@ -333,7 +333,7 @@ display:
             fail: 'not found'
           validate_options: {  }
           glossary: true
-          limit: 0
+          limit: 1
           case: upper
           path_case: lower
           transform_dash: false
