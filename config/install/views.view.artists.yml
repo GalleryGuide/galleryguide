@@ -10,9 +10,7 @@ dependencies:
     - taxonomy.vocabulary.artists
   module:
     - image
-    - search
     - taxonomy
-    - text
     - user
 _core:
   default_config_hash: y5Il0Srs-mLvIfUjUW7rqC4WNkpmUs_V_uHQjs0D6u4
@@ -334,10 +332,10 @@ display:
             type: none
             fail: 'not found'
           validate_options: {  }
-          glossary: false
+          glossary: true
           limit: 0
-          case: none
-          path_case: none
+          case: upper
+          path_case: lower
           transform_dash: false
           break_phrase: false
           add_table: false
@@ -388,12 +386,14 @@ display:
           summary_options:
             base_path: ''
             items_per_page: 25
+            inline: true
+            separator: ''
             count: false
             override: false
           summary:
             sort_order: asc
             number_of_records: 0
-            format: default_summary
+            format: unformatted_summary
           specify_validation: true
           validate:
             type: none
@@ -413,6 +413,10 @@ display:
       defaults:
         arguments: false
       inherit_arguments: false
+      pager:
+        type: none
+        options:
+          offset: 0
     cache_metadata:
       max-age: -1
       contexts:
