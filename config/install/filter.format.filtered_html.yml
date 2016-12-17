@@ -1,8 +1,9 @@
+uuid: 239ba2fb-9151-4d32-831f-7a9804d7f202
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: ys23m-o60U-OAVjWPZ2c2b4Fjh18r4fxAW6Ue92OsPM
+  default_config_hash: lcrWJxcBq00saxYt6bQimfLGvPYPzGxQdO3h7cc1rE8
 name: 'Filtered HTML'
 format: filtered_html
 weight: 0
