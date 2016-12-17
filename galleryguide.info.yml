@@ -44,6 +44,7 @@ dependencies:
   - address
   - adsense
   - composer_manager
+  - default_content
   - geolocation
   - google_analytics
   - menu_link_config
