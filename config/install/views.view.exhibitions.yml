@@ -60,7 +60,7 @@ display:
       pager:
         type: mini
         options:
-          items_per_page: 12
+          items_per_page: 30
           offset: 0
           id: 0
           total_pages: null
@@ -634,7 +634,7 @@ display:
           summary_options:
             base_path: ''
             count: true
-            items_per_page: 25
+            items_per_page: 30
             override: false
           summary:
             sort_order: asc
@@ -859,7 +859,7 @@ display:
           summary_options:
             base_path: ''
             count: true
-            items_per_page: 25
+            items_per_page: 30
             override: false
           summary:
             sort_order: asc
@@ -1049,7 +1049,7 @@ display:
           summary_options:
             base_path: ''
             count: true
-            items_per_page: 25
+            items_per_page: 30
             override: false
           summary:
             sort_order: asc

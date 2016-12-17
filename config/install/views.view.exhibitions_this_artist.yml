@@ -414,7 +414,7 @@ display:
           summary_options:
             base_path: ''
             count: true
-            items_per_page: 25
+            items_per_page: 30
             override: false
           summary:
             sort_order: asc
@@ -602,7 +602,7 @@ display:
           summary_options:
             base_path: ''
             count: true
-            items_per_page: 25
+            items_per_page: 30
             override: false
           summary:
             sort_order: asc
@@ -749,7 +749,7 @@ display:
           summary_options:
             base_path: ''
             count: true
-            items_per_page: 25
+            items_per_page: 30
             override: false
           summary:
             sort_order: asc
@@ -829,7 +829,7 @@ display:
           summary_options:
             base_path: ''
             count: true
-            items_per_page: 25
+            items_per_page: 30
             override: false
           summary:
             sort_order: asc
