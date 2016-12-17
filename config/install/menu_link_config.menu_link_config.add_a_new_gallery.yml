@@ -2,6 +2,8 @@ uuid: 253b0c5c-e1ac-4fbe-b423-4af2ad78f53e
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: 44f9MEQEcrKZf1Z7nfSNsmk7Kmu-1hEvskOs7iqDRJ0
 id: add_a_new_gallery
 title: 'Add a New Gallery'
 route_name: node.add

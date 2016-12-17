@@ -1,0 +1,16 @@
+uuid: 30f6dad4-a3e0-44c1-8c43-d95aeea74290
+langcode: en
+status: true
+dependencies: {  }
+id: terms_and_conditions
+title: 'Terms and Conditions'
+route_name: entity.node.canonical
+route_parameters:
+  node: c4000b50-13eb-47a0-8672-7ee96cb6654a
+options: {  }
+expanded: false
+menu_name: secondary-links
+enabled: true
+parent: ''
+weight: 0
+description: ''

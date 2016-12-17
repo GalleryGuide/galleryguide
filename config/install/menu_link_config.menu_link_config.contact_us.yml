@@ -2,6 +2,8 @@ uuid: 9cfe63f9-a761-4500-9444-1cb41581e1ca
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: 1Eusv7akRzViJ-d3IeNypHdnEMQtv3NKbCTF5u4i1II
 id: contact_us
 title: 'Contact Us'
 route_name: entity.contact_form.canonical

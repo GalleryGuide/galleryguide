@@ -2,6 +2,8 @@ uuid: a20a4c7c-f7af-4068-a543-2c495c3c0d93
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: W4SdmH9dMc3wXDIAhSG27nW9WTNWjE8-QFC6bRPjmNQ
 id: add_a_new_exhibition
 title: 'Add a New Exhibition'
 route_name: node.add
