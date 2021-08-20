@@ -1,0 +1,6 @@
+{
+    "name": "galleryguide/galleryguide",
+    "description" : "Install profile for The Gallery Guide",
+    "type": "drupal-profile",
+    "license": "UNLICENSED"
+}
