@@ -2,7 +2,7 @@ name: The Gallery Guide
 type: profile
 description: 'Installation profile for The Gallery Guide.'
 version: VERSION
-core_version_requirement: ^8.8 || ^9
+core_version_requirement: ^9 || ^10
 dependencies:
   - datetime
   - node
